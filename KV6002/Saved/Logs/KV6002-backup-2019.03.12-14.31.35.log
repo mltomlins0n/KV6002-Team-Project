@@ -1,0 +1,925 @@
+﻿Log file open, 03/12/19 12:42:27
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: KV6002
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.411525
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.569s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.12-12.42.27:822][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.12-12.42.27:822][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.12-12.42.27:866][  0]LogHAL: Display: Platform has ~ 32 GB [34262470656 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.12-12.42.27:866][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.12-12.42.27:867][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.12-12.42.27:867][  0]LogInit: Computer: C15003245
+[2019.03.12-12.42.27:867][  0]LogInit: User: csg16007006
+[2019.03.12-12.42.27:867][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.03.12-12.42.27:867][  0]LogInit: High frequency timer resolution =3.410071 MHz
+[2019.03.12-12.42.27:867][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.03.12-12.42.27:867][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.12-12.42.27:867][  0]LogMemory: Process Physical Memory: 101.56 MB used, 101.56 MB peak
+[2019.03.12-12.42.27:867][  0]LogMemory: Process Virtual Memory: 86.07 MB used, 86.07 MB peak
+[2019.03.12-12.42.27:867][  0]LogMemory: Physical Memory: 4869.50 MB used,  27805.74 MB free, 32675.24 MB total
+[2019.03.12-12.42.27:867][  0]LogMemory: Virtual Memory: 521.39 MB used,  27805.74 MB free, 134217728.00 MB total
+[2019.03.12-12.42.27:893][  0]LogInit: Using OS detected language (en-US).
+[2019.03.12-12.42.27:893][  0]LogInit: Using OS detected locale (en-GB).
+[2019.03.12-12.42.27:894][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.12-12.42.28:235][  0]LogStreaming: Display: Took  0.342s to InitEngineTextLocalization.
+[2019.03.12-12.42.28:236][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.12-12.42.28:275][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.12-12.42.28:275][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.12-12.42.28:455][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.12-12.42.28:455][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.12-12.42.28:513][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.03.12-12.42.28:513][  0]LogD3D11RHI:       4043/0/16337 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.12-12.42.28:514][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.12-12.42.28:514][  0]LogD3D11RHI:       0/0/16337 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.12-12.42.28:514][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.12-12.42.28:518][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.12-12.42.28:518][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.12-12.42.28:518][  0]LogWindows: EnumDisplayDevices:
+[2019.03.12-12.42.28:518][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.03.12-12.42.28:518][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.03.12-12.42.28:518][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.03.12-12.42.28:519][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.03.12-12.42.28:519][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.12-12.42.28:519][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.03.12-12.42.28:519][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
+[2019.03.12-12.42.28:519][  0]LogD3D11RHI:      Driver Date: 9-5-2018
+[2019.03.12-12.42.28:519][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.03.12-12.42.28:554][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.12-12.42.28:571][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.12-12.42.28:572][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (Z:/KV6002-Team-Project/KV6002/Intermediate/Shaders/WorkingDirectory/13168/).
+[2019.03.12-12.42.28:572][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/csg16007006/AppData/Local/Temp/UnrealShaderWorkingDir/F11AB77442CE8CFD036ACF9E7BDF0945/'.
+[2019.03.12-12.42.28:770][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.12-12.42.28:791][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.12-12.42.28:809][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.12-12.42.28:824][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.12-12.42.28:839][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.12-12.42.28:867][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.12-12.42.28:885][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.12-12.42.28:900][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.12-12.42.28:912][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:003][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.12-12.42.29:004][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.12-12.42.29:067][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.12-12.42.29:067][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.12-12.42.29:095][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.12-12.42.29:095][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.12-12.42.29:109][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.12-12.42.29:126][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.12-12.42.29:140][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.12-12.42.29:156][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.12-12.42.29:165][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.12-12.42.29:165][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.12-12.42.29:209][  0]LogXGEController: Cleaning working directory: C:/Users/csg16007006/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.12-12.42.29:210][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.12-12.42.29:210][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.12-12.42.29:210][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.12-12.42.29:967][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.12-12.42.30:053][  0]LogDerivedDataCache: Loaded boot cache 0.09s 87MB C:/Users/csg16007006/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.12-12.42.30:053][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/csg16007006/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.12-12.42.30:054][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file Z:/KV6002-Team-Project/KV6002/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.12-12.42.30:054][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.12-12.42.30:054][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file Z:/KV6002-Team-Project/KV6002/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.12-12.42.30:054][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.12-12.42.30:069][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.12-12.42.30:082][  0]LogDerivedDataCache: Using Local data cache path C:/Users/csg16007006/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.12-12.42.30:082][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.12-12.42.30:082][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.12-12.42.30:100][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.12-12.42.30:101][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.12-12.42.30:102][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.12-12.42.30:171][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2019.03.12-12.42.30:554][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.12-12.42.30:685][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.12-12.42.30:688][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.12-12.42.30:688][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.12-12.42.30:688][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.12-12.42.30:688][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.12-12.42.30:704][  0]LogNetVersion: KV6002 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2502700519)
+[2019.03.12-12.42.31:525][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.391486 seconds
+[2019.03.12-12.42.31:535][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.12-12.42.31:535][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.03.12-12.42.31:535][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.12-12.42.32:289][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.12-12.42.32:301][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.12-12.42.32:302][  0]LogDirectoryWatcher: A directory notification failed for 'Z:/KV6002-Team-Project/KV6002/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2019.03.12-12.42.32:454][  0]SourceControl: Source control is disabled
+[2019.03.12-12.42.32:454][  0]SourceControl: Source control is disabled
+[2019.03.12-12.42.32:455][  0]SourceControl: Source control is disabled
+[2019.03.12-12.42.32:456][  0]SourceControl: Source control is disabled
+[2019.03.12-12.42.32:645][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.12-12.42.32:690][  0]LogOcInput: OculusInput pre-init called
+[2019.03.12-12.42.32:753][  0]LogEngine: Initializing Engine...
+[2019.03.12-12.42.32:754][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.12-12.42.32:755][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.12-12.42.32:755][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.12-12.42.32:756][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2019.03.12-12.42.32:756][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.12-12.42.32:971][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.12-12.42.32:981][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.12-12.42.32:998][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.12-12.42.33:063][  0]LogInit: FAudioDevice initialized.
+[2019.03.12-12.42.33:063][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.12-12.42.33:176][  0]LogDerivedDataCache: Saved boot cache 0.11s 87MB C:/Users/csg16007006/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.12-12.42.33:189][  0]LogInit: Texture streaming: Enabled
+[2019.03.12-12.42.33:201][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.12-12.42.33:209][  0]LogInit: Transaction tracking system initialized
+[2019.03.12-12.42.33:230][  0]BlueprintLog: New page: Editor Load
+[2019.03.12-12.42.33:313][  0]LocalizationService: Localization service is disabled
+[2019.03.12-12.42.33:572][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.12-12.42.33:572][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.12-12.42.33:572][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.12-12.42.33:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.12-12.42.33:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.12-12.42.33:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.12-12.42.33:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.12-12.42.33:667][  0]LogFileCache: Scanning file cache for directory 'Z:/KV6002-Team-Project/KV6002/Content/' took 0.06s
+[2019.03.12-12.42.33:667][  0]SourceControl: Source control is disabled
+[2019.03.12-12.42.33:667][  0]Cmd: MAP LOAD FILE="Z:/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.12-12.42.33:695][  0]LightingResults: New page: Lighting Build
+[2019.03.12-12.42.33:697][  0]MapCheck: New page: Map Check
+[2019.03.12-12.42.33:697][  0]LightingResults: New page: Lighting Build
+[2019.03.12-12.42.35:620][  0]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2019.03.12-12.42.35:670][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.12-12.42.35:670][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.12-12.42.35:670][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.12-12.42.35:670][  0]LogMaterial: Display: Missing cached shader map for material Red, compiling. 
+[2019.03.12-12.42.35:688][  0]LogMaterial: Display: Missing cached shader map for material Yellow, compiling. 
+[2019.03.12-12.42.35:712][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.12-12.42.35:712][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.12-12.42.35:712][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.12-12.42.35:712][  0]LogMaterial: Display: Missing cached shader map for material Grey, compiling. 
+[2019.03.12-12.42.36:020][  0]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.03.12-12.42.36:020][  0]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.03.12-12.42.36:020][  0]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.03.12-12.42.36:022][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.03.12-12.42.36:054][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.12-12.42.36:087][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.12-12.42.36:246][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 158.438ms to complete.
+[2019.03.12-12.42.36:246][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.578
+[2019.03.12-12.42.36:349][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-12.42.36:366][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-12.42.36:383][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-12.42.36:399][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.12-12.42.36:409][  0]LogCollectionManager: Loaded 0 collections in 0.003631 seconds
+[2019.03.12-12.42.36:465][  0]LogFileCache: Scanning file cache for directory 'Z:/KV6002-Team-Project/KV6002/Saved/Collections/' took 0.01s
+[2019.03.12-12.42.36:466][  0]LogFileCache: Scanning file cache for directory 'Z:/KV6002-Team-Project/KV6002/Content/Developers/csg16007006/Collections/' took 0.01s
+[2019.03.12-12.42.36:466][  0]LogFileCache: Scanning file cache for directory 'Z:/KV6002-Team-Project/KV6002/Content/Collections/' took 0.01s
+[2019.03.12-12.42.36:466][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.12-12.42.36:484][  0]LogContentBrowser: Native class hierarchy populated in 0.0182 seconds. Added 2572 classes and 603 folders.
+[2019.03.12-12.42.36:493][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.12-12.42.36:555][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.12-12.42.36:563][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.03.12-12.42.36:587][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.12-12.42.36:590][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.12-12.42.36:599][  0]LogSlate: Took 0.000406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.12-12.42.36:724][  0]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.12-12.42.36:724][  0]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.12-12.42.36:724][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.03.12-12.42.36:943][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.12-12.42.36:970][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.03.12-12.42.37:002][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.12-12.42.37:003][  0]LogLoad: (Engine Initialization) Total time: 11.59 seconds
+[2019.03.12-12.42.37:003][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.12-12.42.37:055][  0]LogDirectoryWatcher: A directory notification failed for 'Z:/KV6002-Team-Project/KV6002/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2019.03.12-12.42.37:056][  0]LogDirectoryWatcher: A directory notification failed for 'Z:/KV6002-Team-Project/KV6002/Content/', and we were unable to create a new request.
+[2019.03.12-12.42.37:056][  0]LogDirectoryWatcher: A directory notification failed for 'Z:/KV6002-Team-Project/KV6002/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2019.03.12-12.42.37:056][  0]LogDirectoryWatcher: A directory notification failed for 'Z:/KV6002-Team-Project/KV6002/Content/Developers/csg16007006/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2019.03.12-12.42.37:056][  0]LogDirectoryWatcher: A directory notification failed for 'Z:/KV6002-Team-Project/KV6002/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2019.03.12-12.42.37:058][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.12-12.42.37:094][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.12-12.42.37:127][  1]LogFileCache: Retrieving MD5 hashes for directory 'Z:/KV6002-Team-Project/KV6002/Content/' took 0.10s
+[2019.03.12-12.42.37:155][  1]LogDirectoryWatcher: A directory notification failed for 'Z:/KV6002-Team-Project/KV6002/Content/Developers/csg16007006/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2019.03.12-12.42.37:156][  1]LogDirectoryWatcher: A directory notification failed for 'Z:/KV6002-Team-Project/KV6002/Content/Developers/csg16007006/Collections/', and we were unable to create a new request.
+[2019.03.12-12.42.37:156][  1]LogDirectoryWatcher: A directory notification failed for 'Z:/KV6002-Team-Project/KV6002/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2019.03.12-12.42.37:157][  1]LogDirectoryWatcher: A directory notification failed for 'Z:/KV6002-Team-Project/KV6002/Saved/Collections/', and we were unable to create a new request.
+[2019.03.12-12.42.37:157][  1]LogDirectoryWatcher: A directory notification failed for 'Z:/KV6002-Team-Project/KV6002/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2019.03.12-12.42.37:157][  1]LogDirectoryWatcher: A directory notification failed for 'Z:/KV6002-Team-Project/KV6002/Content/Collections/', and we were unable to create a new request.
+[2019.03.12-12.42.38:048][ 73]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.12-12.42.42:830][608]LogAssetRegistry: Asset discovery search completed in 12.6817 seconds
+[2019.03.12-12.42.42:832][608]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.12-12.42.42:832][608]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2019.03.12-12.42.53:727][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.12-12.42.53:842][872]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1885).
+[2019.03.12-12.42.53:898][873]LogRenderer: Reallocating scene render targets to support 1208x596 Format 10 NumSamples 1 (Frame:1887).
+[2019.03.12-12.42.53:945][874]LogRenderer: Reallocating scene render targets to support 1208x616 Format 10 NumSamples 1 (Frame:1889).
+[2019.03.12-12.42.54:001][875]LogRenderer: Reallocating scene render targets to support 1208x636 Format 10 NumSamples 1 (Frame:1891).
+[2019.03.12-12.42.54:050][876]LogRenderer: Reallocating scene render targets to support 1208x656 Format 10 NumSamples 1 (Frame:1893).
+[2019.03.12-12.42.54:091][877]LogRenderer: Reallocating scene render targets to support 1208x668 Format 10 NumSamples 1 (Frame:1895).
+[2019.03.12-12.42.54:142][878]LogRenderer: Reallocating scene render targets to support 1208x676 Format 10 NumSamples 1 (Frame:1897).
+[2019.03.12-12.42.54:192][879]LogRenderer: Reallocating scene render targets to support 1208x684 Format 10 NumSamples 1 (Frame:1899).
+[2019.03.12-12.43.02:949][897]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.03.12-12.43.03:367][897]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 116 classes and 0 folders.
+[2019.03.12-12.43.04:180][897]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.12-12.43.04:450][898]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.12-12.43.07:966][144]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2019.03.12-12.43.36:007][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="Z:/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2019.03.12-12.43.36:417][940]LogSavePackage: Moving 'Z:/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacter8949F9034C42FB80DDE0AC80B821C9CB.tmp' to 'Z:/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.03.12-12.43.36:773][974]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.03.12-12.44.02:989][918]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/ParticleSystems/Fire.Fire
+[2019.03.12-12.44.03:062][918]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0010 seconds. Added 2 classes and 2 folders.
+[2019.03.12-12.44.25:984][573]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.12-12.44.29:636][997]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.12-12.44.47:963][139]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/StarterContent/Particles/P_Sparks.P_Sparks
+[2019.03.12-12.45.18:473][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.12-12.45.25:352][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.12-12.45.25:616][494]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:619][494]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:621][494]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:633][495]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:645][496]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:646][496]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:659][497]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:660][497]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:689][500]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:700][501]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:701][501]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:712][502]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:723][503]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:724][503]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:752][506]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.25:796][511]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.26:071][543]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.26:090][545]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.26:101][546]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.26:102][546]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.26:113][547]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:048][657]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:068][659]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:069][659]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:079][660]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:090][661]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:091][661]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:111][663]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:122][664]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:132][665]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:133][665]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:144][666]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:166][667]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:168][667]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:170][667]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:188][668]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:189][668]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:190][668]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:213][669]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:225][670]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:236][671]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:236][671]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:248][672]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:259][673]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:260][673]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:271][674]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:282][675]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:294][676]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:295][676]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:306][677]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:307][677]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:318][678]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:329][679]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:340][680]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:341][680]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:352][681]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:363][682]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:364][682]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:375][683]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:386][684]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:387][684]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:398][685]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:409][686]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:420][687]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:421][687]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:432][688]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:443][689]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:444][689]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:461][690]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:463][690]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:480][691]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:481][691]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:493][692]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:494][692]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:513][694]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:524][695]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:543][697]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:554][698]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:565][699]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:576][700]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:587][701]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:587][701]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:599][702]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:610][703]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:621][704]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:622][704]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:642][706]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:652][707]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:653][707]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:672][709]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:683][710]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:684][710]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:695][711]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:714][713]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:724][714]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:725][714]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:737][715]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:748][716]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:759][717]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:770][718]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:781][719]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:792][720]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:803][721]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:804][721]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:815][722]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:826][723]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:837][724]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:849][725]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:862][726]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:874][727]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:875][727]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:886][728]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:911][730]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:912][730]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:923][731]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:942][733]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:954][734]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:965][735]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:966][735]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:977][736]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:988][737]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.27:989][737]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:000][738]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:011][739]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:012][739]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:024][740]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:035][741]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:036][741]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:047][742]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:058][743]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:069][744]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:070][744]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:081][745]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:093][746]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:094][746]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:106][747]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:118][748]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:119][748]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:130][749]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:131][749]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:143][750]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:155][751]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:156][751]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:168][752]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:180][753]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:181][753]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:192][754]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:205][755]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:206][755]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:219][756]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:219][756]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:230][757]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:242][758]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:243][758]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:255][759]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:268][760]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:268][760]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:280][761]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:293][762]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:294][762]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:305][763]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:318][764]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:319][764]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:330][765]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:342][766]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:343][766]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:355][767]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:356][767]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:367][768]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:380][769]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:381][769]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:392][770]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:405][771]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:417][772]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:429][773]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:430][773]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:454][775]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.28:501][780]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.33:320][345]LogEditorTransaction: Undo Set Vector Property
+[2019.03.12-12.45.33:333][345]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.43:325][483]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.45.46:303][830]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.46.00:149][463]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.46.00:941][551]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.46.03:802][878]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.46.07:228][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.12-12.46.10:747][686]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2019.03.12-12.46.43:559][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.12-12.46.55:487][884]LogCascade: Quitting Cascade. FXSystem=0x000002630D49EAC0
+[2019.03.12-12.47.00:143][422]LogEditorTransaction: Undo Set Vector Property
+[2019.03.12-12.47.00:260][432]LogEditorTransaction: Undo Set Vector Property
+[2019.03.12-12.47.00:389][444]LogEditorTransaction: Undo Toggle Enable on Emitter
+[2019.03.12-12.47.00:533][453]LogEditorTransaction: Undo Edit Z
+[2019.03.12-12.47.00:682][468]LogEditorTransaction: Undo Toggle Enable on Emitter
+[2019.03.12-12.47.00:813][481]LogEditorTransaction: Undo Toggle Enable on Emitter
+[2019.03.12-12.47.00:952][495]LogEditorTransaction: Undo Toggle Enable on Emitter
+[2019.03.12-12.47.01:082][508]LogEditorTransaction: Undo Toggle Enable on Emitter
+[2019.03.12-12.47.01:370][540]LogEditorTransaction: Undo Edit Z
+[2019.03.12-12.47.01:515][554]LogEditorTransaction: Undo Edit Z
+[2019.03.12-12.47.01:645][567]LogEditorTransaction: Undo Create New Emitter
+[2019.03.12-12.47.01:794][581]LogEditorTransaction: Undo Add Component
+[2019.03.12-12.47.04:915][884]LogCascade: Quitting Cascade. FXSystem=0x00000262843B32E0
+[2019.03.12-12.47.04:933][884]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2019.03.12-12.47.08:116][247]LogSlate: Window 'FirstPersonCharacter*' being destroyed
+[2019.03.12-12.52.38:281][370]LogSavePackage: Moving 'Z:/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap_Auto11BB3747442F3EFC2262A1E8FAA22B2D0.tmp' to 'Z:/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2019.03.12-12.52.38:303][370]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.829
+[2019.03.12-12.52.38:304][370]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.829
+[2019.03.12-12.52.38:311][370]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2019.03.12-12.52.38:354][370]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2019.03.12-12.52.38:354][370]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2019.03.12-12.52.38:861][370]LogSavePackage: Moving 'Z:/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacter_Auto1A621EABB44922CF8FA070CB589D2739B.tmp' to 'Z:/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2019.03.12-12.52.38:881][370]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ParticleSystems/Fire] ([1] browsable assets)...
+[2019.03.12-12.52.38:893][370]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/ParticleSystems/Fire.Fire]
+[2019.03.12-12.52.38:893][370]OBJ SavePackage: Finished generating thumbnails for package [/Game/ParticleSystems/Fire]
+[2019.03.12-12.52.38:893][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ParticleSystems/Fire" FILE="Z:/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/ParticleSystems/Fire_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.03.12-12.52.38:928][370]LogSavePackage: Moving 'Z:/KV6002-Team-Project/KV6002/Saved/Fire_Auto141F0570548FB778E9FF7E19F005CCFC3.tmp' to 'Z:/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/ParticleSystems/Fire_Auto1.uasset'
+[2019.03.12-12.52.38:944][370]LogFileHelpers: Auto-saving content packages took 0.639
+[2019.03.12-14.28.55:060][820]LogSlate: Window 'Save Content' being destroyed
+[2019.03.12-14.28.55:127][820]LogSlate: Window 'KV6002 - Unreal Editor' being destroyed
+[2019.03.12-14.28.55:370][821]Cmd: QUIT_EDITOR
+[2019.03.12-14.28.55:392][821]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.12-14.28.55:407][821]LogExit: Preparing to exit.
+[2019.03.12-14.28.55:925][821]LogExit: Editor shut down
+[2019.03.12-14.28.55:926][821]LogExit: Transaction tracking system shut down
+[2019.03.12-14.28.56:993][821]LogExit: Object subsystem successfully closed.
+[2019.03.12-14.28.57:025][821]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.12-14.28.57:029][821]LogD3D11RHI: Shutdown
+[2019.03.12-14.28.57:029][821]LogD3D11RHI: CleanupD3DDevice
+[2019.03.12-14.28.57:031][821]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.12-14.28.57:045][821]LogModuleManager: Shutting down and abandoning module DistCurveEditor (616)
+[2019.03.12-14.28.57:045][821]LogModuleManager: Shutting down and abandoning module Cascade (614)
+[2019.03.12-14.28.57:045][821]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
+[2019.03.12-14.28.57:045][821]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2019.03.12-14.28.57:045][821]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.03.12-14.28.57:045][821]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.03.12-14.28.57:046][821]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.03.12-14.28.57:046][821]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.03.12-14.28.57:046][821]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.03.12-14.28.57:046][821]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.03.12-14.28.57:046][821]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.03.12-14.28.57:046][821]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.03.12-14.28.57:046][821]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.03.12-14.28.57:046][821]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.03.12-14.28.57:046][821]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.03.12-14.28.57:046][821]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.03.12-14.28.57:047][821]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.03.12-14.28.57:048][821]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.03.12-14.28.57:049][821]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.03.12-14.28.57:049][821]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.03.12-14.28.57:049][821]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.03.12-14.28.57:049][821]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.03.12-14.28.58:012][821]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.03.12-14.28.58:012][821]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.03.12-14.28.58:012][821]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.03.12-14.28.58:012][821]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.03.12-14.28.58:012][821]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.03.12-14.28.58:013][821]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.03.12-14.28.58:013][821]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.03.12-14.28.58:013][821]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.03.12-14.28.58:013][821]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.03.12-14.28.58:013][821]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.03.12-14.28.58:013][821]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.03.12-14.28.58:013][821]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.03.12-14.28.58:013][821]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.03.12-14.28.58:013][821]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.03.12-14.28.58:013][821]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.03.12-14.28.58:013][821]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.03.12-14.28.58:013][821]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.03.12-14.28.58:014][821]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.03.12-14.28.58:014][821]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.03.12-14.28.58:014][821]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.03.12-14.28.58:014][821]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.03.12-14.28.58:014][821]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.03.12-14.28.58:087][821]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.03.12-14.28.58:087][821]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.03.12-14.28.58:087][821]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.03.12-14.28.58:087][821]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.03.12-14.28.58:087][821]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.03.12-14.28.58:088][821]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.03.12-14.28.58:088][821]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.03.12-14.28.58:088][821]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.03.12-14.28.58:088][821]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.03.12-14.28.58:088][821]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.03.12-14.28.58:098][821]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.03.12-14.28.58:099][821]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.03.12-14.28.58:099][821]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.03.12-14.28.58:099][821]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.03.12-14.28.58:099][821]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.03.12-14.28.58:099][821]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.03.12-14.28.58:309][821]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.03.12-14.28.58:314][821]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.03.12-14.28.58:314][821]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.03.12-14.28.58:314][821]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.03.12-14.28.58:314][821]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.03.12-14.28.58:314][821]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.03.12-14.28.58:314][821]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.03.12-14.28.58:314][821]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.03.12-14.28.58:314][821]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.03.12-14.28.58:314][821]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.03.12-14.28.58:314][821]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.03.12-14.28.58:314][821]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.03.12-14.28.58:314][821]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.03.12-14.28.58:315][821]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.03.12-14.28.58:316][821]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.03.12-14.28.58:417][821]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.03.12-14.28.58:517][821]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.03.12-14.28.58:517][821]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.03.12-14.28.58:517][821]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.03.12-14.28.58:517][821]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.03.12-14.28.58:517][821]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.03.12-14.28.58:517][821]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.03.12-14.28.58:517][821]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.03.12-14.28.58:519][821]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.03.12-14.28.58:519][821]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.03.12-14.28.58:519][821]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.03.12-14.28.58:519][821]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.03.12-14.28.58:519][821]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.03.12-14.28.58:521][821]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.03.12-14.28.58:521][821]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.03.12-14.28.58:521][821]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.03.12-14.28.58:521][821]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.03.12-14.28.58:521][821]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.03.12-14.28.58:521][821]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.12-14.28.58:522][821]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.12-14.28.58:528][821]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.12-14.28.58:530][821]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.12-14.28.58:531][821]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.12-14.28.58:552][821]LogDerivedDataCache: Shutdown
+[2019.03.12-14.28.58:552][821]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.12-14.28.58:552][821]LogXGEController: Cleaning working directory: C:/Users/csg16007006/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.12-14.28.58:552][821]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.12-14.28.58:552][821]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.12-14.28.58:552][821]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.12-14.28.58:552][821]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.12-14.28.58:553][821]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.12-14.28.58:555][821]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.12-14.28.58:555][821]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.12-14.28.58:556][821]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.12-14.28.58:556][821]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.12-14.28.58:567][821]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.12-14.28.58:568][821]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.03.12-14.28.58:568][821]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.03.12-14.28.58:597][821]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.03.12-14.28.58:597][821]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.12-14.28.58:597][821]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB3F5AB64-4B24-A50D-688B-6DB080B2D164%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=f4a802bb4b463d92d5812388aa7a5815%7C9bdd36d664df4b0787b55f3cb2b04887%7C46491164-0f45-4f1c-bea5-5bf642aad20c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.12-14.28.58:609][821]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.03.12-14.28.58:611][821]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.03.12-14.28.58:611][821]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.03.12-14.28.58:611][821]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.03.12-14.28.58:611][821]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.03.12-14.28.58:611][821]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.03.12-14.28.58:611][821]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.03.12-14.28.58:611][821]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.03.12-14.28.58:611][821]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.03.12-14.28.58:612][821]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.03.12-14.28.58:612][821]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.12-14.28.58:612][821]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.03.12-14.28.58:612][821]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.12-14.28.58:612][821]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.12-14.28.58:612][821]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.12-14.28.58:612][821]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.12-14.28.58:612][821]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.12-14.28.58:612][821]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.12-14.28.58:612][821]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.12-14.28.58:613][821]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.12-14.28.58:613][821]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.12-14.28.58:613][821]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.12-14.28.58:613][821]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.12-14.28.58:613][821]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.12-14.28.58:613][821]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.12-14.28.58:613][821]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.12-14.28.58:614][821]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.12-14.28.58:614][821]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.12-14.28.58:614][821]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.12-14.28.58:614][821]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.12-14.28.58:628][821]LogExit: Exiting.
+[2019.03.12-14.28.58:644][821]Log file closed, 03/12/19 14:28:58

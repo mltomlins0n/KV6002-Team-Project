@@ -7,3 +7,9 @@ This branch will be used for the project as a whole, and each member's branch wi
 Clone this to your own branch, work on it, then upload to your own branch. 
 
 ***Do not overwrite the project on the master branch until we merge all our work together.***
+
+---
+
+# Reference Dump
+
+Beam Particle imgs: https://wiki.unrealengine.com/Beam_Particle_(Tutorial)
