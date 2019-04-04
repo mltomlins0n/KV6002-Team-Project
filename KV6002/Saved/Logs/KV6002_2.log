@@ -1,4 +1,4 @@
-﻿Log file open, 04/03/19 17:56:17
+﻿Log file open, 04/04/19 15:07:17
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,8 +7,8 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: KV6002
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.429251
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.268157
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.302s to configure plugins.
+LogStreaming: Display: Took  0.039s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -112,18 +112,17 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogHMD: Failed initializing OVRPlugin 1.25.0
-LogInit: Build: ++UE4+Release-4.20-CL-4369336
-LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
-LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
 LogInit: Command Line:  /Game/FirstPersonBP/Maps/FirstPersonExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/EpicGames/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -146,352 +145,959 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.034s to delete old logs.
+LogStreaming: Display: Took  0.005s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.04.03-16.56.18:074][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.03-16.56.18:074][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.03-16.56.18:083][  0]LogHAL: Display: Platform has ~ 32 GB [34262470656 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.04.03-16.56.18:083][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.04.03-16.56.18:083][  0]LogInit: Going up to parent DeviceProfile []
-[2019.04.03-16.56.18:084][  0]LogInit: Computer: C15003248
-[2019.04.03-16.56.18:084][  0]LogInit: User: csg16007006
-[2019.04.03-16.56.18:084][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.04.03-16.56.18:084][  0]LogInit: High frequency timer resolution =3.410073 MHz
-[2019.04.03-16.56.18:084][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.04.03-16.56.18:084][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.03-16.56.18:084][  0]LogMemory: Process Physical Memory: 103.44 MB used, 103.44 MB peak
-[2019.04.03-16.56.18:084][  0]LogMemory: Process Virtual Memory: 97.51 MB used, 97.51 MB peak
-[2019.04.03-16.56.18:084][  0]LogMemory: Physical Memory: 7767.12 MB used,  24908.12 MB free, 32675.24 MB total
-[2019.04.03-16.56.18:084][  0]LogMemory: Virtual Memory: 544.28 MB used,  24908.12 MB free, 134217728.00 MB total
-[2019.04.03-16.56.18:099][  0]LogInit: Using OS detected language (en-US).
-[2019.04.03-16.56.18:099][  0]LogInit: Using OS detected locale (en-GB).
-[2019.04.03-16.56.18:100][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.04.03-16.56.18:474][  0]LogStreaming: Display: Took  0.376s to InitEngineTextLocalization.
-[2019.04.03-16.56.18:489][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.04.03-16.56.18:489][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.04.03-16.56.18:491][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.03-16.56.18:492][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.03-16.56.18:543][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2019.04.03-16.56.18:544][  0]LogD3D11RHI:       4043/0/16337 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.04.03-16.56.18:546][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.03-16.56.18:546][  0]LogD3D11RHI:       0/0/16337 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.03-16.56.18:546][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.03-16.56.18:551][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.03-16.56.18:551][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2019.04.03-16.56.18:551][  0]LogWindows: EnumDisplayDevices:
-[2019.04.03-16.56.18:551][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2019.04.03-16.56.18:551][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.04.03-16.56.18:551][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.04.03-16.56.18:551][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.04.03-16.56.18:552][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.04.03-16.56.18:552][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2019.04.03-16.56.18:552][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
-[2019.04.03-16.56.18:552][  0]LogD3D11RHI:      Driver Date: 9-5-2018
-[2019.04.03-16.56.18:552][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2019.04.03-16.56.18:589][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.03-16.56.18:605][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.04.03-16.56.18:606][  0]LogShaderCompilers: Guid format shader working directory is 23 characters bigger than the processId version (Z:/KV6002-Team-Project/KV6002/Intermediate/Shaders/WorkingDirectory/7200/).
-[2019.04.03-16.56.18:607][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/csg16007006/AppData/Local/Temp/UnrealShaderWorkingDir/75FDF2E6428F57B3F113A68E3E1E176C/'.
-[2019.04.03-16.56.18:820][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.03-16.56.18:836][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.03-16.56.18:852][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.03-16.56.18:858][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.04.03-16.56.18:858][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.04.03-16.56.18:912][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.04.03-16.56.18:912][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.04.03-16.56.18:912][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.04.03-16.56.19:689][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.04.03-16.56.19:767][  0]LogDerivedDataCache: Loaded boot cache 0.08s 87MB C:/Users/csg16007006/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.04.03-16.56.19:767][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/csg16007006/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.04.03-16.56.19:768][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file Z:/KV6002-Team-Project/KV6002/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.03-16.56.19:768][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.03-16.56.19:769][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file Z:/KV6002-Team-Project/KV6002/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.03-16.56.19:769][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.03-16.56.19:789][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.03-16.56.19:802][  0]LogDerivedDataCache: Using Local data cache path C:/Users/csg16007006/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.03-16.56.19:802][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.04.03-16.56.19:802][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.04.03-16.56.19:822][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.04.03-16.56.19:823][  0]LogSlate: Using FreeType 2.6.0
-[2019.04.03-16.56.19:824][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.03-16.56.19:864][  0]LogInit: Using OS detected language (en-US).
-[2019.04.03-16.56.19:865][  0]LogInit: Using OS detected locale (en-GB).
-[2019.04.03-16.56.19:865][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2019.04.03-16.56.19:865][  0]LogTextLocalizationManager: No localization for 'en-GB' exists, so 'en' will be used for the locale.
-[2019.04.03-16.56.20:160][  0]LogStreaming: Display: Took  0.296s to InitGameTextLocalization.
-[2019.04.03-16.56.20:169][  0]LogAssetRegistry: FAssetRegistry took 0.0069 seconds to start up
-[2019.04.03-16.56.20:373][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.011018 seconds
-[2019.04.03-16.56.20:553][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.03-16.56.20:678][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.03-16.56.20:680][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.03-16.56.20:680][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.04.03-16.56.20:681][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.03-16.56.20:681][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.04.03-16.56.20:694][  0]LogNetVersion: KV6002 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2502700519)
-[2019.04.03-16.56.21:235][  0]LogMoviePlayer: Initializing movie player
-[2019.04.03-16.56.21:298][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.03-16.56.21:420][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.03-16.56.21:432][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.03-16.56.21:535][  0]SourceControl: Source control is disabled
-[2019.04.03-16.56.21:535][  0]SourceControl: Source control is disabled
-[2019.04.03-16.56.21:535][  0]SourceControl: Source control is disabled
-[2019.04.03-16.56.21:685][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.04.03-16.56.21:744][  0]LogOcInput: OculusInput pre-init called
-[2019.04.03-16.56.21:756][  0]LogUObjectArray: 42168 objects as part of root set at end of initial load.
-[2019.04.03-16.56.21:756][  0]LogUObjectAllocator: 7432344 out of 0 bytes used by permanent object pool.
-[2019.04.03-16.56.21:756][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.03-16.56.21:811][  0]LogEngine: Initializing Engine...
-[2019.04.03-16.56.21:812][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.03-16.56.21:824][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.03-16.56.21:824][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.03-16.56.21:825][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
-[2019.04.03-16.56.21:825][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.03-16.56.22:059][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.04.03-16.56.22:066][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.03-16.56.22:090][  0]LogInit: FAudioDevice initialized.
-[2019.04.03-16.56.22:101][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.04.03-16.56.22:109][  0]LogInit: Texture streaming: Enabled
-[2019.04.03-16.56.22:264][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.03-16.56.22:265][  0]LogInit: Display: Game Engine Initialized.
-[2019.04.03-16.56.22:265][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.04.03-16.56.22:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.03-16.56.22:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.03-16.56.22:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
-[2019.04.03-16.56.22:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.03-16.56.22:281][  0]LogInit: Display: Starting Game.
-[2019.04.03-16.56.22:281][  0]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=Player
-[2019.04.03-16.56.22:281][  0]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=Player
-[2019.04.03-16.56.23:446][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.04.03-16.56.23:447][  0]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.03-16.56.23:460][  0]LogWorld: Bringing World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.04.03-17.56.23
-[2019.04.03-16.56.23:460][  0]LogWorld: Bringing up level for play took: 0.011636
-[2019.04.03-16.56.23:468][  0]LogLoad: Took 1.186249 seconds to LoadMap(/Game/FirstPersonBP/Maps/FirstPersonExampleMap)
-[2019.04.03-16.56.23:533][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2019.04.03-16.56.23:533][  0]LogLoad: (Engine Initialization) Total time: 7.93 seconds
-[2019.04.03-16.56.23:533][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.04.03-16.56.23:619][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.04.03-16.56.24:568][ 44]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
-	Inventory_C /Engine/Transient.GameEngine_0:GameInstance_0.Inventory_C_0
-	Function /Game/FirstPersonBP/Blueprints/Inventory.Inventory_C:Toggle:01C0
-[2019.04.03-16.56.24:568][ 44]LogScript: Warning: Script call stack:
-	Function /Game/Geometry/EnableInventory.EnableInventory_C:ReceiveActorBeginOverlap
-	Function /Game/Geometry/EnableInventory.EnableInventory_C:ExecuteUbergraph_EnableInventory
-	Function /Game/FirstPersonBP/Blueprints/Inventory.Inventory_C:Toggle
+[2019.04.04-14.07.17:944][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.04-14.07.17:944][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.04-14.07.17:947][  0]LogHAL: Display: Platform has ~ 16 GB [17130676224 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.04-14.07.17:947][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.04-14.07.17:947][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.04-14.07.17:947][  0]LogInit: Computer: DESKTOP-5BMDBC3
+[2019.04.04-14.07.17:947][  0]LogInit: User: User
+[2019.04.04-14.07.17:947][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.04-14.07.17:947][  0]LogInit: High frequency timer resolution =4.101560 MHz
+[2019.04.04-14.07.17:947][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.04.04-14.07.17:947][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.04-14.07.17:947][  0]LogMemory: Process Physical Memory: 101.02 MB used, 101.02 MB peak
+[2019.04.04-14.07.17:947][  0]LogMemory: Process Virtual Memory: 89.52 MB used, 89.52 MB peak
+[2019.04.04-14.07.17:947][  0]LogMemory: Physical Memory: 7639.75 MB used,  8697.34 MB free, 16337.09 MB total
+[2019.04.04-14.07.17:947][  0]LogMemory: Virtual Memory: 4643.85 MB used,  8697.34 MB free, 134217728.00 MB total
+[2019.04.04-14.07.17:962][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.04-14.07.17:962][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.04-14.07.17:963][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.04-14.07.18:261][  0]LogStreaming: Display: Took  0.298s to InitEngineTextLocalization.
+[2019.04.04-14.07.18:281][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.04-14.07.18:281][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.04-14.07.18:287][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.04-14.07.18:287][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.04-14.07.18:339][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.04.04-14.07.18:339][  0]LogD3D11RHI:       8079/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.04.04-14.07.18:341][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.04-14.07.18:341][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.04-14.07.18:341][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.04-14.07.18:347][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.04-14.07.18:347][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.04-14.07.18:347][  0]LogWindows: EnumDisplayDevices:
+[2019.04.04-14.07.18:348][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.04.04-14.07.18:348][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.04.04-14.07.18:348][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.04.04-14.07.18:348][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.04.04-14.07.18:348][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.04-14.07.18:348][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.04.04-14.07.18:348][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2019.04.04-14.07.18:348][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2019.04.04-14.07.18:348][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.04.04-14.07.18:379][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.04-14.07.18:399][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.04-14.07.18:496][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Intermediate/Shaders/WorkingDirectory/9532/).
+[2019.04.04-14.07.18:496][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/D5AA9241475D2837499821967207B899/'.
+[2019.04.04-14.07.18:684][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.04-14.07.18:694][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.04-14.07.18:703][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.04-14.07.18:707][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.04-14.07.18:707][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.04-14.07.18:740][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.04-14.07.18:740][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.04-14.07.18:740][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.04-14.07.19:295][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.04-14.07.19:336][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.04-14.07.19:336][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.04-14.07.19:336][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.04-14.07.19:336][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.04-14.07.19:336][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.04-14.07.19:336][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.04-14.07.19:347][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.04-14.07.19:359][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.04-14.07.19:359][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.04-14.07.19:359][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.04-14.07.19:382][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.04-14.07.19:384][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.04-14.07.19:385][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.04-14.07.19:421][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.04-14.07.19:421][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.04-14.07.19:421][  0]LogTextLocalizationManager: No localization for 'en-GB' exists, so 'en' will be used for the language.
+[2019.04.04-14.07.19:421][  0]LogTextLocalizationManager: No localization for 'en-GB' exists, so 'en' will be used for the locale.
+[2019.04.04-14.07.19:630][  0]LogStreaming: Display: Took  0.209s to InitGameTextLocalization.
+[2019.04.04-14.07.19:634][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2019.04.04-14.07.19:773][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.009476 seconds
+[2019.04.04-14.07.19:849][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.04-14.07.19:931][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.04-14.07.19:933][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.04-14.07.19:933][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.04-14.07.19:933][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.04-14.07.19:933][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.04-14.07.19:944][  0]LogNetVersion: KV6002 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2502700519)
+[2019.04.04-14.07.20:255][  0]LogMoviePlayer: Initializing movie player
+[2019.04.04-14.07.20:437][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.04-14.07.20:449][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.04-14.07.20:533][  0]SourceControl: Source control is disabled
+[2019.04.04-14.07.20:533][  0]SourceControl: Source control is disabled
+[2019.04.04-14.07.20:534][  0]SourceControl: Source control is disabled
+[2019.04.04-14.07.20:654][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.04-14.07.20:870][  0]LogOcInput: OculusInput pre-init called
+[2019.04.04-14.07.20:880][  0]LogUObjectArray: 42168 objects as part of root set at end of initial load.
+[2019.04.04-14.07.20:880][  0]LogUObjectAllocator: 7432344 out of 0 bytes used by permanent object pool.
+[2019.04.04-14.07.20:880][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.04-14.07.20:925][  0]LogEngine: Initializing Engine...
+[2019.04.04-14.07.20:926][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.04-14.07.20:937][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.04-14.07.20:938][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.04-14.07.20:938][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.04-14.07.20:938][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.04-14.07.21:064][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.04-14.07.21:085][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.04-14.07.21:096][  0]LogInit: FAudioDevice initialized.
+[2019.04.04-14.07.21:108][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.04-14.07.21:115][  0]LogInit: Texture streaming: Enabled
+[2019.04.04-14.07.21:207][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-14.07.21:207][  0]LogInit: Display: Game Engine Initialized.
+[2019.04.04-14.07.21:207][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.04-14.07.21:207][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.04-14.07.21:207][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.04-14.07.21:207][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.04-14.07.21:207][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.04-14.07.21:216][  0]LogInit: Display: Starting Game.
+[2019.04.04-14.07.21:216][  0]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=Player
+[2019.04.04-14.07.21:216][  0]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=Player
+[2019.04.04-14.07.21:680][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.04-14.07.21:681][  0]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.04-14.07.21:689][  0]LogWorld: Bringing World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.04.04-15.07.21
+[2019.04.04-14.07.21:689][  0]LogWorld: Bringing up level for play took: 0.008131
+[2019.04.04-14.07.21:695][  0]LogLoad: Took 0.478983 seconds to LoadMap(/Game/FirstPersonBP/Maps/FirstPersonExampleMap)
+[2019.04.04-14.07.21:695][  0]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:695][  0]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
 
-[2019.04.03-16.56.43:260][197]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
-	Inventory_C /Engine/Transient.GameEngine_0:GameInstance_0.Inventory_C_0
-	Function /Game/FirstPersonBP/Blueprints/Inventory.Inventory_C:Toggle:013C
-[2019.04.03-16.56.43:260][197]LogScript: Warning: Script call stack:
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:InpActEvt_E_K2Node_InputKeyEvent_1
-	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-	Function /Game/FirstPersonBP/Blueprints/Inventory.Inventory_C:Update
-	Function /Game/FirstPersonBP/Blueprints/Inventory.Inventory_C:Toggle
+[2019.04.04-14.07.21:695][  0]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:766][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.04.04-14.07.21:766][  0]LogLoad: (Engine Initialization) Total time: 5.01 seconds
+[2019.04.04-14.07.21:766][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.04-14.07.21:787][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.04-14.07.21:790][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.04-14.07.21:792][  0]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:792][  0]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
 
-[2019.04.03-16.56.54:941][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.03-16.57.01:168][308]r.SetRes = "1366x768f"
-[2019.04.03-16.57.01:787][308]LogRenderer: Reallocating scene render targets to support 1368x768 Format 10 NumSamples 1 (Frame:2310).
-[2019.04.03-16.57.05:651][508]r.SetRes = "1920x1080f"
-[2019.04.03-16.57.05:681][508]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:2511).
-[2019.04.03-16.57.35:600][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.03-16.57.35:665][328]Closing by request
-[2019.04.03-16.57.35:665][328]LogWindows: FPlatformMisc::RequestExit(0)
-[2019.04.03-16.57.35:887][329]LogSlate: Window 'KV6002 (64-bit Development PCD3D_SM5) ' being destroyed
-[2019.04.03-16.57.36:220][329]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.03-16.57.36:223][329]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.03-16.57.36:224][329]LogExit: Preparing to exit.
-[2019.04.03-16.57.36:224][329]LogMoviePlayer: Shutting down movie player
-[2019.04.03-16.57.36:493][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.03-16.57.36:512][329]LogExit: Game engine shut down
-[2019.04.03-16.57.36:730][329]LogExit: Object subsystem successfully closed.
-[2019.04.03-16.57.36:754][329]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.04.03-16.57.36:761][329]LogD3D11RHI: Shutdown
-[2019.04.03-16.57.36:761][329]LogD3D11RHI: CleanupD3DDevice
-[2019.04.03-16.57.36:763][329]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (376)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module SequenceRecorder (374)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module AutomationController (372)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module AutomationWorker (370)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module Voice (368)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module AIModule (366)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module GameplayDebugger (365)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module AITestSuite (363)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module NavigationSystem (361)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (358)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (356)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (354)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (352)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (350)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (348)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module CharacterAI (346)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module SessionServices (344)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (342)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (340)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module MovieScene (338)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (336)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module PortalServices (334)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module PortalRpc (332)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module MessagingRpc (330)
-[2019.04.03-16.57.36:779][329]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (322)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module OculusInput (320)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (318)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module EditableMesh (316)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (314)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module CableComponent (312)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module AudioCapture (310)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (304)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (302)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module MediaCompositing (300)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module LinearTimecode (298)
-[2019.04.03-16.57.36:892][329]LogModuleManager: Shutting down and abandoning module ImgMedia (296)
-[2019.04.03-16.57.36:897][329]LogModuleManager: Shutting down and abandoning module HTML5Networking (294)
-[2019.04.03-16.57.36:897][329]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (292)
-[2019.04.03-16.57.36:897][329]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (291)
-[2019.04.03-16.57.36:897][329]LogModuleManager: Shutting down and abandoning module GeometryCache (288)
-[2019.04.03-16.57.36:897][329]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (287)
-[2019.04.03-16.57.36:898][329]LogModuleManager: Shutting down and abandoning module BackChannel (284)
-[2019.04.03-16.57.36:898][329]LogModuleManager: Shutting down and abandoning module AppleVision (282)
-[2019.04.03-16.57.36:898][329]LogModuleManager: Shutting down and abandoning module AppleImageUtils (280)
-[2019.04.03-16.57.36:898][329]LogModuleManager: Shutting down and abandoning module DatasmithContent (278)
-[2019.04.03-16.57.36:905][329]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (276)
-[2019.04.03-16.57.36:905][329]LogModuleManager: Shutting down and abandoning module CryptoKeys (274)
-[2019.04.03-16.57.36:905][329]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (272)
-[2019.04.03-16.57.36:905][329]LogModuleManager: Shutting down and abandoning module HotReload (271)
-[2019.04.03-16.57.36:905][329]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (270)
-[2019.04.03-16.57.36:905][329]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (266)
-[2019.04.03-16.57.36:905][329]LogModuleManager: Shutting down and abandoning module UObjectPlugin (264)
-[2019.04.03-16.57.36:905][329]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
-[2019.04.03-16.57.36:905][329]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (260)
-[2019.04.03-16.57.36:905][329]LogModuleManager: Shutting down and abandoning module SourceControl (259)
-[2019.04.03-16.57.36:905][329]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (256)
-[2019.04.03-16.57.36:905][329]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (254)
-[2019.04.03-16.57.36:905][329]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (252)
-[2019.04.03-16.57.36:906][329]LogModuleManager: Shutting down and abandoning module PhysXVehicles (250)
-[2019.04.03-16.57.36:906][329]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (248)
-[2019.04.03-16.57.36:906][329]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (246)
-[2019.04.03-16.57.36:906][329]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (244)
-[2019.04.03-16.57.36:906][329]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
-[2019.04.03-16.57.36:906][329]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
-[2019.04.03-16.57.37:006][329]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
-[2019.04.03-16.57.37:460][329]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (236)
-[2019.04.03-16.57.37:460][329]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
-[2019.04.03-16.57.37:461][329]LogModuleManager: Shutting down and abandoning module FacialAnimation (232)
-[2019.04.03-16.57.37:461][329]LogModuleManager: Shutting down and abandoning module DataValidation (230)
-[2019.04.03-16.57.37:461][329]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
-[2019.04.03-16.57.37:461][329]LogModuleManager: Shutting down and abandoning module TreeMap (227)
-[2019.04.03-16.57.37:461][329]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (224)
-[2019.04.03-16.57.37:461][329]LogModuleManager: Shutting down and abandoning module AISupportModule (222)
-[2019.04.03-16.57.37:461][329]LogModuleManager: Shutting down and abandoning module Paper2D (220)
-[2019.04.03-16.57.37:461][329]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (218)
-[2019.04.03-16.57.37:461][329]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2019.04.03-16.57.37:461][329]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2019.04.03-16.57.37:461][329]LogModuleManager: Shutting down and abandoning module Media (213)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module PacketHandler (210)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (208)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (206)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module MediaAssets (204)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module Overlay (202)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module OverlayEditor (201)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module VREditor (198)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module StringTableEditor (196)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (187)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module UMG (184)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module Sequencer (182)
-[2019.04.03-16.57.37:468][329]LogModuleManager: Shutting down and abandoning module MessageLog (179)
-[2019.04.03-16.57.37:469][329]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
-[2019.04.03-16.57.37:469][329]LogModuleManager: Shutting down and abandoning module Slate (172)
-[2019.04.03-16.57.37:469][329]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module MRMesh (168)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module Messaging (166)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module Networking (158)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module Core (156)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module LevelSequence (154)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (149)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (148)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (145)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (143)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (141)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module MaterialBaking (137)
-[2019.04.03-16.57.37:472][329]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
-[2019.04.03-16.57.37:869][329]LogDerivedDataCache: Shutdown
-[2019.04.03-16.57.37:869][329]LogModuleManager: Shutting down and abandoning module XGEController (130)
-[2019.04.03-16.57.37:869][329]LogModuleManager: Shutting down and abandoning module TargetPlatform (128)
-[2019.04.03-16.57.37:869][329]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (127)
-[2019.04.03-16.57.37:869][329]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (125)
-[2019.04.03-16.57.37:869][329]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (123)
-[2019.04.03-16.57.37:869][329]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (121)
-[2019.04.03-16.57.37:869][329]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (119)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (117)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (115)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (113)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (111)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (109)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module ImageWrapper (108)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (105)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (103)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (101)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (99)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (97)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (95)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (93)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (91)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2019.04.03-16.57.37:870][329]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2019.04.03-16.57.37:871][329]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2019.04.03-16.57.37:871][329]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2019.04.03-16.57.37:898][329]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2019.04.03-16.57.37:915][329]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2019.04.03-16.57.37:917][329]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2019.04.03-16.57.37:918][329]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2019.04.03-16.57.37:918][329]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2019.04.03-16.57.37:918][329]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2019.04.03-16.57.37:918][329]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2019.04.03-16.57.37:918][329]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2019.04.03-16.57.37:918][329]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2019.04.03-16.57.37:918][329]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2019.04.03-16.57.37:918][329]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2019.04.03-16.57.37:918][329]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.04.03-16.57.37:918][329]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2019.04.03-16.57.37:918][329]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.04.03-16.57.37:918][329]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.04.03-16.57.37:918][329]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.04.03-16.57.37:918][329]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.04.03-16.57.37:919][329]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.04.03-16.57.37:933][329]LogExit: Exiting.
-[2019.04.03-16.57.37:946][329]Log file closed, 04/03/19 17:57:37
+[2019.04.04-14.07.21:792][  0]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:793][  0]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:793][  0]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:793][  0]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:827][  1]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:828][  1]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:828][  1]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:828][  1]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:828][  1]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:828][  1]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:843][  2]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:843][  2]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:843][  2]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:843][  2]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:843][  2]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:843][  2]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:859][  3]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:859][  3]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:859][  3]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:859][  3]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:859][  3]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:859][  3]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:875][  4]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:875][  4]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:875][  4]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:875][  4]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:875][  4]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:875][  4]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:891][  5]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:891][  5]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:891][  5]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:891][  5]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:891][  5]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:891][  5]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:908][  6]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:908][  6]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:908][  6]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:908][  6]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:908][  6]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:908][  6]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:925][  7]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:925][  7]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:925][  7]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:926][  7]LogScript: Warning: Accessed None trying to read property FPHUD
+	Radial_C /Engine/Transient.GameEngine_0:GameInstance_0.Radial_C_0
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0:00BC
+[2019.04.04-14.07.21:926][  7]LogScript: Warning: Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/Radial.Radial_C:Get_Circle_Brush_0
+
+[2019.04.04-14.07.21:926][  7]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:941][  8]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:941][  8]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:957][  9]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:957][  9]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:973][ 10]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:973][ 10]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:989][ 11]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.21:989][ 11]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:005][ 12]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:005][ 12]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:021][ 13]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:021][ 13]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:037][ 14]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:037][ 14]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:053][ 15]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:053][ 15]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:069][ 16]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:069][ 16]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:085][ 17]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:085][ 17]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:102][ 18]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:102][ 18]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:118][ 19]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:118][ 19]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:135][ 20]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:135][ 20]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:150][ 21]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:151][ 21]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:166][ 22]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:166][ 22]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:183][ 23]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:184][ 23]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:198][ 24]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:198][ 24]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:214][ 25]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:214][ 25]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:230][ 26]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:230][ 26]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:247][ 27]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:247][ 27]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:263][ 28]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:263][ 28]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:279][ 29]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:280][ 29]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:295][ 30]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:296][ 30]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:312][ 31]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:312][ 31]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:328][ 32]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:328][ 32]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:344][ 33]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:344][ 33]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:360][ 34]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:360][ 34]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:376][ 35]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:377][ 35]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:393][ 36]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:393][ 36]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:409][ 37]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:409][ 37]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:425][ 38]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:425][ 38]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:440][ 39]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:440][ 39]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:457][ 40]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:457][ 40]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:473][ 41]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:473][ 41]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:489][ 42]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:490][ 42]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:506][ 43]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:506][ 43]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:522][ 44]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:522][ 44]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:538][ 45]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:538][ 45]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:554][ 46]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:554][ 46]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:570][ 47]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:570][ 47]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:586][ 48]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:587][ 48]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:602][ 49]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:603][ 49]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:619][ 50]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:619][ 50]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:635][ 51]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:635][ 51]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:651][ 52]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:651][ 52]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:667][ 53]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:667][ 53]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:683][ 54]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:684][ 54]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:699][ 55]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:700][ 55]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:716][ 56]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:716][ 56]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:732][ 57]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:732][ 57]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:750][ 58]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:751][ 58]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:765][ 59]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:765][ 59]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:780][ 60]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:781][ 60]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:797][ 61]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:797][ 61]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:813][ 62]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:813][ 62]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:828][ 63]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:829][ 63]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:844][ 64]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:845][ 64]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:860][ 65]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:861][ 65]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:876][ 66]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:877][ 66]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:893][ 67]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:893][ 67]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:909][ 68]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:909][ 68]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:925][ 69]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:926][ 69]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:942][ 70]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:942][ 70]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:958][ 71]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:958][ 71]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:974][ 72]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:975][ 72]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:991][ 73]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.22:991][ 73]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:005][ 74]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:006][ 74]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:021][ 75]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:022][ 75]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:037][ 76]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:038][ 76]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:053][ 77]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:053][ 77]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:069][ 78]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:070][ 78]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:086][ 79]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:087][ 79]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:102][ 80]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:103][ 80]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:119][ 81]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:119][ 81]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:135][ 82]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:135][ 82]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:152][ 83]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:152][ 83]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:168][ 84]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:169][ 84]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:184][ 85]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:185][ 85]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:199][ 86]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:200][ 86]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:215][ 87]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:216][ 87]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:231][ 88]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:232][ 88]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:248][ 89]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:248][ 89]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:264][ 90]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:264][ 90]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:280][ 91]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:281][ 91]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:296][ 92]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:297][ 92]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:312][ 93]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:313][ 93]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:329][ 94]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:329][ 94]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:345][ 95]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:345][ 95]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:361][ 96]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:361][ 96]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:378][ 97]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:393][ 98]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:409][ 99]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:426][100]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:442][101]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:458][102]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:474][103]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:491][104]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:507][105]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:522][106]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:538][107]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:555][108]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:571][109]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:586][110]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:602][111]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:618][112]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:635][113]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:651][114]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:667][115]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:683][116]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:699][117]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:715][118]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:732][119]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:748][120]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:764][121]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:781][122]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:797][123]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:813][124]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:829][125]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:845][126]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:861][127]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:877][128]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:893][129]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:910][130]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:926][131]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:942][132]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:958][133]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:974][134]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.23:989][135]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:005][136]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:021][137]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:038][138]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:054][139]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:070][140]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:086][141]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:102][142]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:118][143]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:134][144]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:151][145]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:168][146]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:184][147]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:200][148]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:216][149]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:232][150]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:248][151]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:265][152]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:281][153]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:297][154]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:313][155]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:328][156]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:344][157]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:361][158]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:377][159]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:394][160]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:410][161]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:425][162]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:442][163]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:458][164]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:474][165]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:490][166]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:507][167]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:522][168]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:539][169]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:554][170]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:570][171]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:586][172]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:603][173]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:619][174]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:637][175]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:652][176]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:668][177]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:684][178]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:700][179]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:716][180]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:732][181]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:748][182]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:764][183]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:780][184]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:796][185]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:813][186]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:829][187]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:845][188]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:861][189]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:877][190]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:893][191]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:910][192]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:926][193]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:942][194]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:959][195]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:975][196]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.24:992][197]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:007][198]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:022][199]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:037][200]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:054][201]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:070][202]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:085][203]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:101][204]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:117][205]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:134][206]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:150][207]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:166][208]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:182][209]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:198][210]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:214][211]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:230][212]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:247][213]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:263][214]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:280][215]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:296][216]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:312][217]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:328][218]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:344][219]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:360][220]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:376][221]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:392][222]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:409][223]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:425][224]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:441][225]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:456][226]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:472][227]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:489][228]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:505][229]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:521][230]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:537][231]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:553][232]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:569][233]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:585][234]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:602][235]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:618][236]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:634][237]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:650][238]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:667][239]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:683][240]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:700][241]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:716][242]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:732][243]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:748][244]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:764][245]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:781][246]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:797][247]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:813][248]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:829][249]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:844][250]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:861][251]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:877][252]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:893][253]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:910][254]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:926][255]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:942][256]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:958][257]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:975][258]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.25:991][259]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:007][260]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:023][261]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:038][262]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:054][263]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:070][264]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:086][265]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:102][266]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:118][267]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:134][268]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:151][269]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:167][270]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:184][271]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:200][272]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:216][273]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:232][274]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:248][275]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:264][276]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:280][277]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:296][278]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:312][279]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:329][280]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:345][281]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:361][282]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:377][283]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:393][284]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:410][285]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:426][286]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:443][287]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:458][288]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:475][289]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:491][290]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:507][291]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:523][292]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:539][293]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:555][294]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:571][295]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:588][296]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:602][297]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:618][298]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:635][299]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:650][300]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:667][301]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:683][302]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:700][303]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:716][304]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:732][305]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:748][306]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:764][307]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:780][308]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:796][309]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:812][310]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:835][311]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:845][312]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:861][313]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:877][314]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:894][315]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:911][316]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:926][317]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:942][318]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:959][319]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:974][320]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.26:990][321]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:007][322]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:023][323]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:039][324]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:054][325]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:070][326]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:086][327]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:102][328]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:119][329]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:134][330]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:151][331]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:168][332]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:184][333]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:199][334]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:216][335]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:232][336]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:248][337]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:264][338]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:280][339]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:296][340]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:313][341]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:330][342]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:345][343]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:361][344]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:377][345]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:393][346]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:410][347]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:426][348]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:442][349]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:459][350]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:474][351]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:491][352]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:507][353]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:523][354]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:539][355]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:555][356]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:571][357]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:587][358]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:603][359]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:620][360]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:635][361]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:652][362]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:671][363]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:685][364]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:700][365]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:715][366]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:731][367]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:747][368]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:763][369]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:779][370]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:795][371]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:812][372]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:828][373]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:844][374]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:860][375]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:877][376]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:893][377]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:909][378]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:925][379]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:942][380]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:958][381]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:974][382]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.27:989][383]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:006][384]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:022][385]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:038][386]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:054][387]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:070][388]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:086][389]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:102][390]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:118][391]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:134][392]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:150][393]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:167][394]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:183][395]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:199][396]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:215][397]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:232][398]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:248][399]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:264][400]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:281][401]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:297][402]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:313][403]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:329][404]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:345][405]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:361][406]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:377][407]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:394][408]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:410][409]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:426][410]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:443][411]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:459][412]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:475][413]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:490][414]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:507][415]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:522][416]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:538][417]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:555][418]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:570][419]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:587][420]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:602][421]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:619][422]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:635][423]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:650][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-14.07.28:652][424]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:667][425]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:683][426]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:700][427]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:714][428]Closing by request
+[2019.04.04-14.07.28:714][428]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.04.04-14.07.28:715][428]LogBlueprintUserMessages: [Radial_C_0] 
+[2019.04.04-14.07.28:965][429]LogSlate: Window 'KV6002 (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.04.04-14.07.28:965][429]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.04-14.07.28:969][429]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.04-14.07.28:971][429]LogExit: Preparing to exit.
+[2019.04.04-14.07.28:971][429]LogMoviePlayer: Shutting down movie player
+[2019.04.04-14.07.29:479][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-14.07.29:497][429]LogExit: Game engine shut down
+[2019.04.04-14.07.29:747][429]LogExit: Object subsystem successfully closed.
+[2019.04.04-14.07.29:763][429]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.04-14.07.29:768][429]LogD3D11RHI: Shutdown
+[2019.04.04-14.07.29:768][429]LogD3D11RHI: CleanupD3DDevice
+[2019.04.04-14.07.29:770][429]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (376)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module SequenceRecorder (374)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module AutomationController (372)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module AutomationWorker (370)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module Voice (368)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module AIModule (366)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module GameplayDebugger (365)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module AITestSuite (363)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module NavigationSystem (361)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (358)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (356)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (354)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (352)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (350)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (348)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module CharacterAI (346)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module SessionServices (344)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (342)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (340)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module MovieScene (338)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (336)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module PortalServices (334)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module PortalRpc (332)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module MessagingRpc (330)
+[2019.04.04-14.07.29:781][429]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2019.04.04-14.07.29:907][429]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2019.04.04-14.07.29:907][429]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2019.04.04-14.07.29:907][429]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (322)
+[2019.04.04-14.07.29:907][429]LogModuleManager: Shutting down and abandoning module OculusInput (320)
+[2019.04.04-14.07.29:907][429]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (318)
+[2019.04.04-14.07.29:907][429]LogModuleManager: Shutting down and abandoning module EditableMesh (316)
+[2019.04.04-14.07.29:907][429]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (314)
+[2019.04.04-14.07.29:907][429]LogModuleManager: Shutting down and abandoning module CableComponent (312)
+[2019.04.04-14.07.29:907][429]LogModuleManager: Shutting down and abandoning module AudioCapture (310)
+[2019.04.04-14.07.29:907][429]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2019.04.04-14.07.29:907][429]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2019.04.04-14.07.29:908][429]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (304)
+[2019.04.04-14.07.29:908][429]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (302)
+[2019.04.04-14.07.29:908][429]LogModuleManager: Shutting down and abandoning module MediaCompositing (300)
+[2019.04.04-14.07.29:908][429]LogModuleManager: Shutting down and abandoning module LinearTimecode (298)
+[2019.04.04-14.07.29:908][429]LogModuleManager: Shutting down and abandoning module ImgMedia (296)
+[2019.04.04-14.07.29:911][429]LogModuleManager: Shutting down and abandoning module HTML5Networking (294)
+[2019.04.04-14.07.29:911][429]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (292)
+[2019.04.04-14.07.29:911][429]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (291)
+[2019.04.04-14.07.29:911][429]LogModuleManager: Shutting down and abandoning module GeometryCache (288)
+[2019.04.04-14.07.29:911][429]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (287)
+[2019.04.04-14.07.29:911][429]LogModuleManager: Shutting down and abandoning module BackChannel (284)
+[2019.04.04-14.07.29:911][429]LogModuleManager: Shutting down and abandoning module AppleVision (282)
+[2019.04.04-14.07.29:911][429]LogModuleManager: Shutting down and abandoning module AppleImageUtils (280)
+[2019.04.04-14.07.29:911][429]LogModuleManager: Shutting down and abandoning module DatasmithContent (278)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (276)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module CryptoKeys (274)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (272)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module HotReload (271)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (270)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (266)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module UObjectPlugin (264)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (260)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module SourceControl (259)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (256)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (254)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (252)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module PhysXVehicles (250)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (248)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (246)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (244)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
+[2019.04.04-14.07.29:912][429]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
+[2019.04.04-14.07.30:013][429]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
+[2019.04.04-14.07.30:442][429]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (236)
+[2019.04.04-14.07.30:442][429]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2019.04.04-14.07.30:442][429]LogModuleManager: Shutting down and abandoning module FacialAnimation (232)
+[2019.04.04-14.07.30:442][429]LogModuleManager: Shutting down and abandoning module DataValidation (230)
+[2019.04.04-14.07.30:442][429]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2019.04.04-14.07.30:442][429]LogModuleManager: Shutting down and abandoning module TreeMap (227)
+[2019.04.04-14.07.30:442][429]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (224)
+[2019.04.04-14.07.30:442][429]LogModuleManager: Shutting down and abandoning module AISupportModule (222)
+[2019.04.04-14.07.30:442][429]LogModuleManager: Shutting down and abandoning module Paper2D (220)
+[2019.04.04-14.07.30:442][429]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (218)
+[2019.04.04-14.07.30:442][429]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2019.04.04-14.07.30:442][429]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2019.04.04-14.07.30:443][429]LogModuleManager: Shutting down and abandoning module Media (213)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module PacketHandler (210)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (208)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (206)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module MediaAssets (204)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module Overlay (202)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module OverlayEditor (201)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module VREditor (198)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module StringTableEditor (196)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (187)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module UMG (184)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
+[2019.04.04-14.07.30:449][429]LogModuleManager: Shutting down and abandoning module Sequencer (182)
+[2019.04.04-14.07.30:450][429]LogModuleManager: Shutting down and abandoning module MessageLog (179)
+[2019.04.04-14.07.30:450][429]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2019.04.04-14.07.30:450][429]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2019.04.04-14.07.30:450][429]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module MRMesh (168)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module Messaging (166)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module Core (156)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module LevelSequence (154)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (149)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (148)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (145)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (143)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (141)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module MaterialBaking (137)
+[2019.04.04-14.07.30:451][429]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2019.04.04-14.07.30:863][429]LogDerivedDataCache: Shutdown
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module XGEController (130)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module TargetPlatform (128)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (127)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (125)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (123)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (121)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (119)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (117)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (115)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (113)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (111)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (109)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module ImageWrapper (108)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (105)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (103)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (101)
+[2019.04.04-14.07.30:863][429]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (99)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (97)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (95)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (93)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (91)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.04.04-14.07.30:864][429]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.04.04-14.07.30:888][429]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.04.04-14.07.30:907][429]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.04.04-14.07.30:908][429]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.04-14.07.30:908][429]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.04-14.07.30:909][429]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.04-14.07.30:912][429]LogExit: Exiting.
+[2019.04.04-14.07.30:918][429]Log file closed, 04/04/19 15:07:30
