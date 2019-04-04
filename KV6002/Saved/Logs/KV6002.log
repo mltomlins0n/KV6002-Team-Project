@@ -1,4 +1,4 @@
-﻿Log file open, 04/04/19 15:37:41
+﻿Log file open, 04/04/19 19:44:54
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: KV6002
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.320323
+LogStats: Stats thread started at 0.262107
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.371s to configure plugins.
+LogStreaming: Display: Took  0.081s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -145,643 +145,881 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.015s to delete old logs.
+LogStreaming: Display: Took  0.004s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.04.04-14.37.44:178][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.04-14.37.44:178][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.04-14.37.44:217][  0]LogHAL: Display: Platform has ~ 16 GB [17130676224 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.04.04-14.37.44:230][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.04.04-14.37.44:230][  0]LogInit: Going up to parent DeviceProfile []
-[2019.04.04-14.37.44:281][  0]LogInit: Computer: DESKTOP-5BMDBC3
-[2019.04.04-14.37.44:281][  0]LogInit: User: User
-[2019.04.04-14.37.44:281][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.04.04-14.37.44:281][  0]LogInit: High frequency timer resolution =4.101561 MHz
-[2019.04.04-14.37.44:282][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.04.04-14.37.44:282][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.04-14.37.44:282][  0]LogMemory: Process Physical Memory: 100.45 MB used, 100.45 MB peak
-[2019.04.04-14.37.44:282][  0]LogMemory: Process Virtual Memory: 85.01 MB used, 85.01 MB peak
-[2019.04.04-14.37.44:282][  0]LogMemory: Physical Memory: 3448.48 MB used,  12888.61 MB free, 16337.09 MB total
-[2019.04.04-14.37.44:282][  0]LogMemory: Virtual Memory: 4639.48 MB used,  12888.61 MB free, 134217728.00 MB total
-[2019.04.04-14.37.44:806][  0]LogInit: Using OS detected language (en-GB).
-[2019.04.04-14.37.44:806][  0]LogInit: Using OS detected locale (en-GB).
-[2019.04.04-14.37.44:913][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2019.04.04-14.37.45:536][  0]LogStreaming: Display: Took  0.724s to InitEngineTextLocalization.
-[2019.04.04-14.37.45:551][  0]LogInit: Setting process to per monitor DPI aware
-[2019.04.04-14.37.47:144][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.04.04-14.37.47:144][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.04.04-14.37.48:098][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.04-14.37.48:098][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.04-14.37.48:141][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2019.04.04-14.37.48:141][  0]LogD3D11RHI:       8079/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.04.04-14.37.48:143][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.04-14.37.48:143][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.04-14.37.48:143][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.04-14.37.48:164][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.04-14.37.48:164][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2019.04.04-14.37.48:246][  0]LogWindows: EnumDisplayDevices:
-[2019.04.04-14.37.48:246][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2019.04.04-14.37.48:246][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2019.04.04-14.37.48:246][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.04.04-14.37.48:246][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.04.04-14.37.48:246][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.04.04-14.37.48:246][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2019.04.04-14.37.48:266][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
-[2019.04.04-14.37.48:267][  0]LogD3D11RHI:      Driver Date: 8-21-2018
-[2019.04.04-14.37.48:267][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2019.04.04-14.37.48:347][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.04-14.37.48:789][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.04.04-14.37.49:000][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Intermediate/Shaders/WorkingDirectory/12660/).
-[2019.04.04-14.37.49:000][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/F51502E148CD1F68EBB9139CCF6207C4/'.
-[2019.04.04-14.37.50:473][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.04.04-14.37.50:539][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.04.04-14.37.50:601][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.04.04-14.37.50:612][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.04.04-14.37.50:786][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.04.04-14.37.50:937][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.04-14.37.50:960][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.04-14.37.50:970][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.04-14.37.51:028][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:121][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.04-14.37.51:160][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.04.04-14.37.51:306][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.04-14.37.51:306][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.04-14.37.51:356][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.04-14.37.51:356][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.04-14.37.51:409][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.04.04-14.37.51:489][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.04.04-14.37.51:527][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.04.04-14.37.51:567][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.04.04-14.37.51:596][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.04-14.37.51:596][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.04.04-14.37.52:179][  0]LogXGEController: Cleaning working directory: C:/Users/User/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.04.04-14.37.52:180][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.04.04-14.37.52:180][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.04.04-14.37.52:180][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.04.04-14.37.53:932][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.04.04-14.37.54:153][  0]LogDerivedDataCache: Loaded boot cache 0.22s 71MB C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.04.04-14.37.54:153][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.04.04-14.37.54:154][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.04-14.37.54:154][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.04-14.37.54:154][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.04-14.37.54:154][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.04-14.37.54:232][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.04-14.37.54:245][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.04-14.37.54:245][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.04.04-14.37.54:245][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.04.04-14.37.54:343][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.04.04-14.37.54:418][  0]LogSlate: Using FreeType 2.6.0
-[2019.04.04-14.37.54:510][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.04-14.37.55:225][  0]LogAssetRegistry: FAssetRegistry took 0.0283 seconds to start up
-[2019.04.04-14.38.01:802][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.04-14.38.03:335][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.04-14.38.03:433][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.04-14.38.03:435][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.04.04-14.38.03:436][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.04-14.38.03:436][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.04.04-14.38.03:803][  0]LogNetVersion: KV6002 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2502700519)
-[2019.04.04-14.38.08:678][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.129327 seconds
-[2019.04.04-14.38.08:717][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.04.04-14.38.08:717][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.04.04-14.38.08:717][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.04-14.38.24:097][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.04-14.38.24:161][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.04-14.38.30:275][  0]SourceControl: Source control is disabled
-[2019.04.04-14.38.30:275][  0]SourceControl: Source control is disabled
-[2019.04.04-14.38.30:329][  0]SourceControl: Source control is disabled
-[2019.04.04-14.38.30:353][  0]SourceControl: Source control is disabled
-[2019.04.04-14.38.32:205][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.04.04-14.38.32:710][  0]LogOcInput: OculusInput pre-init called
-[2019.04.04-14.38.34:305][  0]LogEngine: Initializing Engine...
-[2019.04.04-14.38.34:337][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.04-14.38.34:368][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
-[2019.04.04-14.38.34:368][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.04-14.38.34:368][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.04-14.38.34:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.04-14.38.35:417][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.04.04-14.38.35:774][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.04.04-14.38.35:989][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.04-14.38.36:018][  0]LogInit: FAudioDevice initialized.
-[2019.04.04-14.38.36:018][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.04.04-14.38.36:081][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.04.04-14.38.36:091][  0]LogInit: Texture streaming: Enabled
-[2019.04.04-14.38.36:468][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.04.04-14.38.36:468][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={42A85946-441D-22AD-DC2A-CAB767601AF7}
-[2019.04.04-14.38.36:620][  0]LogInit: Transaction tracking system initialized
-[2019.04.04-14.38.37:162][  0]BlueprintLog: New page: Editor Load
-[2019.04.04-14.38.39:070][  0]LocalizationService: Localization service is disabled
-[2019.04.04-14.38.43:561][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/' took 0.06s
-[2019.04.04-14.38.43:561][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.04.04-14.38.43:583][  0]LogCook: Display: Mobile HDR setting 1
-[2019.04.04-14.38.43:590][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.04.04-14.38.43:590][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.04-14.38.43:590][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.04-14.38.43:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.04-14.38.43:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.04-14.38.46:671][  0]SourceControl: Source control is disabled
-[2019.04.04-14.38.46:703][  0]Cmd: MAP LOAD FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.04-14.38.46:708][  0]LightingResults: New page: Lighting Build
-[2019.04.04-14.38.46:858][  0]MapCheck: New page: Map Check
-[2019.04.04-14.38.46:858][  0]LightingResults: New page: Lighting Build
-[2019.04.04-14.38.49:685][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.04.04-14.38.50:361][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.04-14.38.50:551][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.04-14.38.50:627][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.609ms to complete.
-[2019.04.04-14.38.50:627][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.947
-[2019.04.04-14.38.51:863][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.04-14.38.51:890][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.04-14.38.51:903][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.04-14.38.51:912][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.04-14.38.51:977][  0]LogCollectionManager: Loaded 0 collections in 0.000967 seconds
-[2019.04.04-14.38.52:088][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Collections/' took 0.01s
-[2019.04.04-14.38.52:088][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Developers/User/Collections/' took 0.01s
-[2019.04.04-14.38.52:088][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Collections/' took 0.01s
-[2019.04.04-14.38.52:088][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.04.04-14.38.52:100][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2572 classes and 603 folders.
-[2019.04.04-14.38.52:118][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.04.04-14.38.53:360][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.04.04-14.38.53:415][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.04.04-14.38.53:847][  0]LogSlate: Took 0.027996 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.04.04-14.38.53:909][  0]LogSlate: Took 0.032138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.04.04-14.38.53:969][  0]LogSlate: Took 0.019225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.04.04-14.38.54:425][  0]LogRenderer: Reallocating scene render targets to support 1252x632 Format 10 NumSamples 1 (Frame:1).
-[2019.04.04-14.38.54:974][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.04.04-14.38.54:974][  0]LogLoad: (Engine Initialization) Total time: 98.73 seconds
-[2019.04.04-14.38.54:974][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.04.04-14.38.55:220][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2019.04.04-14.38.55:405][  0]LogSlate: Took 0.020180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.04-14.38.55:479][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/' took 0.44s
-[2019.04.04-14.38.55:681][  3]LogAssetRegistry: Asset discovery search completed in 60.4799 seconds
-[2019.04.04-14.38.55:683][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.04.04-14.38.55:683][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
-[2019.04.04-14.38.56:349][  5]LogSlate: Took 0.003764 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.04-14.39.19:065][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.04-14.39.19:129][238]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD
-[2019.04.04-14.39.19:475][238]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2019.04.04-14.39.20:101][238]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonBP/Blueprints/Radial.Radial
-[2019.04.04-14.39.20:344][238]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu
-[2019.04.04-14.39.20:588][238]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
-[2019.04.04-14.39.20:835][238]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.04.04-14.39.20:934][239]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.04.04-14.50.34:580][643]BlueprintLog: New page: Compile FirstPersonHUD
-[2019.04.04-14.50.35:518][723]LogTemp: Repeating last play command: Standalone Game
-[2019.04.04-14.50.36:784][723]LogSlate: Window 'Save Content' being destroyed
-[2019.04.04-14.50.36:794][723]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.04-14.50.36:893][723]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUDA5DF95414DC1C5E19C2D00AE2F0294FC.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
-[2019.04.04-14.50.48:266][934]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.04-14.50.50:041][114]BlueprintLog: New page: Compile FirstPersonHUD
-[2019.04.04-14.50.50:599][161]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD7BA50C4E40EAB64EB7495BBFED1BC019.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
-[2019.04.04-14.50.51:673][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.04-14.58.02:267][724]BlueprintLog: New page: Compile FirstPersonCharacter
-[2019.04.04-14.58.03:250][797]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacter2D84FF7240505D796A0912A02E5673C3.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
-[2019.04.04-14.58.04:411][936]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.04-14.58.21:635][622]LogSlate: Window 'Delete Variable' being destroyed
-[2019.04.04-14.58.21:981][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.04-14.58.49:202][837]LogSlate: Took 0.060782 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2019.04.04-14.59.00:975][209]BlueprintLog: New page: Compile FirstPersonCharacter
-[2019.04.04-15.00.50:696][349]BlueprintLog: New page: Compile Radial
-[2019.04.04-15.00.51:426][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
-[2019.04.04-15.00.51:525][420]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialAACC5E454223B84878AFF4A8BFCF29D1.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
-[2019.04.04-15.00.55:225][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.04-15.01.23:756][217]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap_Auto18C17EA51472893C69716F2BC5EE60243.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
-[2019.04.04-15.01.23:770][217]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.527
-[2019.04.04-15.01.23:770][217]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.527
-[2019.04.04-15.01.23:771][217]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
-[2019.04.04-15.01.23:780][217]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
-[2019.04.04-15.01.23:780][217]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
-[2019.04.04-15.01.23:876][217]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacter_Auto113163E1140758D7D8A7F6D990EE52CBA.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
-[2019.04.04-15.01.23:878][217]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/Radial] ([1] browsable assets)...
-[2019.04.04-15.01.23:878][217]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Radial]
-[2019.04.04-15.01.23:977][217]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial_Auto12953EF3140ED7DDC409E4AB3FFBE38D4.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Radial_Auto1.uasset'
-[2019.04.04-15.01.23:978][217]LogFileHelpers: Auto-saving content packages took 0.208
-[2019.04.04-15.03.06:830][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.04-15.03.24:774][433]BlueprintLog: New page: Compile Radial
-[2019.04.04-15.03.25:256][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
-[2019.04.04-15.03.25:354][475]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialC4139327463FD9D8253B1BA899CCB7A0.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
-[2019.04.04-15.04.58:925][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.04-15.04.59:001][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
-[2019.04.04-15.04.59:102][708]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialA6FAB8D3409D26AFAFB1DCA92C19768A.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
-[2019.04.04-15.05.00:069][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.04-15.05.05:720][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.04-15.05.05:786][501]LogTemp: Repeating last play command: Standalone Game
-[2019.04.04-15.05.06:697][501]LogSlate: Window 'Save Content' being destroyed
-[2019.04.04-15.05.06:817][501]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacter27265E93441FD12BCEE44085913FD50B.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
-[2019.04.04-15.05.07:060][501]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap1930DD88426917834390B6AD232F06A3.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.04-15.05.07:077][501]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.256
-[2019.04.04-16.23.18:402][450]BlueprintLog: New page: Compile FirstPersonHUD
-[2019.04.04-16.23.18:413][450]LogBlueprint: Warning: [Compiler FirstPersonHUD] Could not find a variable named "FPHUD" in 'FirstPersonCharacter_C'.
-Make sure 'FirstPersonCharacter_C' has been compiled for  Set FPHUD
-[2019.04.04-16.23.18:414][450]LogBlueprint: Error: [Compiler FirstPersonHUD] The property associated with  FPHUD  could not be found in '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C'
-[2019.04.04-16.23.18:534][450]LogBlueprint: Warning: [Compiler FirstPersonHUD] [6362.29] Compile of FirstPersonHUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 131 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD)
-[2019.04.04-16.23.22:645][936]BlueprintLog: New page: Compile FirstPersonHUD
-[2019.04.04-16.23.23:159][978]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD3F80CFDA4ED9D7AD2FFEB9B532CF8AA4.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
-[2019.04.04-16.23.25:775][283]LogRenderer: Reallocating scene render targets to support 1252x712 Format 10 NumSamples 1 (Frame:1).
-[2019.04.04-16.23.29:807][726]LogTemp: Repeating last play command: Standalone Game
-[2019.04.04-16.23.55:860][236]BlueprintLog: New page: Compile FirstPersonCharacter
-[2019.04.04-16.23.55:939][236]LogClass: Warning: Type mismatch in primary of FirstPersonCharacter_C - Previous (SetProperty) Current(IntProperty) for package:  FObjectReader
-[2019.04.04-16.23.56:583][279]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacter5D360A704CAAC855DAFCD8BC249C4D8F.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
-[2019.04.04-16.24.55:044][178]BlueprintLog: New page: Compile FirstPersonHUD
-[2019.04.04-16.25.28:912][842]LogSlate: Window 'Delete Variable' being destroyed
-[2019.04.04-16.26.48:771][185]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap_Auto21B087FEC43732DFFE22BE798328FF7DC.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
-[2019.04.04-16.26.48:774][185]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.188
-[2019.04.04-16.26.48:774][185]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.188
-[2019.04.04-16.26.48:775][185]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonHUD] ([1] browsable assets)...
-[2019.04.04-16.26.48:775][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonHUD]
-[2019.04.04-16.26.48:795][185]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD_Auto284B1B71A49D5E4CAA45B7489B9F05900.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonHUD_Auto2.uasset'
-[2019.04.04-16.26.48:798][185]LogFileHelpers: Auto-saving content packages took 0.024
-[2019.04.04-16.30.35:364][302]BlueprintLog: New page: Compile FirstPersonHUD
-[2019.04.04-16.30.36:081][365]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD611A138F418805551A5026BA0041435E.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
-[2019.04.04-16.30.53:125][368]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUDD1542EB84EBAB1EE6388198D60AD5F07.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
-[2019.04.04-16.31.13:344][746]BlueprintLog: New page: Compile FirstPersonHUD
-[2019.04.04-16.31.13:847][786]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD6CA51A664ADFA7E23585EE83EFD6EE37.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
-[2019.04.04-16.31.21:442][684]BlueprintLog: New page: Compile FirstPersonHUD
-[2019.04.04-16.31.21:932][722]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD0D48291540B114BFDF221EA5736C6454.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
-[2019.04.04-16.31.23:981][965]LogTemp: Repeating last play command: Standalone Game
-[2019.04.04-16.31.25:182][965]LogSlate: Window 'Save Content' being destroyed
-[2019.04.04-16.31.25:196][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
-[2019.04.04-16.31.25:297][965]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialE0146675441C6E48849E759FE95382E3.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
-[2019.04.04-16.31.25:544][965]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap066C9CBA49626D07C532CE9EE9661F43.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.04-16.31.25:561][965]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.260
-[2019.04.04-16.31.54:784][826]LogSlate: Window 'Delete Variable' being destroyed
-[2019.04.04-16.31.56:559][ 32]BlueprintLog: New page: Compile FirstPersonHUD
-[2019.04.04-16.32.01:325][575]BlueprintLog: New page: Compile Radial
-[2019.04.04-16.32.35:553][608]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD5BA7BCB0430FBD360338D7B312EB7067.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
-[2019.04.04-16.33.46:436][962]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD5B32B1E24D9E45A0CA173D88FC3E35D2.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
-[2019.04.04-16.39.51:511][981]BlueprintLog: New page: Compile Radial
-[2019.04.04-16.39.51:572][981]LogBlueprint: Error: [Compiler Radial] The current value of the ' Input ' pin is invalid: 'Input' must have an input wired into it ("by ref" params expect a valid input to operate on).
-[2019.04.04-16.39.51:644][981]LogBlueprint: Warning: [Compiler Radial] [7355.40] Compile of Radial failed. 1 Fatal Issue(s) 0 Warning(s) [in 132 ms] (/Game/FirstPersonBP/Blueprints/Radial.Radial)
-[2019.04.04-16.40.05:790][613]BlueprintLog: New page: Compile Radial
-[2019.04.04-16.40.07:289][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
-[2019.04.04-16.40.07:394][771]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial8B823A454990E7D93E4762AE071F0800.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
-[2019.04.04-16.40.51:500][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
-[2019.04.04-16.40.51:605][  2]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialE49A464340E085D19D46618A1033E873.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
-[2019.04.04-16.41.01:827][185]LogTemp: Repeating last play command: Standalone Game
-[2019.04.04-16.41.03:009][185]LogSlate: Window 'Save Content' being destroyed
-[2019.04.04-16.41.03:281][185]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap51057DFB42F8CCE85CEBB380F5635FF0.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.04-16.41.03:299][185]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.275
-[2019.04.04-16.42.22:683][827]BlueprintLog: New page: Compile Radial
-[2019.04.04-16.42.23:224][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
-[2019.04.04-16.42.23:331][872]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial3CF2FE24445BA5E5F3B9DA9FC2405377.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
-[2019.04.04-16.44.10:503][386]BlueprintLog: New page: Compile Radial
-[2019.04.04-16.44.11:009][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
-[2019.04.04-16.44.11:121][408]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialF7F1AFAB467585A59EB92982A35916C2.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
-[2019.04.04-16.44.45:995][507]BlueprintLog: New page: Compile Radial
-[2019.04.04-16.44.46:439][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
-[2019.04.04-16.44.46:551][542]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial00A8451B4028B6B9C7023A9C8D6C0D42.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
-[2019.04.04-16.47.33:247][929]BlueprintLog: New page: Compile Radial
-[2019.04.04-16.47.33:766][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
-[2019.04.04-16.47.33:873][970]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial04D8FAE4466693BDFF8EF5B45EBCEB2C.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
-[2019.04.04-16.49.26:423][959]BlueprintLog: New page: Compile Radial
-[2019.04.04-16.49.26:953][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
-[2019.04.04-16.49.27:059][  3]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial60B76CFD4B5796BFDAC386887D7D204B.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
-[2019.04.04-16.49.38:867][411]LogTemp: Repeating last play command: Standalone Game
-[2019.04.04-16.49.40:131][411]LogSlate: Window 'Save Content' being destroyed
-[2019.04.04-16.49.40:417][411]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap8E6E18134DE97BD31D36AB8BEF79E7A1.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.04-16.49.40:434][411]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.286
-[2019.04.04-16.54.50:871][996]BlueprintLog: New page: Compile Radial
-[2019.04.04-16.54.51:314][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
-[2019.04.04-16.54.51:419][ 30]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial3281E24248FD42208BD002AA15DA72CF.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
-[2019.04.04-16.54.53:682][301]LogTemp: Repeating last play command: Standalone Game
-[2019.04.04-16.54.55:743][301]LogSlate: Window 'Save Content' being destroyed
-[2019.04.04-16.54.56:002][301]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMapBAEA40E44C0CB217AC3853B5035670FA.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.04-16.54.56:020][301]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.262
-[2019.04.04-18.42.37:974][ 90]LogSlate: Window 'FirstPersonCharacter' being destroyed
-[2019.04.04-18.42.37:978][ 90]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2019.04.04-18.42.38:031][ 90]LogSlate: Window 'KV6002 - Unreal Editor' being destroyed
-[2019.04.04-18.42.38:032][ 90]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.04-18.42.38:187][ 91]Cmd: QUIT_EDITOR
-[2019.04.04-18.42.38:205][ 91]LogExit: Preparing to exit.
-[2019.04.04-18.42.39:061][ 91]LogExit: Editor shut down
-[2019.04.04-18.42.39:061][ 91]LogExit: Transaction tracking system shut down
-[2019.04.04-18.42.39:715][ 91]LogExit: Object subsystem successfully closed.
-[2019.04.04-18.42.39:727][ 91]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.04.04-18.42.39:729][ 91]LogD3D11RHI: Shutdown
-[2019.04.04-18.42.39:729][ 91]LogD3D11RHI: CleanupD3DDevice
-[2019.04.04-18.42.39:731][ 91]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.04.04-18.42.39:739][ 91]LogModuleManager: Shutting down and abandoning module SequencerWidgets (614)
-[2019.04.04-18.42.39:739][ 91]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
-[2019.04.04-18.42.39:739][ 91]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
-[2019.04.04-18.42.39:739][ 91]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
-[2019.04.04-18.42.39:739][ 91]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module BspMode (582)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module SessionServices (532)
-[2019.04.04-18.42.39:740][ 91]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
-[2019.04.04-18.42.39:741][ 91]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
-[2019.04.04-18.42.39:741][ 91]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
-[2019.04.04-18.42.39:741][ 91]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
-[2019.04.04-18.42.39:741][ 91]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
-[2019.04.04-18.42.39:741][ 91]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
-[2019.04.04-18.42.39:741][ 91]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
-[2019.04.04-18.42.39:741][ 91]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
-[2019.04.04-18.42.39:741][ 91]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
-[2019.04.04-18.42.39:741][ 91]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
-[2019.04.04-18.42.39:741][ 91]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
-[2019.04.04-18.42.39:741][ 91]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
-[2019.04.04-18.42.40:190][ 91]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
-[2019.04.04-18.42.40:190][ 91]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
-[2019.04.04-18.42.40:190][ 91]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
-[2019.04.04-18.42.40:190][ 91]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
-[2019.04.04-18.42.40:190][ 91]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
-[2019.04.04-18.42.40:190][ 91]LogModuleManager: Shutting down and abandoning module MergeActors (496)
-[2019.04.04-18.42.40:190][ 91]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module XmlParser (484)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module Blutility (482)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
-[2019.04.04-18.42.40:191][ 91]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
-[2019.04.04-18.42.40:257][ 91]LogModuleManager: Shutting down and abandoning module AutomationController (462)
-[2019.04.04-18.42.40:257][ 91]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
-[2019.04.04-18.42.40:257][ 91]LogModuleManager: Shutting down and abandoning module Layers (458)
-[2019.04.04-18.42.40:257][ 91]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
-[2019.04.04-18.42.40:257][ 91]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
-[2019.04.04-18.42.40:257][ 91]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
-[2019.04.04-18.42.40:257][ 91]LogModuleManager: Shutting down and abandoning module Persona (450)
-[2019.04.04-18.42.40:257][ 91]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
-[2019.04.04-18.42.40:257][ 91]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
-[2019.04.04-18.42.40:257][ 91]LogModuleManager: Shutting down and abandoning module Kismet (444)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module Toolbox (438)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2019.04.04-18.42.40:264][ 91]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2019.04.04-18.42.40:447][ 91]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2019.04.04-18.42.40:447][ 91]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2019.04.04-18.42.40:447][ 91]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2019.04.04-18.42.40:447][ 91]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2019.04.04-18.42.40:448][ 91]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2019.04.04-18.42.40:452][ 91]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2019.04.04-18.42.40:453][ 91]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2019.04.04-18.42.40:454][ 91]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2019.04.04-18.42.40:454][ 91]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2019.04.04-18.42.40:454][ 91]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2019.04.04-18.42.40:454][ 91]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2019.04.04-18.42.40:554][ 91]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2019.04.04-18.42.40:655][ 91]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2019.04.04-18.42.40:655][ 91]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2019.04.04-18.42.40:655][ 91]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2019.04.04-18.42.40:655][ 91]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2019.04.04-18.42.40:655][ 91]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2019.04.04-18.42.40:655][ 91]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2019.04.04-18.42.40:655][ 91]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2019.04.04-18.42.40:656][ 91]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2019.04.04-18.42.40:656][ 91]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2019.04.04-18.42.40:657][ 91]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2019.04.04-18.42.40:657][ 91]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2019.04.04-18.42.40:657][ 91]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2019.04.04-18.42.40:659][ 91]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2019.04.04-18.42.40:659][ 91]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.04.04-18.42.40:659][ 91]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2019.04.04-18.42.40:659][ 91]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2019.04.04-18.42.40:659][ 91]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2019.04.04-18.42.40:659][ 91]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2019.04.04-18.42.40:661][ 91]LogModuleManager: Shutting down and abandoning module Media (243)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2019.04.04-18.42.40:669][ 91]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2019.04.04-18.42.40:670][ 91]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2019.04.04-18.42.40:670][ 91]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2019.04.04-18.42.40:670][ 91]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2019.04.04-18.42.40:670][ 91]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2019.04.04-18.42.40:673][ 91]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2019.04.04-18.42.40:673][ 91]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2019.04.04-18.42.40:673][ 91]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2019.04.04-18.42.40:673][ 91]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2019.04.04-18.42.40:673][ 91]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2019.04.04-18.42.40:673][ 91]LogModuleManager: Shutting down and abandoning module Core (188)
-[2019.04.04-18.42.40:674][ 91]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2019.04.04-18.42.40:674][ 91]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2019.04.04-18.42.40:674][ 91]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2019.04.04-18.42.40:674][ 91]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2019.04.04-18.42.40:674][ 91]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2019.04.04-18.42.40:674][ 91]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2019.04.04-18.42.40:674][ 91]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2019.04.04-18.42.40:674][ 91]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2019.04.04-18.42.40:674][ 91]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2019.04.04-18.42.40:674][ 91]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2019.04.04-18.42.40:674][ 91]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2019.04.04-18.42.40:674][ 91]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2019.04.04-18.42.40:768][ 91]LogDerivedDataCache: Shutdown
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2019.04.04-18.42.40:768][ 91]LogXGEController: Cleaning working directory: C:/Users/User/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2019.04.04-18.42.40:768][ 91]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2019.04.04-18.42.40:769][ 91]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2019.04.04-18.42.40:769][ 91]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2019.04.04-18.42.40:769][ 91]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2019.04.04-18.42.40:769][ 91]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2019.04.04-18.42.40:769][ 91]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2019.04.04-18.42.40:769][ 91]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2019.04.04-18.42.40:769][ 91]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2019.04.04-18.42.40:770][ 91]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2019.04.04-18.42.40:770][ 91]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2019.04.04-18.42.40:774][ 91]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2019.04.04-18.42.40:775][ 91]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2019.04.04-18.42.40:775][ 91]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2019.04.04-18.42.40:781][ 91]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2019.04.04-18.42.40:781][ 91]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
-[2019.04.04-18.42.40:782][ 91]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B66D7301A-47EA-A3F3-3868-ADBBA95EBC2F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=e5f202094da9daed54bc01a482ab8116%7C9bdd36d664df4b0787b55f3cb2b04887%7C61dc1d6a-e417-4792-8424-124b0d2a51e1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.04.04-18.42.40:782][ 91]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B66D7301A-47EA-A3F3-3868-ADBBA95EBC2F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=e5f202094da9daed54bc01a482ab8116%7C9bdd36d664df4b0787b55f3cb2b04887%7C61dc1d6a-e417-4792-8424-124b0d2a51e1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.04.04-18.42.40:799][ 91]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2019.04.04-18.42.40:800][ 91]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2019.04.04-18.42.40:800][ 91]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2019.04.04-18.42.40:800][ 91]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2019.04.04-18.42.40:800][ 91]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2019.04.04-18.42.40:800][ 91]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2019.04.04-18.42.40:800][ 91]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2019.04.04-18.42.40:800][ 91]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2019.04.04-18.42.40:800][ 91]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2019.04.04-18.42.40:800][ 91]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2019.04.04-18.42.40:800][ 91]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.04.04-18.42.40:800][ 91]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.04.04-18.42.40:801][ 91]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.04.04-18.42.40:805][ 91]LogExit: Exiting.
-[2019.04.04-18.42.40:815][ 91]Log file closed, 04/04/19 19:42:40
+[2019.04.04-18.44.55:026][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.04-18.44.55:026][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.04-18.44.55:039][  0]LogHAL: Display: Platform has ~ 16 GB [17130676224 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.04-18.44.55:039][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.04-18.44.55:039][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.04-18.44.55:039][  0]LogInit: Computer: DESKTOP-5BMDBC3
+[2019.04.04-18.44.55:039][  0]LogInit: User: User
+[2019.04.04-18.44.55:039][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.04-18.44.55:039][  0]LogInit: High frequency timer resolution =4.101561 MHz
+[2019.04.04-18.44.55:040][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.04.04-18.44.55:040][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.04-18.44.55:040][  0]LogMemory: Process Physical Memory: 100.31 MB used, 100.31 MB peak
+[2019.04.04-18.44.55:040][  0]LogMemory: Process Virtual Memory: 91.33 MB used, 91.33 MB peak
+[2019.04.04-18.44.55:040][  0]LogMemory: Physical Memory: 5005.04 MB used,  11332.05 MB free, 16337.09 MB total
+[2019.04.04-18.44.55:040][  0]LogMemory: Virtual Memory: 4645.41 MB used,  11332.05 MB free, 134217728.00 MB total
+[2019.04.04-18.44.55:056][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.04-18.44.55:056][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.04-18.44.55:056][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.04-18.44.55:326][  0]LogStreaming: Display: Took  0.270s to InitEngineTextLocalization.
+[2019.04.04-18.44.55:326][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.04-18.44.55:353][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.04-18.44.55:353][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.04-18.44.55:489][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.04-18.44.55:489][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.04-18.44.55:549][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.04.04-18.44.55:549][  0]LogD3D11RHI:       8079/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.04.04-18.44.55:551][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.04-18.44.55:551][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.04-18.44.55:551][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.04-18.44.55:556][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.04-18.44.55:556][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.04-18.44.55:556][  0]LogWindows: EnumDisplayDevices:
+[2019.04.04-18.44.55:556][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.04.04-18.44.55:556][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.04.04-18.44.55:556][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.04.04-18.44.55:556][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.04.04-18.44.55:556][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.04-18.44.55:556][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.04.04-18.44.55:556][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2019.04.04-18.44.55:556][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2019.04.04-18.44.55:556][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.04.04-18.44.55:583][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.04-18.44.55:611][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.04-18.44.55:709][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Intermediate/Shaders/WorkingDirectory/9616/).
+[2019.04.04-18.44.55:710][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/C99A75494BE5F5E25DF6C3B1B642F352/'.
+[2019.04.04-18.44.55:930][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.04-18.44.55:940][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.04-18.44.55:949][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.04-18.44.55:957][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.04-18.44.55:967][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.04-18.44.55:977][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.04-18.44.55:986][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.04-18.44.55:996][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.04-18.44.56:000][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.44.56:060][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.04-18.44.56:113][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.04-18.44.56:113][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.04-18.44.56:130][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.04-18.44.56:130][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.04-18.44.56:139][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.04-18.44.56:148][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.04-18.44.56:157][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.04-18.44.56:167][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.04-18.44.56:174][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.04-18.44.56:174][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.04-18.44.56:209][  0]LogXGEController: Cleaning working directory: C:/Users/User/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.04-18.44.56:209][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.04-18.44.56:209][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.04-18.44.56:209][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.04-18.44.56:717][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.04-18.44.56:758][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.04-18.44.56:758][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.04-18.44.56:758][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.04-18.44.56:758][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.04-18.44.56:758][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.04-18.44.56:758][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.04-18.44.56:769][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.04-18.44.56:781][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.04-18.44.56:781][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.04-18.44.56:781][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.04-18.44.56:794][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.04-18.44.56:795][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.04-18.44.56:796][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.04-18.44.56:855][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2019.04.04-18.44.57:075][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.04-18.44.57:165][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.04-18.44.57:167][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.04-18.44.57:167][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.04-18.44.57:167][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.04-18.44.57:167][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.04-18.44.57:178][  0]LogNetVersion: KV6002 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2502700519)
+[2019.04.04-18.44.57:516][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.068818 seconds
+[2019.04.04-18.44.57:521][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.04-18.44.57:521][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.04.04-18.44.57:521][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.04-18.44.58:104][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.04-18.44.58:117][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.04-18.44.58:231][  0]SourceControl: Source control is disabled
+[2019.04.04-18.44.58:231][  0]SourceControl: Source control is disabled
+[2019.04.04-18.44.58:232][  0]SourceControl: Source control is disabled
+[2019.04.04-18.44.58:233][  0]SourceControl: Source control is disabled
+[2019.04.04-18.44.58:374][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.04-18.44.58:452][  0]LogOcInput: OculusInput pre-init called
+[2019.04.04-18.44.58:495][  0]LogEngine: Initializing Engine...
+[2019.04.04-18.44.58:496][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.04-18.44.58:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.04-18.44.58:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.04-18.44.58:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.04-18.44.58:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.04-18.44.58:640][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.04-18.44.58:648][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.04-18.44.58:669][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.04-18.44.58:681][  0]LogInit: FAudioDevice initialized.
+[2019.04.04-18.44.58:681][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.04-18.44.58:742][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.04-18.44.58:751][  0]LogInit: Texture streaming: Enabled
+[2019.04.04-18.44.58:761][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.04-18.44.58:769][  0]LogInit: Transaction tracking system initialized
+[2019.04.04-18.44.58:780][  0]BlueprintLog: New page: Editor Load
+[2019.04.04-18.44.58:821][  0]LocalizationService: Localization service is disabled
+[2019.04.04-18.44.58:988][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.04-18.44.58:988][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.04-18.44.58:988][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.04-18.44.58:988][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.04-18.44.58:988][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.04-18.44.58:988][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.04-18.44.58:988][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.04-18.44.59:064][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/' took 0.02s
+[2019.04.04-18.44.59:065][  0]SourceControl: Source control is disabled
+[2019.04.04-18.44.59:065][  0]Cmd: MAP LOAD FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.04-18.44.59:065][  0]LightingResults: New page: Lighting Build
+[2019.04.04-18.44.59:066][  0]MapCheck: New page: Map Check
+[2019.04.04-18.44.59:066][  0]LightingResults: New page: Lighting Build
+[2019.04.04-18.44.59:752][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.04-18.44.59:769][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.04-18.44.59:789][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.04-18.44.59:842][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.408ms to complete.
+[2019.04.04-18.44.59:842][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.777
+[2019.04.04-18.44.59:926][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.44.59:931][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.44.59:937][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.44.59:942][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.44.59:946][  0]LogCollectionManager: Loaded 0 collections in 0.000767 seconds
+[2019.04.04-18.44.59:986][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Collections/' took 0.01s
+[2019.04.04-18.44.59:986][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Developers/User/Collections/' took 0.01s
+[2019.04.04-18.44.59:986][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Collections/' took 0.01s
+[2019.04.04-18.44.59:986][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.04-18.44.59:993][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2572 classes and 603 folders.
+[2019.04.04-18.45.00:001][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.04.04-18.45.00:080][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.04-18.45.00:084][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.04.04-18.45.00:107][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.04-18.45.00:109][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.04-18.45.00:115][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.04-18.45.00:174][  0]LogRenderer: Reallocating scene render targets to support 1252x632 Format 10 NumSamples 1 (Frame:1).
+[2019.04.04-18.45.00:262][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.04.04-18.45.00:262][  0]LogLoad: (Engine Initialization) Total time: 6.54 seconds
+[2019.04.04-18.45.00:262][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.04-18.45.00:272][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.04-18.45.00:301][  0]LogAssetRegistry: Asset discovery search completed in 3.4685 seconds
+[2019.04.04-18.45.00:302][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.04-18.45.00:302][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2019.04.04-18.45.00:304][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.04-18.45.00:344][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.04-18.45.00:356][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/' took 0.07s
+[2019.04.04-18.45.01:287][105]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.04-19.45.34:849][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-19.45.34:954][847]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD
+[2019.04.04-19.45.35:304][847]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.04.04-19.45.35:913][847]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonBP/Blueprints/Radial.Radial
+[2019.04.04-19.45.36:175][847]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.04.04-19.45.36:424][847]LogSlate: Took 0.002115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.04-19.45.36:490][848]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.04-19.47.16:959][420]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.04.04-19.47.56:388][ 60]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.04.04-19.47.57:409][132]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacterEC8B73574A29D3999B8F6FBD00CE080B.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.04.04-19.48.00:254][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-19.49.25:987][388]LogEditorTransaction: Undo Delete current selection
+[2019.04.04-19.50.54:515][971]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap_Auto16896236C4D82F4203B2B43A40E63202B.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2019.04.04-19.50.54:518][971]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.232
+[2019.04.04-19.50.54:518][971]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.232
+[2019.04.04-19.50.54:520][971]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/Radial] ([1] browsable assets)...
+[2019.04.04-19.50.54:520][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Radial]
+[2019.04.04-19.50.54:628][971]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial_Auto17BDAC6AB4B0952D30C65A3A9585167CC.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Radial_Auto1.uasset'
+[2019.04.04-19.50.54:629][971]LogFileHelpers: Auto-saving content packages took 0.110
+[2019.04.04-19.54.22:800][363]LogEditorTransaction: Undo Move Node
+[2019.04.04-19.54.23:789][465]LogEditorTransaction: Undo Move Nodes
+[2019.04.04-19.54.25:464][655]LogEditorTransaction: Redo Move Nodes
+[2019.04.04-19.54.25:974][706]LogEditorTransaction: Redo Move Node
+[2019.04.04-19.55.26:490][850]BlueprintLog: New page: Compile Radial
+[2019.04.04-19.55.27:040][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-19.55.27:156][889]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialF38F5D734956DAF665EF8D80056E2A6A.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-19.55.27:731][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-19.56.38:538][112]BlueprintLog: New page: Compile Radial
+[2019.04.04-19.56.39:162][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-19.56.39:281][155]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial48299E8344DEB6A80DEA7E8D3F2BB3BF.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-19.56.40:234][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-19.59.24:827][203]BlueprintLog: New page: Compile Radial
+[2019.04.04-19.59.25:540][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-19.59.25:654][260]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialE641578A4BC65481656D758161960070.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-19.59.26:043][302]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-20.01.06:394][887]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.04.04-20.01.06:397][887]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.04.04-20.01.07:057][957]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-20.03.49:486][644]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.03.49:591][644]LogBlueprint: Warning: [Compiler Radial] Input pin  Primary  specifying non-default value no longer exists on node  Set Primary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.03.49:592][644]LogBlueprint: Warning: [Compiler Radial] Input pin  Primary  specifying non-default value no longer exists on node  Set Primary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.03.49:592][644]LogBlueprint: Warning: [Compiler Radial] Input pin  Primary  specifying non-default value no longer exists on node  Set Primary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.03.49:595][644]LogBlueprint: Warning: [Compiler Radial] Input pin  Primary  specifying non-default value no longer exists on node  Set Primary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.03.49:595][644]LogBlueprint: Warning: [Compiler Radial] Input pin  Primary  specifying non-default value no longer exists on node  Set Primary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.03.49:773][644]LogBlueprint: Warning: [Compiler Radial] [4736.05] Compile of Radial successful, but with 5 Warning(s) [in 286 ms] (/Game/FirstPersonBP/Blueprints/Radial.Radial)
+[2019.04.04-20.03.50:231][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-20.03.50:353][695]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialE54BDE6A4058F2593D2302B1FC64B182.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-20.03.53:740][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-20.08.09:697][169]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.08.09:760][169]LogBlueprint: Warning: [Compiler Radial] Input pin  Primary  specifying non-default value no longer exists on node  Set Primary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.08.09:760][169]LogBlueprint: Warning: [Compiler Radial] Input pin  Primary  specifying non-default value no longer exists on node  Set Primary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.08.09:760][169]LogBlueprint: Warning: [Compiler Radial] Input pin  Primary  specifying non-default value no longer exists on node  Set Primary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.08.09:834][169]LogBlueprint: Warning: [Compiler Radial] [4996.12] Compile of Radial successful, but with 3 Warning(s) [in 137 ms] (/Game/FirstPersonBP/Blueprints/Radial.Radial)
+[2019.04.04-20.08.37:868][420]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap_Auto2FF29B9944D2F18EC02F5B4AE594D4960.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2019.04.04-20.08.37:871][420]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.219
+[2019.04.04-20.08.37:871][420]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.219
+[2019.04.04-20.08.37:872][420]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/Radial] ([1] browsable assets)...
+[2019.04.04-20.08.37:872][420]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Radial]
+[2019.04.04-20.08.38:008][420]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial_Auto2B3EF0D8E453487780007B0A7ED5A73B0.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Radial_Auto2.uasset'
+[2019.04.04-20.08.38:009][420]LogFileHelpers: Auto-saving content packages took 0.137
+[2019.04.04-20.08.38:588][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-20.10.10:625][495]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.10.10:758][495]LogBlueprint: Warning: [Compiler Radial] Input pin  Primary  specifying non-default value no longer exists on node  Set Primary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.10.10:758][495]LogBlueprint: Warning: [Compiler Radial] Input pin  Primary  specifying non-default value no longer exists on node  Set Primary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.10.10:758][495]LogBlueprint: Warning: [Compiler Radial] Input pin  Primary  specifying non-default value no longer exists on node  Set Primary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.10.10:758][495]LogBlueprint: Warning: [Compiler Radial] Input pin  Secondary  specifying non-default value no longer exists on node  Set Secondary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.10.10:758][495]LogBlueprint: Warning: [Compiler Radial] Input pin  Secondary  specifying non-default value no longer exists on node  Set Secondary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.10.10:758][495]LogBlueprint: Warning: [Compiler Radial] Input pin  Secondary  specifying non-default value no longer exists on node  Set Secondary . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.10.10:947][495]LogBlueprint: Warning: [Compiler Radial] [5117.23] Compile of Radial successful, but with 6 Warning(s) [in 322 ms] (/Game/FirstPersonBP/Blueprints/Radial.Radial)
+[2019.04.04-20.12.08:195][434]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.12.08:682][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-20.12.08:820][468]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialC3E43B004642B514114E04B9B7A3A5B0.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-20.12.09:289][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-20.12.53:896][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-20.12.53:962][486]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-20.12.54:911][486]LogSlate: Window 'Save Content' being destroyed
+[2019.04.04-20.12.55:205][486]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap91628E184482E385D55B6AAA127DF20C.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.04-20.12.55:224][486]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.297
+[2019.04.04-20.13.25:765][144]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.13.26:376][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-20.13.26:501][167]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial8E1779A44CEF5FCEEB19B080C064B88C.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-20.13.28:783][371]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-20.13.29:915][371]LogSlate: Window 'Save Content' being destroyed
+[2019.04.04-20.13.30:194][371]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap10665FA54183280926B677AD3F017FBF.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.04-20.13.30:212][371]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.282
+[2019.04.04-20.17.30:772][408]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.04.04-20.17.31:649][444]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacterC145AF2F456D407A48B75188C1756C2B.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.04.04-20.18.17:576][442]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.04.04-20.18.18:278][476]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacter372833AA4DF52A629A3E3999DB98DA17.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.04.04-20.18.24:726][181]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacter70F058D14CAA3DC985C932A0B0B9477F.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.04.04-20.18.35:683][427]LogEditorTransaction: Undo Move Node
+[2019.04.04-20.19.05:853][765]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.04.04-20.19.06:704][816]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacter2FB55A584EFEEAF0F9AAB7B46ADE9EB6.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.04.04-20.20.18:273][599]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.04.04-20.21.04:677][538]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.04.04-20.21.05:445][574]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacter7E64EEB4457C79CEA480E7A11A6B5493.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.04.04-20.21.10:180][ 86]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacterF26F1021466F3AFFB33509A8BA4AC877.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.04.04-20.21.16:970][797]LogRenderer: Reallocating scene render targets to support 1252x712 Format 10 NumSamples 1 (Frame:1).
+[2019.04.04-20.23.42:676][297]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.04.04-20.23.43:343][313]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacter826151CE4DDA0D6AB98E23BFA93C42D2.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.04.04-20.23.46:933][680]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-20.23.48:002][680]LogSlate: Window 'Save Content' being destroyed
+[2019.04.04-20.23.48:019][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-20.23.48:147][680]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialE73104674AE03367404766B2D182DB5A.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-20.23.48:418][680]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMapEF90EE26483A64731EA590894F8A330A.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.04-20.23.48:436][680]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.284
+[2019.04.04-20.26.36:488][710]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.04-20.27.56:318][657]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.04.04-20.27.56:398][657]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Input pin  Instigator  specifying non-default value no longer exists on node  SpawnActor . Please refresh node or reset pin to default value to remove pin.
+[2019.04.04-20.27.56:600][657]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [6182.88] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 281 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2019.04.04-20.27.56:932][666]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacterE6DA180B42C58C029E7FB8BB0135B7F0.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.04.04-20.28.38:972][725]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.04.04-20.28.40:162][796]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonCharacter56FF20674E0F67FA02A5649299C57EAA.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.04.04-20.29.06:120][ 38]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.04-20.29.06:254][ 39]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.KV6002
+[2019.04.04-20.29.06:254][ 39]LogTemp: CWD: D:\EpicGames\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.04.04-20.29.06:254][ 39]LogTemp: Initial Dir: D:\EpicGames\UE_4.20
+[2019.04.04-20.29.06:254][ 39]LogTemp: Env CWD: D:\EpicGames\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.04.04-20.29.06:254][ 39]LogTemp: BranchPath = DESKTOP-5BMDBC3/D/EpicGames/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-5BMDBC3/D/EpicGames/UE_4.20/Engine/Binaries
+[2019.04.04-20.29.06:254][ 39]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\User\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.04.04-20.29.25:809][353]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.04-20.29.25:811][353]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.04-20.29.39:888][937]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.04.04-20.29.39:890][937]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.04.04-20.30.32:555][324]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.04-20.30.32:632][325]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.KV6002
+[2019.04.04-20.30.32:632][325]LogTemp: CWD: D:\EpicGames\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.04.04-20.30.32:632][325]LogTemp: Initial Dir: D:\EpicGames\UE_4.20
+[2019.04.04-20.30.32:632][325]LogTemp: Env CWD: D:\EpicGames\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.04.04-20.30.32:632][325]LogTemp: BranchPath = DESKTOP-5BMDBC3/D/EpicGames/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-5BMDBC3/D/EpicGames/UE_4.20/Engine/Binaries
+[2019.04.04-20.30.32:632][325]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\User\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.04.04-20.31.29:825][ 85]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-20.31.30:832][ 85]LogSlate: Window 'Save Content' being destroyed
+[2019.04.04-20.31.31:122][ 85]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMapF01EF0884ADFF207D5840B80F7761C6A.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.04-20.31.31:142][ 85]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.294
+[2019.04.04-20.39.36:094][690]AssetReimport: New page: Outstanding source content changes 22:39:36
+[2019.04.04-20.39.36:114][691]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairAirWater150px.png)
+[2019.04.04-20.39.36:145][692]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairAirWater.png)
+[2019.04.04-20.39.36:154][692]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairWaterWater150px.png)
+[2019.04.04-20.39.36:177][693]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairWaterWater.png)
+[2019.04.04-20.39.36:189][693]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairWaterAir150px.png)
+[2019.04.04-20.39.36:211][694]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairWaterAir.png)
+[2019.04.04-20.39.36:245][694]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/CrosshairAirWater150px272B72BC491D877DF8C49796A678B3B5.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairAirWater150px.uasset'
+[2019.04.04-20.39.36:259][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Crosshair/CrosshairAirWater" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairAirWater.uasset" SILENT=true
+[2019.04.04-20.39.36:263][694]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/CrosshairAirWater6240D8D3413A2A42E53DFA9084EB5D54.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairAirWater.uasset'
+[2019.04.04-20.39.36:284][694]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/CrosshairWaterWater150px00DA09E14746EF3E0E0CBFA1BB246051.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairWaterWater150px.uasset'
+[2019.04.04-20.39.36:297][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Crosshair/CrosshairWaterWater" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairWaterWater.uasset" SILENT=true
+[2019.04.04-20.39.36:301][694]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/CrosshairWaterWater9CEA2D1C4BD05DCC43C6339292C25089.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairWaterWater.uasset'
+[2019.04.04-20.39.36:321][694]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/CrosshairWaterAir150pxD96A981E4CF5E4815D075EAA6AF64DAC.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairWaterAir150px.uasset'
+[2019.04.04-20.39.36:335][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Crosshair/CrosshairWaterAir" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairWaterAir.uasset" SILENT=true
+[2019.04.04-20.39.36:341][694]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/CrosshairWaterAirD05156A14ED188A5E79845BD05A6EE29.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/Images/Crosshair/CrosshairWaterAir.uasset'
+[2019.04.04-20.39.39:350][  6]AssetReimport: Importing new asset /Game/Images/Crosshair/CrosshairAirWater150px.
+[2019.04.04-20.39.39:350][  6]AssetReimport: Importing new asset /Game/Images/Crosshair/CrosshairAirWater.
+[2019.04.04-20.39.39:350][  6]AssetReimport: Importing new asset /Game/Images/Crosshair/CrosshairWaterWater150px.
+[2019.04.04-20.39.39:350][  6]AssetReimport: Importing new asset /Game/Images/Crosshair/CrosshairWaterWater.
+[2019.04.04-20.39.39:350][  6]AssetReimport: Importing new asset /Game/Images/Crosshair/CrosshairWaterAir150px.
+[2019.04.04-20.39.39:350][  6]AssetReimport: Importing new asset /Game/Images/Crosshair/CrosshairWaterAir.
+[2019.04.04-20.40.31:589][129]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.40.32:192][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-20.40.32:315][158]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialDBD6F68E4FA3A7354F2752BC61EF3B11.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/Inventory.Inventory:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/Inventory.Inventory:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/Radial.Radial:WidgetTree.CanvasPanel_0
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/Inventory.Inventory:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_8:Radial_C_59.WidgetTree_0.CanvasPanel_0
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/Inventory.Inventory:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.SKEL_PauseMenu_C:WidgetTree.CanvasPanel_0
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/Inventory.Inventory:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Radial_C_58:WidgetTree.CanvasPanel_0
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/Inventory.Inventory:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/Inventory.Inventory_C:WidgetTree.CanvasPanel_0
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/Inventory.Inventory:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu_C:WidgetTree.CanvasPanel_0
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/Inventory.Inventory:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_8:Radial_C_60.WidgetTree_0.CanvasPanel_0
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/Inventory.Inventory:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/Radial.Radial_C:WidgetTree.CanvasPanel_0
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/Inventory.Inventory:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_8:Radial_C_56.WidgetTree_0.CanvasPanel_0
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/Inventory.Inventory:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_8:Radial_C_58.WidgetTree_0.CanvasPanel_0
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/Inventory.Inventory:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_8:Radial_C_57.WidgetTree_0.CanvasPanel_0
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Blueprints/Radial.Radial:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.REINST_Radial_C_58:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Blueprints/Radial.Radial:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Game/FirstPersonBP/Blueprints/Radial.Radial_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Blueprints/Radial.Radial:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_8:Radial_C_60.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Blueprints/Radial.Radial:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_8:Radial_C_56.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Blueprints/Radial.Radial:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_8:Radial_C_59.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Blueprints/Radial.Radial:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_8:Radial_C_57.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1
+[2019.04.04-20.42.58:252][ 60]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Blueprints/Radial.Radial:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_8:Radial_C_58.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1
+[2019.04.04-20.42.58:252][ 60]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/FirstPersonBP/Blueprints/Radial.Radial:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (Image /Engine/UMG/Editor/Transient.Primary).  Import failed...
+[2019.04.04-20.42.58:252][ 60]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_1"''
+[2019.04.04-20.43.19:368][417]LogSlate: Took 0.062453 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.04.04-20.44.09:024][ 93]LogSlate: Window 'Save Asset As' being destroyed
+[2019.04.04-20.45.32:220][487]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.45.32:763][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-20.45.32:880][518]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial3693645F412BBEEE2CB949B103A707CA.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-20.45.51:754][440]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.45.51:845][440]LogBlueprint: Error: [Compiler FirstPersonHUD] In use pin  Target  no longer exists on node  Get Circle Brush 0 . Please refresh node or break links to remove pin.
+[2019.04.04-20.45.51:845][440]LogBlueprint: Error: [Compiler FirstPersonHUD] In use pin  Return Value  no longer exists on node  Get Circle Brush 0 . Please refresh node or break links to remove pin.
+[2019.04.04-20.45.51:845][440]LogBlueprint: Error: [Compiler FirstPersonHUD] Could not find a function named "Get_Circle_Brush_0" in 'Radial_C'.
+Make sure 'Radial_C' has been compiled for  Get Circle Brush 0
+[2019.04.04-20.45.51:868][440]LogBlueprint: Error: [Compiler Radial] Binding: Property ' Brush Delegate ' on Widget ' Primary ': Binding: 'None' : 'None' was not found on 'Radial'.
+[2019.04.04-20.45.51:872][440]LogBlueprint: Warning: [Compiler FirstPersonHUD] [7258.15] Compile of FirstPersonHUD failed. 3 Fatal Issue(s) 0 Warning(s) [in 94 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD)
+[2019.04.04-20.45.52:025][440]LogBlueprint: Warning: [Compiler Radial] [7258.31] Compile of Radial failed. 1 Fatal Issue(s) 0 Warning(s) [in 270 ms] (/Game/FirstPersonBP/Blueprints/Radial.Radial)
+[2019.04.04-20.45.54:428][636]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.45.54:491][636]LogBlueprint: Error: [Compiler Radial] Binding: Property ' Brush Delegate ' on Widget ' Primary ': Binding: 'None' : 'None' was not found on 'Radial'.
+[2019.04.04-20.45.54:548][636]LogBlueprint: Warning: [Compiler Radial] [7260.83] Compile of Radial failed. 1 Fatal Issue(s) 0 Warning(s) [in 120 ms] (/Game/FirstPersonBP/Blueprints/Radial.Radial)
+[2019.04.04-20.46.06:989][422]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.46.07:050][422]LogBlueprint: Error: [Compiler Radial] Binding: Property ' Brush Delegate ' on Widget ' Primary ': Binding: 'None' : 'None' was not found on 'Radial'.
+[2019.04.04-20.46.07:124][422]LogBlueprint: Warning: [Compiler Radial] [7273.41] Compile of Radial failed. 1 Fatal Issue(s) 0 Warning(s) [in 135 ms] (/Game/FirstPersonBP/Blueprints/Radial.Radial)
+[2019.04.04-20.46.09:838][627]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.46.09:899][627]LogBlueprint: Error: [Compiler Radial] Binding: Property ' Brush Delegate ' on Widget ' Primary ': Binding: 'None' : 'None' was not found on 'Radial'.
+[2019.04.04-20.46.09:955][627]LogBlueprint: Warning: [Compiler Radial] [7276.24] Compile of Radial failed. 1 Fatal Issue(s) 0 Warning(s) [in 118 ms] (/Game/FirstPersonBP/Blueprints/Radial.Radial)
+[2019.04.04-20.46.11:951][820]LogBlueprint: Warning: Unknown type of hyperlinked object (BrushDelegate), cannot focus it
+[2019.04.04-20.46.12:976][923]LogBlueprint: Warning: Unknown type of hyperlinked object (Primary), cannot focus it
+[2019.04.04-20.46.13:695][998]LogBlueprint: Warning: Unknown type of hyperlinked object (Primary), cannot focus it
+[2019.04.04-20.46.13:849][ 14]LogBlueprint: Warning: Unknown type of hyperlinked object (Primary), cannot focus it
+[2019.04.04-20.48.39:425][871]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap_Auto3AAD3DE854ABC646987B3C898A2C23379.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2019.04.04-20.48.39:428][871]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.197
+[2019.04.04-20.48.39:428][871]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.197
+[2019.04.04-20.48.39:429][871]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/Radial] ([1] browsable assets)...
+[2019.04.04-20.48.39:429][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Radial]
+[2019.04.04-20.48.39:542][871]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial_Auto3D631F94042CDE6E66643068E02D6CFD0.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Radial_Auto3.uasset'
+[2019.04.04-20.48.39:543][871]LogFileHelpers: Auto-saving content packages took 0.114
+[2019.04.04-20.51.55:807][149]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.51.56:392][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-20.51.56:508][195]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial2A4C84BF482DBC2C276BE08AE9A66683.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-20.52.01:283][737]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-20.52.02:598][737]LogSlate: Window 'Save Content' being destroyed
+[2019.04.04-20.52.02:859][737]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMapA5EBD0F342668E11AAF8BE98501CCDC1.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.04-20.52.02:879][737]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.267
+[2019.04.04-20.54.36:745][ 85]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.54.36:816][ 85]LogBlueprint: Warning: [Compiler Radial] Could not find a variable named "Image" in 'Radial_C'.
+Make sure 'Radial_C' has been compiled for  Set Image
+[2019.04.04-20.54.36:816][ 85]LogBlueprint: Warning: [Compiler Radial] Could not find a variable named "Image" in 'Radial_C'.
+Make sure 'Radial_C' has been compiled for  Set Image
+[2019.04.04-20.54.36:816][ 85]LogBlueprint: Warning: [Compiler Radial] Could not find a variable named "Image" in 'Radial_C'.
+Make sure 'Radial_C' has been compiled for  Set Image
+[2019.04.04-20.54.36:816][ 85]LogBlueprint: Warning: [Compiler Radial] Could not find a variable named "Image" in 'Radial_C'.
+Make sure 'Radial_C' has been compiled for  Set Image
+[2019.04.04-20.54.36:816][ 85]LogBlueprint: Warning: [Compiler Radial] Could not find a variable named "Image" in 'Radial_C'.
+Make sure 'Radial_C' has been compiled for  Get Image
+[2019.04.04-20.54.36:818][ 85]LogBlueprint: Error: [Compiler Radial] The property associated with  Image  could not be found in '/Game/FirstPersonBP/Blueprints/Radial.Radial_C'
+[2019.04.04-20.54.36:818][ 85]LogBlueprint: Error: [Compiler Radial] The property associated with  Image  could not be found in '/Game/FirstPersonBP/Blueprints/Radial.Radial_C'
+[2019.04.04-20.54.36:818][ 85]LogBlueprint: Error: [Compiler Radial] The property associated with  Image  could not be found in '/Game/FirstPersonBP/Blueprints/Radial.Radial_C'
+[2019.04.04-20.54.36:818][ 85]LogBlueprint: Error: [Compiler Radial] The property associated with  Image  could not be found in '/Game/FirstPersonBP/Blueprints/Radial.Radial_C'
+[2019.04.04-20.54.36:818][ 85]LogBlueprint: Error: [Compiler Radial] The property associated with  Image  could not be found in '/Game/FirstPersonBP/Blueprints/Radial.Radial_C'
+[2019.04.04-20.54.36:890][ 85]LogBlueprint: Warning: [Compiler Radial] [7783.17] Compile of Radial failed. 5 Fatal Issue(s) 5 Warning(s) [in 144 ms] (/Game/FirstPersonBP/Blueprints/Radial.Radial)
+[2019.04.04-20.54.37:205][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-20.54.37:327][114]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialDB766D224F5453448CF63AB496DDB6D7.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-20.54.53:007][630]LogSlate: Window 'Delete Variable' being destroyed
+[2019.04.04-20.55.19:407][414]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.55.19:476][414]LogBlueprint: Warning: [Compiler Radial] Could not find a variable named "Image" in 'Radial_C'.
+Make sure 'Radial_C' has been compiled for  Set Image
+[2019.04.04-20.55.19:477][414]LogBlueprint: Warning: [Compiler Radial] Could not find a variable named "Image" in 'Radial_C'.
+Make sure 'Radial_C' has been compiled for  Set Image
+[2019.04.04-20.55.19:477][414]LogBlueprint: Warning: [Compiler Radial] Could not find a variable named "Image" in 'Radial_C'.
+Make sure 'Radial_C' has been compiled for  Set Image
+[2019.04.04-20.55.19:477][414]LogBlueprint: Warning: [Compiler Radial] Could not find a variable named "Image" in 'Radial_C'.
+Make sure 'Radial_C' has been compiled for  Set Image
+[2019.04.04-20.55.19:477][414]LogBlueprint: Warning: [Compiler Radial] Could not find a variable named "Image" in 'Radial_C'.
+Make sure 'Radial_C' has been compiled for  Get Image
+[2019.04.04-20.55.19:479][414]LogBlueprint: Error: [Compiler Radial] The property associated with  Image  could not be found in '/Game/FirstPersonBP/Blueprints/Radial.Radial_C'
+[2019.04.04-20.55.19:479][414]LogBlueprint: Error: [Compiler Radial] The property associated with  Image  could not be found in '/Game/FirstPersonBP/Blueprints/Radial.Radial_C'
+[2019.04.04-20.55.19:479][414]LogBlueprint: Error: [Compiler Radial] The property associated with  Image  could not be found in '/Game/FirstPersonBP/Blueprints/Radial.Radial_C'
+[2019.04.04-20.55.19:479][414]LogBlueprint: Error: [Compiler Radial] The property associated with  Image  could not be found in '/Game/FirstPersonBP/Blueprints/Radial.Radial_C'
+[2019.04.04-20.55.19:479][414]LogBlueprint: Error: [Compiler Radial] The property associated with  Image  could not be found in '/Game/FirstPersonBP/Blueprints/Radial.Radial_C'
+[2019.04.04-20.55.19:542][414]LogBlueprint: Warning: [Compiler Radial] [7825.82] Compile of Radial failed. 5 Fatal Issue(s) 5 Warning(s) [in 134 ms] (/Game/FirstPersonBP/Blueprints/Radial.Radial)
+[2019.04.04-20.55.28:517][195]LogSlate: Window 'Delete Variable' being destroyed
+[2019.04.04-20.56.39:655][852]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.56.40:208][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-20.56.40:336][894]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial0CDC6E624C21C2E5CCC4CA916833DBE9.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-20.56.46:339][522]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.56.46:900][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-20.56.47:022][564]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial8CA3B8744DD7F47FFD7726AA91BC3208.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-20.56.51:739][ 55]BlueprintLog: New page: Compile Radial
+[2019.04.04-20.56.52:195][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-20.56.52:319][ 87]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial293A37A949099E372D1BCDB0DF010EAC.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-20.56.56:120][485]BlueprintLog: New page: Compile FirstPersonHUD
+[2019.04.04-20.56.56:128][485]LogBlueprint: Error: [Compiler FirstPersonHUD] In use pin  Target  no longer exists on node  Get Circle Brush 0 . Please refresh node or break links to remove pin.
+[2019.04.04-20.56.56:128][485]LogBlueprint: Error: [Compiler FirstPersonHUD] In use pin  Return Value  no longer exists on node  Get Circle Brush 0 . Please refresh node or break links to remove pin.
+[2019.04.04-20.56.56:128][485]LogBlueprint: Error: [Compiler FirstPersonHUD] Could not find a function named "Get_Circle_Brush_0" in 'Radial_C'.
+Make sure 'Radial_C' has been compiled for  Get Circle Brush 0
+[2019.04.04-20.56.56:241][485]LogBlueprint: Warning: [Compiler FirstPersonHUD] [7922.52] Compile of FirstPersonHUD failed. 3 Fatal Issue(s) 0 Warning(s) [in 120 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD)
+[2019.04.04-21.06.50:469][943]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap_Auto4E0F7BB224BA7D2F5B9BC778ADBAB3DA3.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2019.04.04-21.06.50:472][943]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.215
+[2019.04.04-21.06.50:472][943]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.215
+[2019.04.04-21.06.50:474][943]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonHUD] ([1] browsable assets)...
+[2019.04.04-21.06.50:474][943]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonHUD]
+[2019.04.04-21.06.50:502][943]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD_Auto424EFA6144B7556BC96D72FAE365B8E49.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonHUD_Auto4.uasset'
+[2019.04.04-21.06.50:503][943]LogFileHelpers: Auto-saving content packages took 0.030
+[2019.04.04-21.08.08:544][330]LogSlate: Window 'Delete Variable' being destroyed
+[2019.04.04-21.09.36:194][119]BlueprintLog: New page: Compile FirstPersonHUD
+[2019.04.04-21.09.36:733][148]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD55BEAFDD40FAADB5CE2CBE9F1FAC4511.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2019.04.04-21.09.39:810][451]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-21.09.41:034][451]LogSlate: Window 'Save Content' being destroyed
+[2019.04.04-21.09.41:320][451]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap7BBD3B7B4324BF1C04CFA2B28DCD2D0B.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.04-21.09.41:340][451]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.288
+[2019.04.04-21.10.23:984][411]BlueprintLog: New page: Compile FirstPersonHUD
+[2019.04.04-21.10.24:464][441]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD5D4A7B0C411FF51B54BFA4904DDCE575.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2019.04.04-21.10.26:353][656]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-21.11.32:797][847]BlueprintLog: New page: Compile FirstPersonHUD
+[2019.04.04-21.11.33:500][900]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD5A5DD6E241883A9DA99A0A884847936E.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2019.04.04-21.11.42:481][828]BlueprintLog: New page: Compile FirstPersonHUD
+[2019.04.04-21.11.42:965][858]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUDD7DE2DE346456EE7589F81AFAB97BA33.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2019.04.04-21.12.43:164][698]BlueprintLog: New page: Compile Radial
+[2019.04.04-21.12.43:705][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-21.12.43:840][726]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/RadialD2A15A0444A82412A0E1F9B01B6B2B68.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-21.12.46:223][964]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-21.12.47:353][964]LogSlate: Window 'Save Content' being destroyed
+[2019.04.04-21.12.47:643][964]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap82C8570C470E0D71107867AE58922F46.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.04-21.12.47:665][964]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.297
+[2019.04.04-21.16.51:889][715]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-21.16.52:859][715]LogSlate: Window 'Save Content' being destroyed
+[2019.04.04-21.16.52:877][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-21.16.53:876][715]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial40193AFB432ECE1D1462CA803681D1A0.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-21.18.28:719][749]BlueprintLog: New page: Compile Radial
+[2019.04.04-21.18.29:210][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-21.18.29:350][781]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial37CD82FA4D3CAF1DF7C1458E0FE6CEF1.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-21.18.31:670][ 45]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-21.18.32:636][ 45]LogSlate: Window 'Save Content' being destroyed
+[2019.04.04-21.18.32:931][ 45]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap20A59F084A89787F629744945E41D678.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.04-21.18.32:957][ 45]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.306
+[2019.04.04-21.18.53:919][599]BlueprintLog: New page: Compile Radial
+[2019.04.04-21.18.54:376][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-21.18.54:517][627]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial5551948F42B8D86ED440A18F5728CDEC.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-21.18.55:641][747]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-21.18.56:613][747]LogSlate: Window 'Save Content' being destroyed
+[2019.04.04-21.18.56:886][747]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMapBB84FCE94CC4B000725F1DB621BF926F.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.04-21.18.56:905][747]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.276
+[2019.04.04-21.22.15:772][298]BlueprintLog: New page: Compile Radial
+[2019.04.04-21.22.16:391][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-21.22.16:528][321]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial88923BE749735ED123CDC6B30BD7FF76.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-21.23.48:192][680]BlueprintLog: New page: Compile Radial
+[2019.04.04-21.23.48:640][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-21.23.48:788][694]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial62B595764A9065C1AF703E998468D746.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-21.23.51:020][874]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-21.23.51:833][874]LogSlate: Window 'Save Content' being destroyed
+[2019.04.04-21.23.52:159][874]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap892F46854FAFCC66E5F4B78F8452DC76.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.04-21.23.52:180][874]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.330
+[2019.04.04-21.24.18:292][582]BlueprintLog: New page: Compile Radial
+[2019.04.04-21.24.18:870][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-21.24.19:010][603]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial02C04A1E401696E595B828BEB0A218AA.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-21.24.22:452][856]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-21.24.23:342][856]LogSlate: Window 'Save Content' being destroyed
+[2019.04.04-21.24.23:617][856]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMap8E0D1B2E4FE8A0EC52CB7BB548C1F6E9.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.04-21.24.23:637][856]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.280
+[2019.04.04-21.25.12:838][307]BlueprintLog: New page: Compile Radial
+[2019.04.04-21.25.13:302][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Radial" FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset" SILENT=true
+[2019.04.04-21.25.13:439][335]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/Radial35FD87974AD7DF4EE6B9C5983C006F90.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/Radial.uasset'
+[2019.04.04-21.25.15:938][618]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-21.25.17:169][618]LogSlate: Window 'Save Content' being destroyed
+[2019.04.04-21.25.17:452][618]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonExampleMapC08C9F284941EB7B798FD694067CE673.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.04-21.25.17:472][618]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.283
+[2019.04.04-21.37.37:009][173]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.04-21.37.37:012][173]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.04-21.38.06:219][ 26]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.04-22.09.26:054][415]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-22.12.15:075][334]BlueprintLog: New page: Compile FirstPersonHUD
+[2019.04.04-22.12.15:722][382]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD029327D64270F8A1248C8FA12C812340.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2019.04.04-22.12.20:062][861]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-22.13.00:469][991]BlueprintLog: New page: Compile FirstPersonHUD
+[2019.04.04-22.13.01:321][ 63]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUDDF69A11A46AC8200E609399ADB709975.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2019.04.04-22.13.56:590][248]BlueprintLog: New page: Compile FirstPersonHUD
+[2019.04.04-22.13.57:186][290]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUDE3856DBF4A1BCD4EB178749150E2A459.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2019.04.04-22.14.14:920][165]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD3447B9614171443BCA8D31A66EEC3D04.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2019.04.04-22.14.17:704][468]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-22.17.07:997][576]BlueprintLog: New page: Compile FirstPersonHUD
+[2019.04.04-22.17.08:483][607]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUDCB2F259741A5C62D1BF6BE90A32E9179.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2019.04.04-22.17.10:999][892]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-22.17.46:204][717]BlueprintLog: New page: Compile FirstPersonHUD
+[2019.04.04-22.19.19:216][853]BlueprintLog: New page: Compile FirstPersonHUD
+[2019.04.04-22.19.19:659][879]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD56428DC04E1634A1F302ADA3CBBDE9A7.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2019.04.04-22.19.21:674][111]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-22.20.45:910][580]BlueprintLog: New page: Compile FirstPersonHUD
+[2019.04.04-22.20.46:453][617]LogSavePackage: Moving 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Saved/FirstPersonHUD4AF8B9D84838C2DF3371D895C41CD611.tmp' to 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2019.04.04-22.20.48:543][855]LogTemp: Repeating last play command: Standalone Game
+[2019.04.04-22.23.47:262][278]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2019.04.04-22.23.47:267][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.04.04-22.23.47:321][278]LogSlate: Window 'KV6002 - Unreal Editor' being destroyed
+[2019.04.04-22.23.47:322][278]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.04-22.23.47:489][279]Cmd: QUIT_EDITOR
+[2019.04.04-22.23.47:510][279]LogExit: Preparing to exit.
+[2019.04.04-22.23.48:078][279]LogExit: Editor shut down
+[2019.04.04-22.23.48:079][279]LogExit: Transaction tracking system shut down
+[2019.04.04-22.23.48:618][279]LogExit: Object subsystem successfully closed.
+[2019.04.04-22.23.48:632][279]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.04-22.23.48:634][279]LogD3D11RHI: Shutdown
+[2019.04.04-22.23.48:634][279]LogD3D11RHI: CleanupD3DDevice
+[2019.04.04-22.23.48:637][279]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.04-22.23.48:645][279]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (616)
+[2019.04.04-22.23.48:645][279]LogModuleManager: Shutting down and abandoning module SequencerWidgets (614)
+[2019.04.04-22.23.48:645][279]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
+[2019.04.04-22.23.48:645][279]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2019.04.04-22.23.48:645][279]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.04.04-22.23.48:645][279]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.04.04-22.23.48:645][279]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.04.04-22.23.48:645][279]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.04.04-22.23.48:645][279]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.04.04-22.23.48:646][279]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.04.04-22.23.49:714][279]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.04.04-22.23.49:714][279]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.04.04-22.23.49:714][279]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.04.04-22.23.49:714][279]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.04.04-22.23.49:714][279]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.04.04-22.23.49:714][279]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.04.04-22.23.49:714][279]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.04.04-22.23.49:714][279]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.04.04-22.23.49:714][279]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.04.04-22.23.49:714][279]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.04.04-22.23.49:714][279]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.04.04-22.23.49:714][279]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.04.04-22.23.49:714][279]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.04.04-22.23.49:715][279]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.04.04-22.23.49:715][279]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.04.04-22.23.49:715][279]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.04.04-22.23.49:715][279]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.04.04-22.23.49:715][279]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.04.04-22.23.49:715][279]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.04.04-22.23.49:715][279]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.04.04-22.23.49:715][279]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.04.04-22.23.49:715][279]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.04.04-22.23.49:781][279]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.04.04-22.23.49:781][279]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.04.04-22.23.49:781][279]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.04.04-22.23.49:781][279]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.04.04-22.23.49:781][279]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.04.04-22.23.49:781][279]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.04.04-22.23.49:781][279]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.04.04-22.23.49:781][279]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.04.04-22.23.49:781][279]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.04.04-22.23.49:781][279]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.04.04-22.23.49:785][279]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.04.04-22.23.49:785][279]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.04.04-22.23.49:786][279]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.04.04-22.23.49:786][279]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.04.04-22.23.49:786][279]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.04.04-22.23.49:786][279]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.04.04-22.23.49:786][279]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.04.04-22.23.49:786][279]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.04.04-22.23.49:787][279]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.04.04-22.23.50:032][279]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.04.04-22.23.50:032][279]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.04.04-22.23.50:032][279]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.04.04-22.23.50:032][279]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.04.04-22.23.50:033][279]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.04.04-22.23.50:039][279]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.04.04-22.23.50:039][279]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.04.04-22.23.50:039][279]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.04.04-22.23.50:039][279]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.04.04-22.23.50:039][279]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.04.04-22.23.50:039][279]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.04.04-22.23.50:040][279]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.04.04-22.23.50:040][279]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.04.04-22.23.50:040][279]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.04.04-22.23.50:040][279]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.04.04-22.23.50:040][279]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.04.04-22.23.50:040][279]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.04.04-22.23.50:040][279]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.04.04-22.23.50:040][279]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.04.04-22.23.50:040][279]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.04.04-22.23.50:041][279]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.04.04-22.23.50:041][279]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.04.04-22.23.50:041][279]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.04.04-22.23.50:041][279]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.04.04-22.23.50:041][279]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.04.04-22.23.50:041][279]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.04.04-22.23.50:041][279]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.04.04-22.23.50:041][279]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.04.04-22.23.50:041][279]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.04.04-22.23.50:041][279]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.04.04-22.23.50:041][279]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.04.04-22.23.50:041][279]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.04.04-22.23.50:042][279]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.04.04-22.23.50:042][279]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.04.04-22.23.50:042][279]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.04.04-22.23.50:042][279]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.04.04-22.23.50:042][279]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.04.04-22.23.50:042][279]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.04.04-22.23.50:042][279]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.04.04-22.23.50:042][279]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.04.04-22.23.50:043][279]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.04.04-22.23.50:043][279]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.04.04-22.23.50:043][279]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.04.04-22.23.50:043][279]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.04.04-22.23.50:043][279]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.04.04-22.23.50:043][279]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.04.04-22.23.50:144][279]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.04.04-22.23.50:244][279]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.04.04-22.23.50:244][279]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.04.04-22.23.50:244][279]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.04.04-22.23.50:244][279]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.04.04-22.23.50:244][279]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.04.04-22.23.50:244][279]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.04.04-22.23.50:244][279]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.04.04-22.23.50:245][279]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.04.04-22.23.50:246][279]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.04.04-22.23.50:246][279]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.04.04-22.23.50:246][279]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.04.04-22.23.50:247][279]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.04.04-22.23.50:249][279]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.04.04-22.23.50:249][279]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.04.04-22.23.50:249][279]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.04.04-22.23.50:249][279]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.04.04-22.23.50:249][279]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.04.04-22.23.50:249][279]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.04.04-22.23.50:252][279]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.04.04-22.23.50:259][279]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.04.04-22.23.50:259][279]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.04.04-22.23.50:259][279]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.04.04-22.23.50:259][279]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.04.04-22.23.50:259][279]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.04.04-22.23.50:259][279]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.04.04-22.23.50:259][279]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.04.04-22.23.50:259][279]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.04.04-22.23.50:259][279]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.04.04-22.23.50:259][279]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.04.04-22.23.50:259][279]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.04.04-22.23.50:259][279]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.04.04-22.23.50:259][279]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.04.04-22.23.50:260][279]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.04.04-22.23.50:260][279]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.04.04-22.23.50:260][279]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.04.04-22.23.50:260][279]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.04.04-22.23.50:260][279]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.04.04-22.23.50:260][279]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.04.04-22.23.50:260][279]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.04.04-22.23.50:265][279]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.04.04-22.23.50:265][279]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.04.04-22.23.50:265][279]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.04.04-22.23.50:265][279]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.04.04-22.23.50:265][279]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.04.04-22.23.50:265][279]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.04.04-22.23.50:266][279]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.04.04-22.23.50:266][279]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.04.04-22.23.50:266][279]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.04.04-22.23.50:266][279]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.04.04-22.23.50:266][279]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.04.04-22.23.50:266][279]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.04.04-22.23.50:266][279]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.04.04-22.23.50:266][279]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.04.04-22.23.50:266][279]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.04.04-22.23.50:267][279]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.04.04-22.23.50:267][279]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.04.04-22.23.50:267][279]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.04.04-22.23.50:294][279]LogDerivedDataCache: Shutdown
+[2019.04.04-22.23.50:294][279]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.04.04-22.23.50:294][279]LogXGEController: Cleaning working directory: C:/Users/User/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.04-22.23.50:294][279]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.04.04-22.23.50:294][279]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.04.04-22.23.50:294][279]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.04.04-22.23.50:294][279]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.04.04-22.23.50:294][279]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.04.04-22.23.50:295][279]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.04.04-22.23.50:296][279]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.04.04-22.23.50:296][279]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.04.04-22.23.50:297][279]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.04.04-22.23.50:297][279]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.04.04-22.23.50:299][279]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.04.04-22.23.50:299][279]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.04.04-22.23.50:311][279]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.04.04-22.23.50:311][279]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.04.04-22.23.50:311][279]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.04.04-22.23.50:311][279]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.04.04-22.23.50:311][279]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.04.04-22.23.50:311][279]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.04.04-22.23.50:312][279]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.04.04-22.23.50:312][279]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.04.04-22.23.50:312][279]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.04.04-22.23.50:312][279]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.04.04-22.23.50:312][279]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.04.04-22.23.50:312][279]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.04.04-22.23.50:312][279]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.04.04-22.23.50:312][279]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.04.04-22.23.50:312][279]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.04.04-22.23.50:312][279]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.04.04-22.23.50:312][279]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.04.04-22.23.50:313][279]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.04.04-22.23.50:314][279]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.04.04-22.23.50:314][279]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.04.04-22.23.50:322][279]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.04.04-22.23.50:322][279]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2019.04.04-22.23.50:322][279]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA6C684A4-49C5-1137-86C3-609A1CCDFAC5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=e5f202094da9daed54bc01a482ab8116%7C9bdd36d664df4b0787b55f3cb2b04887%7C61dc1d6a-e417-4792-8424-124b0d2a51e1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.04-22.23.50:322][279]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA6C684A4-49C5-1137-86C3-609A1CCDFAC5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=e5f202094da9daed54bc01a482ab8116%7C9bdd36d664df4b0787b55f3cb2b04887%7C61dc1d6a-e417-4792-8424-124b0d2a51e1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.04-22.23.50:337][279]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.04.04-22.23.50:340][279]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.04.04-22.23.50:340][279]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.04.04-22.23.50:341][279]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.04.04-22.23.50:341][279]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.04.04-22.23.50:341][279]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.04.04-22.23.50:341][279]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.04.04-22.23.50:341][279]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.04.04-22.23.50:341][279]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.04.04-22.23.50:341][279]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.04.04-22.23.50:341][279]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.04-22.23.50:341][279]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.04.04-22.23.50:341][279]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.04-22.23.50:341][279]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.04-22.23.50:341][279]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.04-22.23.50:341][279]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.04-22.23.50:342][279]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.04-22.23.50:342][279]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.04-22.23.50:342][279]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.04-22.23.50:343][279]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.04-22.23.50:343][279]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.04-22.23.50:343][279]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.04-22.23.50:343][279]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.04-22.23.50:343][279]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.04-22.23.50:343][279]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.04-22.23.50:344][279]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.04-22.23.50:344][279]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.04-22.23.50:344][279]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.04-22.23.50:344][279]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.04-22.23.50:344][279]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.04-22.23.50:352][279]LogExit: Exiting.
+[2019.04.04-22.23.50:354][279]Log file closed, 04/04/19 23:23:50
