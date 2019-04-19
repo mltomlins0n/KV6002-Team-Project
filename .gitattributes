@@ -1,5 +1,5 @@
 FirstPersonExampleMap_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
-T_AlpinePatch001_DR.uasset filter=lfs diff=lfs merge=lfs -text
+T_AlpinePatch001_D_R.uasset filter=lfs diff=lfs merge=lfs -text
 T_AlpinePatch001_N.uasset filter=lfs diff=lfs merge=lfs -text
 T_GDC_RockFace003_D_R.uasset filter=lfs diff=lfs merge=lfs -text
 T_GDC_RockFace003_N.uasset filter=lfs diff=lfs merge=lfs -text
