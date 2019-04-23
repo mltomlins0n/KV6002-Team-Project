@@ -1,0 +1,950 @@
+﻿Log file open, 04/23/19 14:04:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: KV6002
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.264620
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.123s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/EpicGames/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.23-13.04.05:082][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.23-13.04.05:082][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.23-13.04.05:102][  0]LogHAL: Display: Platform has ~ 16 GB [17130676224 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.23-13.04.05:102][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.23-13.04.05:102][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.23-13.04.05:103][  0]LogInit: Computer: DESKTOP-5BMDBC3
+[2019.04.23-13.04.05:103][  0]LogInit: User: User
+[2019.04.23-13.04.05:103][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.23-13.04.05:103][  0]LogInit: High frequency timer resolution =4.101565 MHz
+[2019.04.23-13.04.05:104][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.04.23-13.04.05:104][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.23-13.04.05:104][  0]LogMemory: Process Physical Memory: 99.38 MB used, 99.38 MB peak
+[2019.04.23-13.04.05:104][  0]LogMemory: Process Virtual Memory: 90.96 MB used, 90.96 MB peak
+[2019.04.23-13.04.05:104][  0]LogMemory: Physical Memory: 5077.73 MB used,  11259.35 MB free, 16337.09 MB total
+[2019.04.23-13.04.05:104][  0]LogMemory: Virtual Memory: 4645.41 MB used,  11259.35 MB free, 134217728.00 MB total
+[2019.04.23-13.04.05:129][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.23-13.04.05:129][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.23-13.04.05:130][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.23-13.04.05:392][  0]LogStreaming: Display: Took  0.262s to InitEngineTextLocalization.
+[2019.04.23-13.04.05:392][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.23-13.04.05:418][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.23-13.04.05:418][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.23-13.04.05:551][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.23-13.04.05:551][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.23-13.04.05:607][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.04.23-13.04.05:608][  0]LogD3D11RHI:       8079/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.04.23-13.04.05:610][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.23-13.04.05:610][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.23-13.04.05:610][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.23-13.04.05:614][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.23-13.04.05:614][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.23-13.04.05:614][  0]LogWindows: EnumDisplayDevices:
+[2019.04.23-13.04.05:615][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.04.23-13.04.05:615][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.04.23-13.04.05:615][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.04.23-13.04.05:615][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.04.23-13.04.05:615][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.23-13.04.05:615][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.04.23-13.04.05:615][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2019.04.23-13.04.05:615][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2019.04.23-13.04.05:615][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.04.23-13.04.05:642][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.23-13.04.05:667][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.23-13.04.05:768][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Intermediate/Shaders/WorkingDirectory/9928/).
+[2019.04.23-13.04.05:768][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/D957901C4F1E87AA3B98CEB871AB75E4/'.
+[2019.04.23-13.04.06:562][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.23-13.04.06:574][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.23-13.04.06:585][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.23-13.04.06:595][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.23-13.04.06:606][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.23-13.04.06:615][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.23-13.04.06:624][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.23-13.04.06:634][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.23-13.04.06:638][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:699][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-13.04.06:700][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.23-13.04.06:753][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.23-13.04.06:753][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.23-13.04.06:776][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.23-13.04.06:776][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.23-13.04.06:795][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.23-13.04.06:805][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.23-13.04.06:814][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.23-13.04.06:823][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.23-13.04.06:830][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.23-13.04.06:830][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.23-13.04.06:865][  0]LogXGEController: Cleaning working directory: C:/Users/User/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.23-13.04.06:865][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.23-13.04.06:866][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.23-13.04.06:866][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.23-13.04.07:389][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.23-13.04.07:430][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.23-13.04.07:431][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.23-13.04.07:431][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.23-13.04.07:431][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.23-13.04.07:431][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.23-13.04.07:431][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.23-13.04.07:442][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.23-13.04.07:454][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.23-13.04.07:454][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.23-13.04.07:454][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.23-13.04.07:467][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.23-13.04.07:468][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.23-13.04.07:469][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.23-13.04.07:530][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2019.04.23-13.04.07:771][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.23-13.04.07:859][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.23-13.04.07:861][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.23-13.04.07:861][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.23-13.04.07:861][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.23-13.04.07:861][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.23-13.04.07:873][  0]LogNetVersion: KV6002 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2502700519)
+[2019.04.23-13.04.08:232][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.067366 seconds
+[2019.04.23-13.04.08:237][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.23-13.04.08:237][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.04.23-13.04.08:237][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.23-13.04.09:137][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.23-13.04.09:156][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.23-13.04.09:324][  0]SourceControl: Source control is disabled
+[2019.04.23-13.04.09:324][  0]SourceControl: Source control is disabled
+[2019.04.23-13.04.09:325][  0]SourceControl: Source control is disabled
+[2019.04.23-13.04.09:325][  0]SourceControl: Source control is disabled
+[2019.04.23-13.04.09:540][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.23-13.04.09:666][  0]LogOcInput: OculusInput pre-init called
+[2019.04.23-13.04.09:708][  0]LogEngine: Initializing Engine...
+[2019.04.23-13.04.09:709][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.23-13.04.09:710][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.23-13.04.09:710][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.23-13.04.09:710][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.23-13.04.09:710][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.23-13.04.09:854][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.23-13.04.09:867][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.23-13.04.09:916][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.23-13.04.09:930][  0]LogInit: FAudioDevice initialized.
+[2019.04.23-13.04.09:930][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.23-13.04.10:049][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.23-13.04.10:055][  0]LogInit: Texture streaming: Enabled
+[2019.04.23-13.04.10:142][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.23-13.04.10:162][  0]LogInit: Transaction tracking system initialized
+[2019.04.23-13.04.10:192][  0]BlueprintLog: New page: Editor Load
+[2019.04.23-13.04.10:241][  0]LocalizationService: Localization service is disabled
+[2019.04.23-13.04.10:417][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.23-13.04.10:417][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.23-13.04.10:417][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.23-13.04.10:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.23-13.04.10:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.23-13.04.10:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.23-13.04.10:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.23-13.04.10:498][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/' took 0.02s
+[2019.04.23-13.04.10:498][  0]SourceControl: Source control is disabled
+[2019.04.23-13.04.10:498][  0]Cmd: MAP LOAD FILE="C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.23-13.04.10:498][  0]LightingResults: New page: Lighting Build
+[2019.04.23-13.04.10:499][  0]MapCheck: New page: Map Check
+[2019.04.23-13.04.10:499][  0]LightingResults: New page: Lighting Build
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/AI/VisonCone/VisCone.uasset.
+[2019.04.23-13.04.11:420][  0]LoadErrors: Error: /Game/FirstPersonBP/AI/VisonCone/VisCone : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/AI/VisonCone/VisCone.uasset.
+[2019.04.23-13.04.11:420][  0]LoadErrors: Error: /Game/FirstPersonBP/AI/VisonCone/VisCone : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/AI/VisonCone/VisCone.uasset.
+[2019.04.23-13.04.11:420][  0]LoadErrors: Error: /Game/FirstPersonBP/AI/VisonCone/VisCone : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/AI/VisonCone/VisCone.uasset.
+[2019.04.23-13.04.11:420][  0]LoadErrors: Error: /Game/FirstPersonBP/AI/VisonCone/VisCone : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/AI/BaseAI/Deathcheck/Deathcheck.uasset.
+[2019.04.23-13.04.11:420][  0]LoadErrors: Error: /Game/FirstPersonBP/AI/BaseAI/Deathcheck/Deathcheck : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/AI/BaseAI/Deathcheck/Deathcheck.uasset.
+[2019.04.23-13.04.11:420][  0]LoadErrors: Error: /Game/FirstPersonBP/AI/BaseAI/Deathcheck/Deathcheck : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2019.04.23-13.04.11:420][  0]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/AI/BaseAI/Deathcheck/Deathcheck.uasset.
+[2019.04.23-13.04.11:420][  0]LoadErrors: Error: /Game/FirstPersonBP/AI/BaseAI/Deathcheck/Deathcheck : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2019.04.23-13.04.11:421][  0]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2019.04.23-13.04.11:421][  0]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/AI/BaseAI/Deathcheck/Deathcheck.uasset.
+[2019.04.23-13.04.11:421][  0]LoadErrors: Error: /Game/FirstPersonBP/AI/BaseAI/Deathcheck/Deathcheck : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2019.04.23-13.04.11:421][  0]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2019.04.23-13.04.11:421][  0]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/AI/BaseAI/Deathcheck/Deathcheck.uasset.
+[2019.04.23-13.04.11:421][  0]LoadErrors: Error: /Game/FirstPersonBP/AI/BaseAI/Deathcheck/Deathcheck : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2019.04.23-13.04.11:421][  0]LogLinker: Warning: Can't find file '/Script/EnvironmentQueryEditor'
+[2019.04.23-13.04.11:421][  0]LogLinker: Warning: Can't find file for asset '/Script/EnvironmentQueryEditor' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/AI/BaseAI/Deathcheck/Deathcheck.uasset.
+[2019.04.23-13.04.11:421][  0]LoadErrors: Error: /Game/FirstPersonBP/AI/BaseAI/Deathcheck/Deathcheck : Can't find file for asset. /Script/EnvironmentQueryEditor
+[2019.04.23-13.04.12:772][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N'
+[2019.04.23-13.04.12:772][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/Landscape/Textures/T_AlpinePatch001_D_R.uasset.
+[2019.04.23-13.04.12:772][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/Landscape/Textures/T_AlpinePatch001_D_R : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N
+[2019.04.23-13.04.12:773][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N'
+[2019.04.23-13.04.12:773][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/Landscape/Textures/T_AlpinePatch001_D_R.uasset.
+[2019.04.23-13.04.12:773][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/Landscape/Textures/T_AlpinePatch001_D_R : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N
+[2019.04.23-13.04.12:775][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N'
+[2019.04.23-13.04.12:775][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/Landscape/Textures/T_GDC_Grass01_D_NoisyAlpha.uasset.
+[2019.04.23-13.04.12:775][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/Landscape/Textures/T_GDC_Grass01_D_NoisyAlpha : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N
+[2019.04.23-13.04.12:775][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N'
+[2019.04.23-13.04.12:775][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/Landscape/Textures/T_GDC_Grass01_D_NoisyAlpha.uasset.
+[2019.04.23-13.04.12:775][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/Landscape/Textures/T_GDC_Grass01_D_NoisyAlpha : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N
+[2019.04.23-13.04.12:776][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N'
+[2019.04.23-13.04.12:776][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/Landscape/Textures/T_GDC_RockFace003_D_R.uasset.
+[2019.04.23-13.04.12:776][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/Landscape/Textures/T_GDC_RockFace003_D_R : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N
+[2019.04.23-13.04.12:776][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N'
+[2019.04.23-13.04.12:776][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/Landscape/Textures/T_GDC_RockFace003_D_R.uasset.
+[2019.04.23-13.04.12:776][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/Landscape/Textures/T_GDC_RockFace003_D_R : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N
+[2019.04.23-13.04.12:778][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N'
+[2019.04.23-13.04.12:778][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/Landscape/Textures/T_GDC_Tiling_LeafPath_D_R.uasset.
+[2019.04.23-13.04.12:778][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/Landscape/Textures/T_GDC_Tiling_LeafPath_D_R : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N
+[2019.04.23-13.04.12:778][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N'
+[2019.04.23-13.04.12:779][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/Landscape/Textures/T_GDC_Tiling_LeafPath_D_R.uasset.
+[2019.04.23-13.04.12:779][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/Landscape/Textures/T_GDC_Tiling_LeafPath_D_R : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N
+[2019.04.23-13.04.12:781][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N'
+[2019.04.23-13.04.12:781][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/Landscape/Textures/T_LavaFlow002_D_R.uasset.
+[2019.04.23-13.04.12:781][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/Landscape/Textures/T_LavaFlow002_D_R : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N
+[2019.04.23-13.04.12:781][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N'
+[2019.04.23-13.04.12:782][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/Landscape/Textures/T_LavaFlow002_D_R.uasset.
+[2019.04.23-13.04.12:782][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/Landscape/Textures/T_LavaFlow002_D_R : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N
+[2019.04.23-13.04.12:799][  0]LogLinker: Warning: Can't find file '/Game/scifi_kitbash/textures/T_Floor05_A'
+[2019.04.23-13.04.12:799][  0]LogLinker: Warning: Can't find file for asset '/Game/scifi_kitbash/textures/T_Floor05_A' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/scifi_kitbash/materials/MI_Floor05.uasset.
+[2019.04.23-13.04.12:799][  0]LoadErrors: Error: /Game/scifi_kitbash/materials/MI_Floor05 : Can't find file for asset. /Game/scifi_kitbash/textures/T_Floor05_A
+[2019.04.23-13.04.12:801][  0]LogLinker: Warning: Can't find file '/Game/scifi_kitbash/textures/T_Floor05_A'
+[2019.04.23-13.04.12:801][  0]LogLinker: Warning: Can't find file for asset '/Game/scifi_kitbash/textures/T_Floor05_A' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/scifi_kitbash/materials/MI_Floor05.uasset.
+[2019.04.23-13.04.12:801][  0]LoadErrors: Error: /Game/scifi_kitbash/materials/MI_Floor05 : Can't find file for asset. /Game/scifi_kitbash/textures/T_Floor05_A
+[2019.04.23-13.04.12:831][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01'
+[2019.04.23-13.04.12:831][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2019.04.23-13.04.12:831][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01
+[2019.04.23-13.04.12:831][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01'
+[2019.04.23-13.04.12:831][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2019.04.23-13.04.12:832][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01
+[2019.04.23-13.04.12:943][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01'
+[2019.04.23-13.04.12:943][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2019.04.23-13.04.12:944][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01
+[2019.04.23-13.04.12:944][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01'
+[2019.04.23-13.04.12:944][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01' while loading C:/Users/User/Documents/GitHub/KV6002-Team-Project/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2019.04.23-13.04.12:944][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01
+[2019.04.23-13.04.12:949][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01'
+[2019.04.23-13.04.12:949][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01' while loading NULL.
+[2019.04.23-13.04.12:949][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01'
+[2019.04.23-13.04.12:950][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01' while loading NULL.
+[2019.04.23-13.04.12:950][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01'
+[2019.04.23-13.04.12:950][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01' while loading NULL.
+[2019.04.23-13.04.12:950][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01'
+[2019.04.23-13.04.12:950][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01' while loading NULL.
+[2019.04.23-13.04.13:241][  0]LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2019.04.23-13.04.13:241][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01'
+[2019.04.23-13.04.13:241][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01.BogMyrtle_01 Referenced by FoliageInstancedStaticMeshComponent_0
+[2019.04.23-13.04.13:241][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01' while loading NULL.
+[2019.04.23-13.04.13:241][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01.BogMyrtle_01 Referenced by FoliageInstancedStaticMeshComponent_0
+[2019.04.23-13.04.13:242][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01'
+[2019.04.23-13.04.13:242][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01.BogMyrtleBush_01 Referenced by FoliageInstancedStaticMeshComponent_1
+[2019.04.23-13.04.13:242][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01' while loading NULL.
+[2019.04.23-13.04.13:242][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01.BogMyrtleBush_01 Referenced by FoliageInstancedStaticMeshComponent_1
+[2019.04.23-13.04.13:242][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01'
+[2019.04.23-13.04.13:242][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01.BogMyrtle_01 Referenced by FoliageType_InstancedStaticMesh_0
+[2019.04.23-13.04.13:242][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01' while loading NULL.
+[2019.04.23-13.04.13:242][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01.BogMyrtle_01 Referenced by FoliageType_InstancedStaticMesh_0
+[2019.04.23-13.04.13:242][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01'
+[2019.04.23-13.04.13:242][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01.BogMyrtleBush_01 Referenced by FoliageType_InstancedStaticMesh_1
+[2019.04.23-13.04.13:242][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01' while loading NULL.
+[2019.04.23-13.04.13:242][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01.BogMyrtleBush_01 Referenced by FoliageType_InstancedStaticMesh_1
+[2019.04.23-13.04.13:312][  0]LogLinker: Warning: Can't find file '/Game/scifi_kitbash/textures/T_Floor05_A'
+[2019.04.23-13.04.13:312][  0]LoadErrors: Failed to load /Game/scifi_kitbash/textures/T_Floor05_A.T_Floor05_A Referenced by MI_Floor05
+[2019.04.23-13.04.13:312][  0]LogLinker: Warning: Can't find file for asset '/Game/scifi_kitbash/textures/T_Floor05_A' while loading NULL.
+[2019.04.23-13.04.13:312][  0]LoadErrors: Failed to load /Game/scifi_kitbash/textures/T_Floor05_A.T_Floor05_A Referenced by MI_Floor05
+[2019.04.23-13.04.13:318][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N'
+[2019.04.23-13.04.13:318][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N.T_Tiling_LavaFlow002_N Referenced by T_LavaFlow002_D_R
+[2019.04.23-13.04.13:318][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N' while loading NULL.
+[2019.04.23-13.04.13:318][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N.T_Tiling_LavaFlow002_N Referenced by T_LavaFlow002_D_R
+[2019.04.23-13.04.13:320][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N'
+[2019.04.23-13.04.13:320][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N.T_GDC_Tiling_LeafPath_N Referenced by T_GDC_Tiling_LeafPath_D_R
+[2019.04.23-13.04.13:320][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N' while loading NULL.
+[2019.04.23-13.04.13:320][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N.T_GDC_Tiling_LeafPath_N Referenced by T_GDC_Tiling_LeafPath_D_R
+[2019.04.23-13.04.13:321][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N'
+[2019.04.23-13.04.13:321][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N.T_GDC_RockFace003_N Referenced by T_GDC_RockFace003_D_R
+[2019.04.23-13.04.13:322][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N' while loading NULL.
+[2019.04.23-13.04.13:322][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N.T_GDC_RockFace003_N Referenced by T_GDC_RockFace003_D_R
+[2019.04.23-13.04.13:322][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N'
+[2019.04.23-13.04.13:322][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N.T_Ground_Grass_N Referenced by T_GDC_Grass01_D_NoisyAlpha
+[2019.04.23-13.04.13:322][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N' while loading NULL.
+[2019.04.23-13.04.13:322][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N.T_Ground_Grass_N Referenced by T_GDC_Grass01_D_NoisyAlpha
+[2019.04.23-13.04.13:324][  0]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N'
+[2019.04.23-13.04.13:324][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N.T_AlpinePatch001_N Referenced by T_AlpinePatch001_D_R
+[2019.04.23-13.04.13:324][  0]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N' while loading NULL.
+[2019.04.23-13.04.13:324][  0]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N.T_AlpinePatch001_N Referenced by T_AlpinePatch001_D_R
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: Follower_Normal (BC5, 2048X2048)
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: Follower_roughness (AutoDXT, 2048X2048)
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: Follower_Texture (AutoDXT, 2048X2048)
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: T_WaterNormal (BC5, 128X128)
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: T_Icicle_Mask (DXT1, 512X512)
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: T_Grime_D (AutoDXT, 2048X2048)
+[2019.04.23-13.04.21:011][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: T_GoodSky_Moon (AutoDXT, 512X512)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X512)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X256)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 256X256)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 128X128)
+[2019.04.23-13.04.21:012][  0]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 128X128)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 128X128)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: Texture2D_69 (BGRA8, 128X128)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 128X128)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: Texture2D_73 (BGRA8, 128X128)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: Texture2D_74 (BGRA8, 128X128)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: Texture2D_75 (BGRA8, 128X128)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: Texture2D_77 (BGRA8, 128X128)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: Texture2D_78 (BGRA8, 128X128)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: Texture2D_79 (BGRA8, 128X128)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 128X128)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_Fence_M (AutoDXT, 2048X2048)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_Fence01_R (AutoDXT, 2048X2048)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_Fence01_N (BC5, 2048X2048)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_Fence01_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_Fence01_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_Wallfabric01_R (AutoDXT, 2048X2048)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_Wallfabric01_N (BC5, 2048X2048)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_Wallfabric01_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_Wallfabric01_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_GoodSky_clouds_E (AutoDXT, 2048X512)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_GoodSky_clouds_D (AutoDXT, 2048X512)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_GoodSky_clouds_C (AutoDXT, 2048X512)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_GoodSky_Lightning (AutoDXT, 1024X1024)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_GoodSky_noise_smooth (AutoDXT, 512X512)
+[2019.04.23-13.04.21:013][  0]LogTexture: Display: Building textures: T_GoodSky_clouds_F (AutoDXT, 2048X512)
+[2019.04.23-13.04.21:013][  0]LogMaterial: Display: Missing cached shader map for material Follower_Mat, compiling. 
+[2019.04.23-13.04.21:264][  0]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.04.23-13.04.21:264][  0]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.04.23-13.04.21:264][  0]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.04.23-13.04.21:264][  0]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.04.23-13.04.21:264][  0]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.04.23-13.04.21:264][  0]LogTexture: Display: Building textures: T_GoodSky_clouds_sphere (AutoDXT, 2048X2048)
+[2019.04.23-13.04.21:264][  0]LogTexture: Display: Building textures: T_GoodSky_clouds_B (AutoDXT, 2048X512)
+[2019.04.23-13.04.21:264][  0]LogTexture: Display: Building textures: T_GoodSky_clouds_A (AutoDXT, 2048X512)
+[2019.04.23-13.04.21:264][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonWalk.ThirdPersonWalk
+[2019.04.23-13.04.21:264][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonWalk.ThirdPersonWalk) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.23-13.04.21:316][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonRun.ThirdPersonRun
+[2019.04.23-13.04.21:316][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonRun.ThirdPersonRun) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.23-13.04.21:351][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonIdle.ThirdPersonIdle
+[2019.04.23-13.04.21:351][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonIdle.ThirdPersonIdle) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.23-13.04.21:483][  0]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2019.04.23-13.04.21:555][  0]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2019.04.23-13.04.21:565][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.04.23-13.04.21:668][  0]LogMaterial: Display: Missing cached shader map for material NoMat, compiling. 
+[2019.04.23-13.04.21:722][  0]LogMaterial: Display: Missing cached shader map for material Lightning, compiling. 
+[2019.04.23-13.04.21:790][  0]LogTexture: Display: Building textures: T_Hangarwall02_R (AutoDXT, 4096X4096)
+[2019.04.23-13.04.21:790][  0]LogStaticMesh: Building static mesh ConeTest2...
+[2019.04.23-13.04.21:813][  0]LogStaticMesh: Built static mesh [0.02s] /Game/FirstPersonBP/AI/BaseAI/Meshes/ConeTest2.ConeTest2
+[2019.04.23-13.04.21:820][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.04.23-13.04.21:901][  0]LogMaterial: Display: Missing cached shader map for material M_Ice_Interactive, compiling. 
+[2019.04.23-13.04.22:014][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave splash...
+[2019.04.23-13.04.22:014][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.23-13.04.22:154][  0]LogSkeletalMesh: Building Skeletal Mesh HeroTPP...
+[2019.04.23-13.04.22:171][  0]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/FirstPersonBP/AI/BaseAI/FlamesPS/Effects/Character/HeroTPP.HeroTPP
+[2019.04.23-13.04.22:175][  0]LogMaterial: Display: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2019.04.23-13.04.22:269][  0]LogMaterial: Display: Missing cached shader map for material M_radial_ramp, compiling. 
+[2019.04.23-13.04.22:294][  0]LogMaterial: Display: Missing cached shader map for material M_Fire, compiling. 
+[2019.04.23-13.04.22:768][  0]LogTexture: Display: Building textures: T_Hangarwall_Red_BC (AutoDXT, 4096X4096)
+[2019.04.23-13.04.22:768][  0]LogMaterial: Display: Missing cached shader map for material HitFlashMat, compiling. 
+[2019.04.23-13.04.22:851][  0]LogSkeletalMesh: Building Skeletal Mesh RoboMesh...
+[2019.04.23-13.04.22:914][  0]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/FirstPersonBP/AI/BaseAI/RoboMesh/RoboMesh.RoboMesh
+[2019.04.23-13.04.22:919][  0]LogMaterial: Display: Missing cached shader map for material FLRMat2, compiling. 
+[2019.04.23-13.04.22:958][  0]LogMaterial: Display: Missing cached shader map for material GunMat, compiling. 
+[2019.04.23-13.04.25:578][  0]LogTexture: Display: Building textures: T_Hangarwall02_N (BC5, 4096X4096)
+[2019.04.23-13.04.25:578][  0]LogTexture: Display: Building textures: T_Hangarwall02_BC (AutoDXT, 4096X4096)
+[2019.04.23-13.04.25:578][  0]LogTexture: Display: Building textures: T_Hangarwall02_AO (AutoDXT, 4096X4096)
+[2019.04.23-13.04.25:578][  0]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Moon, compiling. 
+[2019.04.23-13.04.25:653][  0]LogStaticMesh: Building static mesh SirenMesh...
+[2019.04.23-13.04.25:667][  0]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPersonBP/AI/BaseAI/Meshes/SirenMesh.SirenMesh
+[2019.04.23-13.04.28:606][  0]LogTexture: Display: Building textures: T_Floor05_R (AutoDXT, 2048X2048)
+[2019.04.23-13.04.28:606][  0]LogShaderCompilers: Display: Shaders left to compile 822
+[2019.04.23-13.04.28:606][  0]LogTexture: Display: Building textures: T_Floor05_N (BC5, 2048X2048)
+[2019.04.23-13.04.28:606][  0]LogTexture: Display: Building textures: T_Floor05_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.04.28:606][  0]LogTexture: Display: Building textures: T_AlpinePatch001_D_R (AutoDXT, 8192X8192)
+[2019.04.23-13.06.19:268][  0]LogTexture: Display: Building textures: T_Floor02_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_Floor02_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_Floor02_Grey_A (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:513][  0]LogShaderCompilers: Display: Shaders left to compile 812
+[2019.04.23-13.06.19:513][  0]LogShaderCompilers: Display: Shaders left to compile 802
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_Floor02_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_Floor01_Grey_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_Floor01_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_Floor01_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_Floor01_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_Floor01_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_Tiling_LavaFlow002_N (BC5, 4096X4096)
+[2019.04.23-13.06.19:513][  0]LogShaderCompilers: Display: Shaders left to compile 792
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_LavaFlow002_D_R (AutoDXT, 4096X4096)
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_Ground_Grass_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_GDC_Tiling_LeafPath_N (BC5, 4096X4096)
+[2019.04.23-13.06.19:513][  0]LogShaderCompilers: Display: Shaders left to compile 782
+[2019.04.23-13.06.19:513][  0]LogShaderCompilers: Display: Shaders left to compile 772
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_GDC_Tiling_LeafPath_D_R (AutoDXT, 4096X4096)
+[2019.04.23-13.06.19:513][  0]LogShaderCompilers: Display: Shaders left to compile 762
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_GDC_RockFace003_N (BC5, 8192X8192)
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_GDC_RockFace003_D_R (AutoDXT, 8192X8192)
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_GDC_Grass01_D_NoisyAlpha (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:513][  0]LogTexture: Display: Building textures: T_AlpinePatch001_N (BC5, 8192X8192)
+[2019.04.23-13.06.19:513][  0]LogShaderCompilers: Display: Shaders left to compile 752
+[2019.04.23-13.06.19:513][  0]LogShaderCompilers: Display: Shaders left to compile 742
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 1024X1024)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap0_38 (AutoDXT, 1024X1024)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 512X512)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 512X512)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogShaderCompilers: Display: Shaders left to compile 732
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogShaderCompilers: Display: Shaders left to compile 722
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 1024X1024)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 1024X1024)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_27 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_28 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_29 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_30 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_31 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_32 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_33 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_34 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_35 (AutoDXT, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_37 (AutoDXT, 1024X1024)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_36 (AutoDXT, 1024X1024)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: HQ_Lightmap1_39 (AutoDXT, 1024X1024)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 1024X1024)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_38 (DXT1, 1024X1024)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 512X512)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 512X512)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2019.04.23-13.06.19:514][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_16 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_17 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_18 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_19 (DXT1, 1024X1024)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_21 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_20 (DXT1, 1024X1024)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_22 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_23 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_24 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_25 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_26 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_27 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_28 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_29 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_30 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_31 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_32 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_33 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_34 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_35 (DXT1, 256X256)
+[2019.04.23-13.06.19:515][  0]LogShaderCompilers: Display: Shaders left to compile 712
+[2019.04.23-13.06.19:515][  0]LogShaderCompilers: Display: Shaders left to compile 702
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_39 (DXT1, 1024X1024)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_36 (DXT1, 1024X1024)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_37 (DXT1, 1024X1024)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion0_10 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion0_11 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion0_12 (AutoDXT, 1024X512)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion0_38 (AutoDXT, 1024X512)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 512X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 512X256)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_13 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_14 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_15 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_16 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_17 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_18 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_19 (AutoDXT, 1024X512)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_20 (AutoDXT, 1024X512)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_21 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_22 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_23 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogShaderCompilers: Display: Shaders left to compile 692
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_24 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_25 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_26 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogShaderCompilers: Display: Shaders left to compile 682
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_28 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_27 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_29 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:515][  0]LogTexture: Display: Building textures: SkyOcclusion1_30 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: SkyOcclusion1_31 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: SkyOcclusion1_32 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: SkyOcclusion1_33 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: SkyOcclusion1_34 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: SkyOcclusion1_35 (AutoDXT, 256X128)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: SkyOcclusion1_36 (AutoDXT, 1024X512)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: SkyOcclusion1_37 (AutoDXT, 1024X512)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: SkyOcclusion1_39 (AutoDXT, 1024X512)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X512)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X512)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X1024)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 1024X512)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X128)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 1024X1024)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall01_MT (AutoDXT, 2048X1024)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall01_N (BC5, 2048X1024)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall01_R (AutoDXT, 2048X1024)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall01_BC (AutoDXT, 2048X1024)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall01_AO (AutoDXT, 2048X1024)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Door01_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Door01_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Door01_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Door01_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall08_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall08_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall08_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall08_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_wall06_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogShaderCompilers: Display: Shaders left to compile 672
+[2019.04.23-13.06.19:516][  0]LogShaderCompilers: Display: Shaders left to compile 662
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_wall06_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall06_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall06_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall05_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall05_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall05_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall05_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall03_R (AutoDXT, 2048X1024)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall03_N (BC5, 2048X1024)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall03_BC (AutoDXT, 2048X1024)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall03_AO (AutoDXT, 2048X1024)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall07_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall07_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall07_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall07_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall04_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall04_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall04_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall04_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall02_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogShaderCompilers: Display: Shaders left to compile 652
+[2019.04.23-13.06.19:516][  0]LogShaderCompilers: Display: Shaders left to compile 642
+[2019.04.23-13.06.19:516][  0]LogShaderCompilers: Display: Shaders left to compile 632
+[2019.04.23-13.06.19:516][  0]LogShaderCompilers: Display: Shaders left to compile 622
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall02_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall02_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Wall02_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Rails_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Rails_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Rails_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_Rails_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_plane_R (AutoDXT, 2048X4096)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_plane_MT (AutoDXT, 2048X4096)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_plane_BC (AutoDXT, 2048X4096)
+[2019.04.23-13.06.19:516][  0]LogTexture: Display: Building textures: T_plane_AO (AutoDXT, 2048X4096)
+[2019.04.23-13.06.19:516][  0]LogShaderCompilers: Display: Shaders left to compile 612
+[2019.04.23-13.06.19:516][  0]LogShaderCompilers: Display: Shaders left to compile 602
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_plane_N (BC5, 2048X4096)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Pillar01_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Pillar01_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Pillar01_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Pillar01_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Lights_R (AutoDXT, 1024X1024)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Lights_N (BC5, 1024X1024)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Lights_BC (AutoDXT, 1024X1024)
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 592
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Lights_AO (AutoDXT, 1024X1024)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Heavypillar_R (AutoDXT, 2048X4096)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Heavypillar_N (BC5, 2048X4096)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Heavypillar_BC (AutoDXT, 2048X4096)
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 582
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Heavypillar_AO (AutoDXT, 2048X4096)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_HangarCeiling_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_HangarCeiling_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_HangarCeiling_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_HangarCeiling_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Stairs01_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 572
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Stairs01_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Stairs01_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Stairs01_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Floor03_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Floor03_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Floor03_A (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Floor03_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Ceiling01_R (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Ceiling01_N (BC5, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Ceiling01_BC (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogTexture: Display: Building textures: T_Ceiling01_AO (AutoDXT, 2048X2048)
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 562
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 552
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 542
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 532
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 522
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 512
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 502
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 492
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 482
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 472
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 462
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 452
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 442
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 432
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 422
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 412
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 402
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 392
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 382
+[2019.04.23-13.06.19:517][  0]LogShaderCompilers: Display: Shaders left to compile 372
+[2019.04.23-13.06.22:537][  0]LogShaderCompilers: Display: Shaders left to compile 362
+[2019.04.23-13.06.22:537][  0]LogShaderCompilers: Display: Shaders left to compile 352
+[2019.04.23-13.06.22:537][  0]LogMaterial: Display: Missing cached shader map for material My_Landscape_Material, compiling. 
+[2019.04.23-13.06.22:963][  0]LogMaterial: Display: Missing cached shader map for material My_Landscape_Material, compiling. 
+[2019.04.23-13.06.23:107][  0]LogMaterial: Display: Missing cached shader map for material My_Landscape_Material, compiling. 
+[2019.04.23-13.06.23:153][  0]LogMaterial: Display: Missing cached shader map for material My_Landscape_Material, compiling. 
+[2019.04.23-13.06.23:194][  0]LogMaterial: Display: Missing cached shader map for material My_Landscape_Material, compiling. 
+[2019.04.23-13.06.23:236][  0]LogMaterial: Display: Missing cached shader map for material My_Landscape_Material, compiling. 
+[2019.04.23-13.06.23:278][  0]LogMaterial: Display: Missing cached shader map for material My_Landscape_Material, compiling. 
+[2019.04.23-13.06.23:320][  0]LogMaterial: Display: Missing cached shader map for material My_Landscape_Material, compiling. 
+[2019.04.23-13.06.23:362][  0]LogMaterial: Display: Missing cached shader map for material My_Landscape_Material, compiling. 
+[2019.04.23-13.06.23:404][  0]LogMaterial: Display: Missing cached shader map for material My_Landscape_Material, compiling. 
+[2019.04.23-13.06.23:444][  0]LogMaterial: Display: Missing cached shader map for material My_Landscape_Material, compiling. 
+[2019.04.23-13.06.24:532][  0]LogShaderCompilers: Display: Shaders left to compile 973
+[2019.04.23-13.06.24:852][  0]LogShaderCompilers: Display: Shaders left to compile 963
+[2019.04.23-13.06.24:852][  0]LogStaticMesh: Building static mesh SM_GoodSky_Sphere...
+[2019.04.23-13.06.25:021][  0]LogStaticMesh: Built static mesh [0.18s] /Game/GoodSky/Source/Mesh/SM_GoodSky_Sphere.SM_GoodSky_Sphere
+[2019.04.23-13.06.25:436][  0]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Sun_Stars, compiling. 
+[2019.04.23-13.06.25:477][  0]LogMaterial: Display: Missing cached shader map for material PatrolLight, compiling. 
+[2019.04.23-13.06.25:678][  0]LogStaticMesh: Building static mesh SM_Door01...
+[2019.04.23-13.06.25:697][  0]LogStaticMesh: Built static mesh [0.02s] /Game/scifi_kitbash/meshes/SM_Door01.SM_Door01
+[2019.04.23-13.06.25:793][  0]LogStaticMesh: Building static mesh SM_Door01_Frame...
+[2019.04.23-13.06.25:800][  0]LogStaticMesh: Built static mesh [0.01s] /Game/scifi_kitbash/meshes/SM_Door01_Frame.SM_Door01_Frame
+[2019.04.23-13.06.25:803][  0]LogStaticMesh: Building static mesh SM_Ceiling02...
+[2019.04.23-13.06.25:806][  0]LogStaticMesh: Built static mesh [0.00s] /Game/scifi_kitbash/meshes/SM_Ceiling02.SM_Ceiling02
+[2019.04.23-13.06.25:809][  0]LogStaticMesh: Building static mesh SM_Ceiling_Corner02...
+[2019.04.23-13.06.25:818][  0]LogStaticMesh: Built static mesh [0.01s] /Game/scifi_kitbash/meshes/SM_Ceiling_Corner02.SM_Ceiling_Corner02
+[2019.04.23-13.06.25:820][  0]LogStaticMesh: Building static mesh SM_Floor01...
+[2019.04.23-13.06.25:823][  0]LogStaticMesh: Built static mesh [0.00s] /Game/scifi_kitbash/meshes/SM_Floor01.SM_Floor01
+[2019.04.23-13.06.25:847][  0]LogStaticMesh: Building static mesh SM_Floor03...
+[2019.04.23-13.06.25:850][  0]LogStaticMesh: Built static mesh [0.00s] /Game/scifi_kitbash/meshes/SM_Floor03.SM_Floor03
+[2019.04.23-13.06.25:856][  0]LogStaticMesh: Building static mesh SM_FloorFence02...
+[2019.04.23-13.06.25:862][  0]LogStaticMesh: Built static mesh [0.01s] /Game/scifi_kitbash/meshes/SM_FloorFence02.SM_FloorFence02
+[2019.04.23-13.06.25:871][  0]LogStaticMesh: Building static mesh SM_HangarCeiling_Double...
+[2019.04.23-13.06.25:918][  0]LogStaticMesh: Built static mesh [0.05s] /Game/scifi_kitbash/meshes/SM_HangarCeiling_Double.SM_HangarCeiling_Double
+[2019.04.23-13.06.25:926][  0]LogStaticMesh: Building static mesh SM_Wall07_Double...
+[2019.04.23-13.06.25:941][  0]LogStaticMesh: Built static mesh [0.02s] /Game/scifi_kitbash/meshes/SM_Wall07_Double.SM_Wall07_Double
+[2019.04.23-13.06.25:948][  0]LogStaticMesh: Building static mesh SM_HangarWall_Center...
+[2019.04.23-13.06.25:954][  0]LogStaticMesh: Built static mesh [0.01s] /Game/scifi_kitbash/meshes/SM_HangarWall_Center.SM_HangarWall_Center
+[2019.04.23-13.06.25:963][  0]LogStaticMesh: Building static mesh SM_Heavypillar02...
+[2019.04.23-13.06.25:989][  0]LogStaticMesh: Built static mesh [0.03s] /Game/scifi_kitbash/meshes/SM_Heavypillar02.SM_Heavypillar02
+[2019.04.23-13.06.25:993][  0]LogStaticMesh: Building static mesh SM_Light03...
+[2019.04.23-13.06.26:000][  0]LogStaticMesh: Built static mesh [0.01s] /Game/scifi_kitbash/meshes/SM_Light03.SM_Light03
+[2019.04.23-13.06.26:004][  0]LogStaticMesh: Building static mesh SM_Light04...
+[2019.04.23-13.06.26:014][  0]LogStaticMesh: Built static mesh [0.01s] /Game/scifi_kitbash/meshes/SM_Light04.SM_Light04
+[2019.04.23-13.06.26:017][  0]LogStaticMesh: Building static mesh SM_Pillar01...
+[2019.04.23-13.06.26:024][  0]LogStaticMesh: Built static mesh [0.01s] /Game/scifi_kitbash/meshes/SM_Pillar01.SM_Pillar01
+[2019.04.23-13.06.26:051][  0]LogStaticMesh: Building static mesh SM_Plane...
+[2019.04.23-13.06.26:117][  0]LogStaticMesh: Built static mesh [0.07s] /Game/scifi_kitbash/meshes/SM_Plane.SM_Plane
+[2019.04.23-13.06.26:132][  0]LogStaticMesh: Building static mesh SM_RailWhite_Stairs...
+[2019.04.23-13.06.26:144][  0]LogStaticMesh: Built static mesh [0.01s] /Game/scifi_kitbash/meshes/SM_RailWhite_Stairs.SM_RailWhite_Stairs
+[2019.04.23-13.06.26:162][  0]LogStaticMesh: Building static mesh SM_Stairs02...
+[2019.04.23-13.06.26:257][  0]LogStaticMesh: Built static mesh [0.10s] /Game/scifi_kitbash/meshes/SM_Stairs02.SM_Stairs02
+[2019.04.23-13.06.26:263][  0]LogStaticMesh: Building static mesh SM_Wall01...
+[2019.04.23-13.06.26:267][  0]LogStaticMesh: Built static mesh [0.00s] /Game/scifi_kitbash/meshes/SM_Wall01.SM_Wall01
+[2019.04.23-13.06.26:271][  0]LogStaticMesh: Building static mesh SM_Wall01_Corner...
+[2019.04.23-13.06.26:280][  0]LogStaticMesh: Built static mesh [0.01s] /Game/scifi_kitbash/meshes/SM_Wall01_Corner.SM_Wall01_Corner
+[2019.04.23-13.06.26:284][  0]LogStaticMesh: Building static mesh SM_Wall02_OuterCorner...
+[2019.04.23-13.06.26:293][  0]LogStaticMesh: Built static mesh [0.01s] /Game/scifi_kitbash/meshes/SM_Wall02_OuterCorner.SM_Wall02_OuterCorner
+[2019.04.23-13.06.26:302][  0]LogStaticMesh: Building static mesh SM_Wall03...
+[2019.04.23-13.06.26:321][  0]LogStaticMesh: Built static mesh [0.02s] /Game/scifi_kitbash/meshes/SM_Wall03.SM_Wall03
+[2019.04.23-13.06.26:325][  0]LogStaticMesh: Building static mesh SM_Wall04_Innercorner...
+[2019.04.23-13.06.26:330][  0]LogStaticMesh: Built static mesh [0.01s] /Game/scifi_kitbash/meshes/SM_Wall04_Innercorner.SM_Wall04_Innercorner
+[2019.04.23-13.06.26:332][  0]LogStaticMesh: Building static mesh SM_Wall04_Outercorner...
+[2019.04.23-13.06.26:338][  0]LogStaticMesh: Built static mesh [0.01s] /Game/scifi_kitbash/meshes/SM_Wall04_Outercorner.SM_Wall04_Outercorner
+[2019.04.23-13.06.26:341][  0]LogStaticMesh: Building static mesh SM_Wall07...
+[2019.04.23-13.06.26:348][  0]LogStaticMesh: Built static mesh [0.01s] /Game/scifi_kitbash/meshes/SM_Wall07.SM_Wall07
+[2019.04.23-13.06.26:353][  0]LogStaticMesh: Building static mesh SM_Wall08...
+[2019.04.23-13.06.26:368][  0]LogStaticMesh: Built static mesh [0.02s] /Game/scifi_kitbash/meshes/SM_Wall08.SM_Wall08
+[2019.04.23-13.06.26:376][  0]LogStaticMesh: Building static mesh SM_Wall08_InnerCorner...
+[2019.04.23-13.06.26:397][  0]LogStaticMesh: Built static mesh [0.02s] /Game/scifi_kitbash/meshes/SM_Wall08_InnerCorner.SM_Wall08_InnerCorner
+[2019.04.23-13.06.26:406][  0]LogStaticMesh: Building static mesh SM_Wall08_OuterCorner...
+[2019.04.23-13.06.26:421][  0]LogStaticMesh: Built static mesh [0.02s] /Game/scifi_kitbash/meshes/SM_Wall08_OuterCorner.SM_Wall08_OuterCorner
+[2019.04.23-13.06.26:448][  0]LogStaticMesh: Building static mesh SM_Wallfabric01...
+[2019.04.23-13.06.26:504][  0]LogStaticMesh: Built static mesh [0.06s] /Game/scifi_kitbash/meshes/SM_Wallfabric01.SM_Wallfabric01
+[2019.04.23-13.06.26:558][  0]LogMaterial: Display: Missing cached shader map for material M_Wall01, compiling. 
+[2019.04.23-13.06.27:119][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/AttackHold.AttackHold
+[2019.04.23-13.06.27:134][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/AttackHold.AttackHold) using current/default (AnimCompress_RemoveLinearKeys_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.23-13.06.27:374][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2019.04.23-13.06.27:374][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.23-13.06.35:979][  0]LogShaderCompilers: Display: Shaders left to compile 1020
+[2019.04.23-13.06.35:979][  0]LogShaderCompilers: Display: Shaders left to compile 1010
+[2019.04.23-13.06.35:979][  0]LogShaderCompilers: Display: Shaders left to compile 1000
+[2019.04.23-13.06.35:979][  0]LogShaderCompilers: Display: Shaders left to compile 990
+[2019.04.23-13.06.35:979][  0]LogShaderCompilers: Display: Shaders left to compile 980
+[2019.04.23-13.06.35:979][  0]LogShaderCompilers: Display: Shaders left to compile 970
+[2019.04.23-13.06.35:979][  0]LogShaderCompilers: Display: Shaders left to compile 960
+[2019.04.23-13.06.35:979][  0]LogShaderCompilers: Display: Shaders left to compile 950
+[2019.04.23-13.06.35:979][  0]LogShaderCompilers: Display: Shaders left to compile 940
+[2019.04.23-13.06.35:979][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  8.588 s
+[2019.04.23-13.06.35:988][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.23-13.06.35:988][  0]LogOutputDevice: Error: 
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: Ensure condition failed: KeyAtom2.IsRotationNormalized() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Animation\AnimSequence.cpp] [Line: 899]
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: Rotation isn't normalized (Anim:/Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start)
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: Stack: 
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8ffb57136 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8ff890c82 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8ff8ab346 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fcd8e713 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fcd8ed5f UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fccf4503 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fcce0983 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fccb25e5 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fcce35fb UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fcc94885 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fcc94332 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fcc8bebe UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8ef1d4c8b UE4Editor-DerivedDataCache.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8ef1d3f61 UE4Editor-DerivedDataCache.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8ef1f151c UE4Editor-DerivedDataCache.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8ef1de40a UE4Editor-DerivedDataCache.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fcdbd312 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fcdbcf97 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fcdad897 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff901552e05 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff90163b241 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff901655d64 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff901654f59 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fa6fc2d8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fa6ec775 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fa6cf3f5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fafad4b3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8faa92a7c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8faa92863 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fafc5865 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8fafabc83 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff76f725a34 UE4Editor.exe!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff76f725bba UE4Editor.exe!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff76f733dac UE4Editor.exe!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff76f735aaa UE4Editor.exe!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff961b94034 KERNEL32.DLL!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: [Callstack] 0x00007ff964383691 ntdll.dll!UnknownFunction []
+[2019.04.23-13.06.36:007][  0]LogOutputDevice: Error: 
+[2019.04.23-13.06.36:016][  0]LogStats:                SubmitErrorReport -  0.001 s
