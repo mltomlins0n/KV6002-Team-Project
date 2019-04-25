@@ -1,0 +1,506 @@
+﻿Log file open, 04/21/19 20:12:11
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: KV6002
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.895499
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.102s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: G:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.21-19.12.11:853][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.21-19.12.11:853][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.21-19.12.11:861][  0]LogHAL: Display: Platform has ~ 16 GB [17100574720 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.21-19.12.11:861][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.21-19.12.11:862][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.21-19.12.11:864][  0]LogInit: Computer: DESKTOP-L99SHIF
+[2019.04.21-19.12.11:864][  0]LogInit: User: Martin
+[2019.04.21-19.12.11:864][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.04.21-19.12.11:864][  0]LogInit: High frequency timer resolution =3.609369 MHz
+[2019.04.21-19.12.11:864][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.21-19.12.11:864][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.21-19.12.11:864][  0]LogMemory: Process Physical Memory: 103.59 MB used, 103.59 MB peak
+[2019.04.21-19.12.11:864][  0]LogMemory: Process Virtual Memory: 88.39 MB used, 88.39 MB peak
+[2019.04.21-19.12.11:864][  0]LogMemory: Physical Memory: 4300.86 MB used,  12007.52 MB free, 16308.38 MB total
+[2019.04.21-19.12.11:864][  0]LogMemory: Virtual Memory: 4655.56 MB used,  12007.52 MB free, 134217728.00 MB total
+[2019.04.21-19.12.12:493][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.21-19.12.12:493][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.21-19.12.12:494][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.21-19.12.12:816][  0]LogStreaming: Display: Took  0.319s to InitEngineTextLocalization.
+[2019.04.21-19.12.12:816][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.21-19.12.12:876][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.21-19.12.12:876][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.21-19.12.13:206][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.21-19.12.13:206][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.21-19.12.13:255][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.04.21-19.12.13:255][  0]LogD3D11RHI:       8088/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.04.21-19.12.13:257][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.21-19.12.13:257][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.21-19.12.13:257][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.21-19.12.13:269][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.21-19.12.13:269][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.21-19.12.13:269][  0]LogWindows: EnumDisplayDevices:
+[2019.04.21-19.12.13:269][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.04.21-19.12.13:270][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.04.21-19.12.13:270][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.04.21-19.12.13:270][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.04.21-19.12.13:270][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.21-19.12.13:270][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.04.21-19.12.13:270][  0]LogD3D11RHI:   Driver Version: 425.31 (internal:25.21.14.2531, unified:425.31)
+[2019.04.21-19.12.13:270][  0]LogD3D11RHI:      Driver Date: 4-9-2019
+[2019.04.21-19.12.13:270][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.04.21-19.12.13:307][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.21-19.12.13:339][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.21-19.12.13:432][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (../../../Projects/KV6002/Intermediate/Shaders/WorkingDirectory/12548/).
+[2019.04.21-19.12.13:432][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Martin/AppData/Local/Temp/UnrealShaderWorkingDir/5842454E42A56391EBBCE881DD84846E/'.
+[2019.04.21-19.12.13:863][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.21-19.12.13:877][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.21-19.12.13:891][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.21-19.12.13:905][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.21-19.12.13:922][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.21-19.12.13:936][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.21-19.12.13:951][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.21-19.12.13:966][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.21-19.12.13:975][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:043][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.21-19.12.14:053][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.21-19.12.14:123][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.21-19.12.14:123][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.21-19.12.14:145][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.21-19.12.14:145][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.21-19.12.14:160][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.21-19.12.14:175][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.21-19.12.14:190][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.21-19.12.14:207][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.21-19.12.14:219][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.21-19.12.14:219][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.21-19.12.14:397][  0]LogXGEController: Cleaning working directory: C:/Users/Martin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.21-19.12.14:397][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.21-19.12.14:398][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.21-19.12.14:398][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.21-19.12.15:192][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.21-19.12.15:430][  0]LogDerivedDataCache: Loaded boot cache 0.24s 73MB C:/Users/Martin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.21-19.12.15:431][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Martin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.21-19.12.15:433][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Projects/KV6002/DerivedDataCache/DDC.ddp.
+[2019.04.21-19.12.15:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../Projects/KV6002/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.21-19.12.15:433][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.21-19.12.15:452][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.21-19.12.15:465][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Martin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.21-19.12.15:465][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.21-19.12.15:465][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.21-19.12.15:488][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.21-19.12.15:495][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.21-19.12.15:499][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.21-19.12.15:634][  0]LogAssetRegistry: FAssetRegistry took 0.0290 seconds to start up
+[2019.04.21-19.12.15:967][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.21-19.12.16:225][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.21-19.12.16:255][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.21-19.12.16:256][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.21-19.12.16:256][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.21-19.12.16:256][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.21-19.12.16:300][  0]LogNetVersion: KV6002 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2502700519)
+[2019.04.21-19.12.17:039][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.079022 seconds
+[2019.04.21-19.12.17:046][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.21-19.12.17:046][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.04.21-19.12.17:046][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.21-19.12.19:072][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.21-19.12.19:093][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.21-19.12.19:362][  0]SourceControl: Source control is disabled
+[2019.04.21-19.12.19:362][  0]SourceControl: Source control is disabled
+[2019.04.21-19.12.19:377][  0]SourceControl: Source control is disabled
+[2019.04.21-19.12.19:385][  0]SourceControl: Source control is disabled
+[2019.04.21-19.12.19:782][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.21-19.12.19:875][  0]LogOcInput: OculusInput pre-init called
+[2019.04.21-19.12.19:999][  0]LogEngine: Initializing Engine...
+[2019.04.21-19.12.20:001][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.21-19.12.20:005][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2019.04.21-19.12.20:005][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.21-19.12.20:005][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.21-19.12.20:005][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.21-19.12.20:194][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.21-19.12.20:236][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.21-19.12.20:278][  0]LogInit: XAudio2 using 'Headset (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.21-19.12.20:359][  0]LogInit: FAudioDevice initialized.
+[2019.04.21-19.12.20:359][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.21-19.12.20:425][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/Martin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.21-19.12.20:435][  0]LogInit: Texture streaming: Enabled
+[2019.04.21-19.12.20:470][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.21-19.12.20:487][  0]LogInit: Transaction tracking system initialized
+[2019.04.21-19.12.20:552][  0]BlueprintLog: New page: Editor Load
+[2019.04.21-19.12.20:783][  0]LocalizationService: Localization service is disabled
+[2019.04.21-19.12.21:293][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.21-19.12.21:294][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.21-19.12.21:294][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.21-19.12.21:294][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.21-19.12.21:294][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.21-19.12.21:294][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.21-19.12.21:294][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.21-19.12.21:656][  0]LogFileCache: Scanning file cache for directory 'G:/UE_4.20/Projects/KV6002/Content/' took 0.02s
+[2019.04.21-19.12.21:656][  0]SourceControl: Source control is disabled
+[2019.04.21-19.12.21:657][  0]Cmd: MAP LOAD FILE="../../../Projects/KV6002/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.21-19.12.21:658][  0]LightingResults: New page: Lighting Build
+[2019.04.21-19.12.21:667][  0]MapCheck: New page: Map Check
+[2019.04.21-19.12.21:667][  0]LightingResults: New page: Lighting Build
+[2019.04.21-19.12.23:504][  0]LogLinker: Warning: Can't find file '/Game/scifi_kitbash/textures/T_Floor05_A'
+[2019.04.21-19.12.23:504][  0]LogLinker: Warning: Can't find file for asset '/Game/scifi_kitbash/textures/T_Floor05_A' while loading ../../../Projects/KV6002/Content/scifi_kitbash/materials/MI_Floor05.uasset.
+[2019.04.21-19.12.23:504][  0]LoadErrors: Error: /Game/scifi_kitbash/materials/MI_Floor05 : Can't find file for asset. /Game/scifi_kitbash/textures/T_Floor05_A
+[2019.04.21-19.12.23:507][  0]LogLinker: Warning: Can't find file '/Game/scifi_kitbash/textures/T_Floor05_A'
+[2019.04.21-19.12.23:507][  0]LogLinker: Warning: Can't find file for asset '/Game/scifi_kitbash/textures/T_Floor05_A' while loading ../../../Projects/KV6002/Content/scifi_kitbash/materials/MI_Floor05.uasset.
+[2019.04.21-19.12.23:507][  0]LoadErrors: Error: /Game/scifi_kitbash/materials/MI_Floor05 : Can't find file for asset. /Game/scifi_kitbash/textures/T_Floor05_A
+[2019.04.21-19.12.24:818][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.04.21-19.12.24:818][  0]LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2019.04.21-19.12.24:818][  0]LogTexture: Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
+[2019.04.21-19.12.24:818][  0]LogTexture: Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
+[2019.04.21-19.12.24:818][  0]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
+[2019.04.21-19.12.24:818][  0]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2019.04.21-19.12.24:818][  0]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2019.04.21-19.12.24:818][  0]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2019.04.21-19.12.24:818][  0]LogTexture: Display: Building textures: T_Icicle_Mask (DXT1, 512X512)
+[2019.04.21-19.12.24:818][  0]LogTexture: Display: Building textures: T_WaterNormal (BC5, 128X128)
+[2019.04.21-19.12.24:818][  0]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2019.04.21-19.12.24:818][  0]LogTexture: Display: Building textures: Capsule100px (AutoDXT, 100X100)
+[2019.04.21-19.12.24:818][  0]LogTexture: Display: Building textures: Follower_roughness (AutoDXT, 2048X2048)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: left-water (BGRA8, 250X500)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: Follower_Normal (BC5, 2048X2048)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: bottom-air (BGRA8, 500X250)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: Follower_Texture (AutoDXT, 2048X2048)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: Casing100px (AutoDXT, 100X100)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: CrosshairRightFire (BGRA8, 74X148)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: left-locked (BGRA8, 250X500)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: top-locked (BGRA8, 500X250)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: top-electricity (BGRA8, 500X250)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: CrosshairRightWater (BGRA8, 74X148)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: T_Grime_D (AutoDXT, 2048X2048)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: right-locked (BGRA8, 250X500)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: right-fire (BGRA8, 250X500)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: CrosshairRightAir (BGRA8, 74X148)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: CrosshairLeftWater (BGRA8, 74X147)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: CrosshairRightElectricity (BGRA8, 74X148)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: CrosshairLeftFire (BGRA8, 74X147)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: CrosshairLeftElectricity (BGRA8, 74X147)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: CrosshairLeftAir (BGRA8, 74X147)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: Gem100px (AutoDXT, 100X100)
+[2019.04.21-19.12.24:819][  0]LogTexture: Display: Building textures: healthblip (BGRA8, 102X102)
+[2019.04.21-19.12.24:819][  0]LogLinker: Warning: Can't find file '/Game/scifi_kitbash/textures/T_Floor05_A'
+[2019.04.21-19.12.24:819][  0]LoadErrors: Failed to load /Game/scifi_kitbash/textures/T_Floor05_A.T_Floor05_A Referenced by MI_Floor05
+[2019.04.21-19.12.24:819][  0]LogLinker: Warning: Can't find file for asset '/Game/scifi_kitbash/textures/T_Floor05_A' while loading NULL.
+[2019.04.21-19.12.24:819][  0]LoadErrors: Failed to load /Game/scifi_kitbash/textures/T_Floor05_A.T_Floor05_A Referenced by MI_Floor05
+[2019.04.21-19.12.24:906][  0]LogMaterial: Display: Missing cached shader map for material M_Fire, compiling. 
+[2019.04.21-19.12.24:952][  0]LogMaterial: Display: Missing cached shader map for material M_radial_ramp, compiling. 
+[2019.04.21-19.12.24:972][  0]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.04.21-19.12.24:972][  0]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.04.21-19.12.24:972][  0]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.21-19.12.24:972][  0]LogMaterial: Display: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2019.04.21-19.12.25:087][  0]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.04.21-19.12.25:087][  0]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.04.21-19.12.25:087][  0]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.04.21-19.12.25:087][  0]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.21-19.12.25:087][  0]LogTexture: Display: Building textures: water_T (AutoDXT, 100X100)
+[2019.04.21-19.12.25:087][  0]LogTexture: Display: Building textures: fire_T (AutoDXT, 100X100)
+[2019.04.21-19.12.25:087][  0]LogTexture: Display: Building textures: electricity_T (AutoDXT, 100X100)
+[2019.04.21-19.12.25:087][  0]LogShaderCompilers: Display: Shaders left to compile 87
+[2019.04.21-19.12.25:087][  0]LogShaderCompilers: Display: Shaders left to compile 77
+[2019.04.21-19.12.25:087][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.04.21-19.12.25:215][  0]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.04.21-19.12.25:268][  0]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2019.04.21-19.12.25:329][  0]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2019.04.21-19.12.26:854][  0]LogMaterial: Display: Missing cached shader map for material Follower_Mat, compiling. 
+[2019.04.21-19.12.27:022][  0]LogTexture: Display: Building textures: WaterGemPng (BGRA8, 87X175)
+[2019.04.21-19.12.27:022][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonWalk.ThirdPersonWalk
+[2019.04.21-19.12.27:023][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonWalk.ThirdPersonWalk) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.21-19.12.27:097][  0]LogMaterial: Display: Missing cached shader map for material M_GlassYellow, compiling. 
+[2019.04.21-19.12.27:163][  0]LogMaterial: Display: Missing cached shader map for material M_GlassRed, compiling. 
+[2019.04.21-19.12.27:199][  0]LogMaterial: Display: Missing cached shader map for material M_GlassBlue, compiling. 
+[2019.04.21-19.12.27:234][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Fireball+1...
+[2019.04.21-19.12.27:234][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.21-19.12.27:303][  0]LogMaterial: Display: Missing cached shader map for material M_Ice_Interactive, compiling. 
+[2019.04.21-19.12.27:336][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave splash...
+[2019.04.21-19.12.27:336][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.21-19.12.27:384][  0]LogMaterial: Display: Missing cached shader map for material NoMat, compiling. 
+[2019.04.21-19.12.27:408][  0]LogMaterial: Display: Missing cached shader map for material Lightning, compiling. 
+[2019.04.21-19.12.27:493][  0]LogStaticMesh: Building static mesh ConeTest2...
+[2019.04.21-19.12.27:521][  0]LogStaticMesh: Built static mesh [0.03s] /Game/FirstPersonBP/AI/BaseAI/Meshes/ConeTest2.ConeTest2
+[2019.04.21-19.12.27:557][  0]LogSkeletalMesh: Building Skeletal Mesh HeroTPP...
+[2019.04.21-19.12.27:566][  0]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FirstPersonBP/AI/BaseAI/FlamesPS/Effects/Character/HeroTPP.HeroTPP
+[2019.04.21-19.12.27:633][  0]LogMaterial: Display: Missing cached shader map for material FLRMat2, compiling. 
+[2019.04.21-19.12.27:686][  0]LogMaterial: Display: Missing cached shader map for material GunMat, compiling. 
+[2019.04.21-19.12.27:723][  0]LogSkeletalMesh: Building Skeletal Mesh RoboMesh...
+[2019.04.21-19.12.27:809][  0]LogSkeletalMesh: Built Skeletal Mesh [0.09s] /Game/FirstPersonBP/AI/BaseAI/RoboMesh/RoboMesh.RoboMesh
+[2019.04.21-19.12.27:814][  0]LogMaterial: Display: Missing cached shader map for material HitFlashMat, compiling. 
+[2019.04.21-19.12.27:900][  0]LogMaterial: Display: Missing cached shader map for material Yellow, compiling. 
+[2019.04.21-19.12.27:923][  0]LogMaterial: Display: Missing cached shader map for material Grey, compiling. 
+[2019.04.21-19.12.28:066][  0]LogMaterial: Display: Missing cached shader map for material AirMat, compiling. 
+[2019.04.21-19.12.28:122][  0]LogMaterial: Display: Missing cached shader map for material WaterMat, compiling. 
+[2019.04.21-19.12.28:171][  0]LogMaterial: Display: Missing cached shader map for material FireMat, compiling. 
+[2019.04.21-19.12.28:231][  0]LogMaterial: Display: Missing cached shader map for material ElecMat, compiling. 
+[2019.04.21-19.12.28:279][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave ElecZap...
+[2019.04.21-19.12.28:279][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.21-19.12.28:325][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave alert...
+[2019.04.21-19.12.28:325][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.21-19.12.28:337][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave airWhoosh...
+[2019.04.21-19.12.28:338][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.21-19.12.28:354][  0]LogMaterial: Display: Missing cached shader map for material ConeMat, compiling. 
+[2019.04.21-19.12.28:382][  0]LogMaterial: Display: Missing cached shader map for material ChasingConeMat, compiling. 
+[2019.04.21-19.12.28:412][  0]LogMaterial: Display: Missing cached shader map for material CautionConeMat, compiling. 
+[2019.04.21-19.12.28:462][  0]LogMaterial: Display: Missing cached shader map for material Blue, compiling. 
+[2019.04.21-19.12.28:490][  0]LogMaterial: Display: Missing cached shader map for material Red, compiling. 
+[2019.04.21-19.12.28:662][  0]LogShaderCompilers: Display: Shaders left to compile 1395
+[2019.04.21-19.12.28:662][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonRun.ThirdPersonRun
+[2019.04.21-19.12.28:663][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonRun.ThirdPersonRun) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.21-19.12.28:698][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonIdle.ThirdPersonIdle
+[2019.04.21-19.12.28:698][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonIdle.ThirdPersonIdle) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.21-19.12.28:843][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2019.04.21-19.12.28:843][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.21-19.12.29:669][  0]LogShaderCompilers: Display: Shaders left to compile 1385
+[2019.04.21-19.12.29:669][  0]LogShaderCompilers: Display: Shaders left to compile 1375
+[2019.04.21-19.12.29:669][  0]LogShaderCompilers: Display: Shaders left to compile 1365
+[2019.04.21-19.12.29:669][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.825 s
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: 
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: Ensure condition failed: KeyAtom2.IsRotationNormalized() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Animation\AnimSequence.cpp] [Line: 899]
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: Rotation isn't normalized (Anim:/Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start)
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: Stack: 
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa44071f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa4140c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa415b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cbfe763 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cbfedaf UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cb64553 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cb509d3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cb22635 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cb5364b UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cb048d5 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cb04382 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cafbf0e UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa720d4c8b UE4Editor-DerivedDataCache.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa720d3f61 UE4Editor-DerivedDataCache.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa720f151c UE4Editor-DerivedDataCache.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa720de40a UE4Editor-DerivedDataCache.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cc2d362 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cc2cfe7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cc1d8e7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa3b83345 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa3c6b7a1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa3c862c4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.21-19.12.29:669][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa3c854b9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8f3fc378 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8f3ec815 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8f3cf4a5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8fcada43 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8f792f1c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8f792d03 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8fcc5e15 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8fcac213 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7be085a34 UE4Editor.exe!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7be085bba UE4Editor.exe!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7be093dac UE4Editor.exe!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7be095aaa UE4Editor.exe!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ffadcd44034 KERNEL32.DLL!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: [Callstack] 0x00007ffade5d3691 ntdll.dll!UnknownFunction []
+[2019.04.21-19.12.29:670][  0]LogOutputDevice: Error: 
+[2019.04.21-19.12.29:681][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2019.04.21-19.12.30:562][  0]LogShaderCompilers: Display: Shaders left to compile 1355
+[2019.04.21-19.12.30:562][  0]LogShaderCompilers: Display: Shaders left to compile 1345
+[2019.04.21-19.12.30:562][  0]LogShaderCompilers: Display: Shaders left to compile 1335
+[2019.04.21-19.12.30:562][  0]LogShaderCompilers: Display: Shaders left to compile 1325
+[2019.04.21-19.12.30:562][  0]LogStats:                    SendNewReport -  0.881 s
+[2019.04.21-19.12.30:562][  0]LogStats:             FDebug::EnsureFailed -  1.718 s
+[2019.04.21-19.12.30:592][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: 
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: Ensure condition failed: KeyAtom1.IsRotationNormalized() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Animation\AnimSequence.cpp] [Line: 894]
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: Rotation isn't normalized (Anim:/Game/FirstPersonBP/AI/FollowerAI/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start)
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: Stack: 
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa44071f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa4140c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa415b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cbfe5ea UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cbfedaf UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cb1751d UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cb048fa UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cb04382 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cafbf0e UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa720d4c8b UE4Editor-DerivedDataCache.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa720d3f61 UE4Editor-DerivedDataCache.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa720f151c UE4Editor-DerivedDataCache.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa720de40a UE4Editor-DerivedDataCache.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cc2d362 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cc2cfe7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7cc1d8e7 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa3b83345 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa3c6b7a1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa3c862c4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffaa3c854b9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8f3fc378 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8f3ec815 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8f3cf4a5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8fcada43 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8f792f1c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8f792d03 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8fcc5e15 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa8fcac213 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7be085a34 UE4Editor.exe!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7be085bba UE4Editor.exe!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7be093dac UE4Editor.exe!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7be095aaa UE4Editor.exe!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffadcd44034 KERNEL32.DLL!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: [Callstack] 0x00007ffade5d3691 ntdll.dll!UnknownFunction []
+[2019.04.21-19.12.30:593][  0]LogOutputDevice: Error: 
+[2019.04.21-19.12.30:598][  0]LogStats:                SubmitErrorReport -  0.000 s
